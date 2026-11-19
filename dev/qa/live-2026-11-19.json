@@ -1,0 +1,5669 @@
+{
+  "testedUrl": "https://webthen.org/",
+  "servingCommit": "57abc94fc505f0d26781343dbfea632bd4b747a2",
+  "availability": {
+    "early": [
+      "win95",
+      "classic"
+    ],
+    "boom": [
+      "win95",
+      "win98",
+      "win2000",
+      "me",
+      "classic"
+    ],
+    "flash": [
+      "win95",
+      "win98",
+      "win2000",
+      "me",
+      "xp",
+      "classic",
+      "mac"
+    ],
+    "social": [
+      "win95",
+      "win98",
+      "win2000",
+      "me",
+      "xp",
+      "classic",
+      "mac"
+    ],
+    "modern": [
+      "win95",
+      "win98",
+      "win2000",
+      "me",
+      "xp",
+      "classic",
+      "mac"
+    ]
+  },
+  "layouts": [
+    {
+      "clock": "Tuesday, October 15, 1996 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "early",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Tuesday, October 15, 1996 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "early",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Tuesday, October 15, 1996 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "early",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Tuesday, October 15, 1996 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "early",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "boom",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "xp",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "xp",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "xp"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "xp",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "xp",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "xp"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "mac",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "mac",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 669,
+          "h": 264,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 405
+        }
+      ],
+      "theme": "mac"
+    },
+    {
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "flash",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "mac",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "mac",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 769,
+          "h": 264,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "mac"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "xp",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "xp",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "xp"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "xp",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "xp",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "xp"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "mac",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "mac",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 669,
+          "h": 264,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 405
+        }
+      ],
+      "theme": "mac"
+    },
+    {
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "social",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "mac",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "mac",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 769,
+          "h": 264,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "mac"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win95",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win95"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win98",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win98"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win2000",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "win2000",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "win2000"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "win98",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "me",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "me"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "xp",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "xp",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "xp"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": false,
+      "os": "xp",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "xp",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "xp"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 672,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 404
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "classic",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "classic",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 773,
+          "h": 268,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "classic"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "mac",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1280,
+      "taskbarVisible": true,
+      "variant": "mac",
+      "viewport": [
+        1280,
+        720
+      ],
+      "windows": [
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "welcome-browser",
+          "right": 890,
+          "w": 780,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1260,
+          "w": 280,
+          "x": 980,
+          "y": 40
+        },
+        {
+          "bottom": 669,
+          "h": 264,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 405
+        }
+      ],
+      "theme": "mac"
+    },
+    {
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "controls": [
+        {
+          "buttons": [
+            "Minimize Start page",
+            "Maximize or restore Start page",
+            "Close Start page"
+          ],
+          "id": "welcome-browser"
+        },
+        {
+          "buttons": [
+            "Minimize ThenChat",
+            "Maximize or restore ThenChat",
+            "Close ThenChat"
+          ],
+          "id": "ambient-aim"
+        },
+        {
+          "buttons": [
+            "Minimize ThenAmp",
+            "Maximize or restore ThenAmp",
+            "Close ThenAmp"
+          ],
+          "id": "webthen-music"
+        }
+      ],
+      "era": "modern",
+      "iconsCovered": [],
+      "images": [],
+      "menuBarVisible": true,
+      "os": "mac",
+      "overflow": [],
+      "overlaps": [],
+      "radio": "PAUSED",
+      "rootWidth": 1440,
+      "taskbarVisible": true,
+      "variant": "mac",
+      "viewport": [
+        1440,
+        900
+      ],
+      "windows": [
+        {
+          "bottom": 500,
+          "h": 460,
+          "id": "welcome-browser",
+          "right": 930,
+          "w": 820,
+          "x": 110,
+          "y": 40
+        },
+        {
+          "bottom": 400,
+          "h": 360,
+          "id": "ambient-aim",
+          "right": 1420,
+          "w": 280,
+          "x": 1140,
+          "y": 40
+        },
+        {
+          "bottom": 769,
+          "h": 264,
+          "id": "webthen-music",
+          "right": 525,
+          "w": 415,
+          "x": 110,
+          "y": 505
+        }
+      ],
+      "theme": "mac"
+    }
+  ],
+  "chrome": [
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": true,
+        "top": "session-clock"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": true,
+        "top": "session-network"
+      },
+      "os": "win98",
+      "status": "Done?Internet",
+      "variant": "win95"
+    },
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": true,
+        "top": "session-clock"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": true,
+        "top": "session-network"
+      },
+      "os": "win98",
+      "status": "Done?Internet",
+      "variant": "win98"
+    },
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": true,
+        "top": "session-clock"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": true,
+        "top": "session-network"
+      },
+      "os": "win2000",
+      "status": "Done?Internet",
+      "variant": "win2000"
+    },
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": true,
+        "top": "session-clock"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": true,
+        "top": "session-network"
+      },
+      "os": "win98",
+      "status": "Done?Internet",
+      "variant": "me"
+    },
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": true,
+        "top": "session-clock"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": true,
+        "top": "session-network"
+      },
+      "os": "xp",
+      "status": "Done?Internet",
+      "variant": "xp"
+    },
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": false,
+        "top": "retro-desktop"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": false,
+        "top": "retro-desktop"
+      },
+      "os": "classic",
+      "status": "Done?Internet",
+      "variant": "classic"
+    },
+    {
+      "browser": [
+        "Back",
+        "Forward",
+        null,
+        "Stop",
+        "Refresh",
+        "Home",
+        "Favorites",
+        null,
+        null,
+        null
+      ],
+      "clock": {
+        "id": "session-clock",
+        "reachable": true,
+        "top": "session-clock"
+      },
+      "network": {
+        "id": "session-network",
+        "reachable": true,
+        "top": "session-network"
+      },
+      "os": "mac",
+      "status": "Done?Internet",
+      "variant": "mac"
+    }
+  ],
+  "tours": [
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        707.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "win95"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        758.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "win95"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        758.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "win95"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        774.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "win95"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        741.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "win95"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        740.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "win95"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        708.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "win98"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        759.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "win98"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        759.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "win98"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        775.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "win98"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        742.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "win98"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        741.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "win98"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        708.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "win2000"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        759.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "win2000"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        759.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "win2000"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        775.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "win2000"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        742.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "win2000"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        741.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "win2000"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        708.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "me"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        759.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "me"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        759.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "me"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        775.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "me"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        742.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "me"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        741.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "me"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        710.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "xp"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        761.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "xp"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        761.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "xp"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        777.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "xp"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        744.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "xp"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        743.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "xp"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        707.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "classic"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        758.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "classic"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        758.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "classic"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        774.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "classic"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        741.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "classic"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        740.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "classic"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        696.234375
+      ],
+      "heading": "Welcome to your other desktop",
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "mac"
+    },
+    {
+      "action": "Show Date/Time Properties",
+      "bounds": [
+        550,
+        505,
+        930,
+        747.03125
+      ],
+      "heading": "Travel with the clock",
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "target": "session-clock",
+      "theme": "mac"
+    },
+    {
+      "action": "Show Appearance",
+      "bounds": [
+        550,
+        505,
+        930,
+        747.03125
+      ],
+      "heading": "Choose your desktop’s appearance",
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "target": "desktop-appearance-shortcut",
+      "theme": "mac"
+    },
+    {
+      "action": "Show a window",
+      "bounds": [
+        550,
+        505,
+        930,
+        763.828125
+      ],
+      "heading": "Move, resize, and switch windows",
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "target": "desktop-directory-chrome desktop-move-handle standard-chrome tour-highlight",
+      "theme": "mac"
+    },
+    {
+      "action": "Show fullscreen control",
+      "bounds": [
+        550,
+        505,
+        930,
+        730.234375
+      ],
+      "heading": "Make all of WebThen fullscreen",
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "target": "desktop-fullscreen-toggle",
+      "theme": "mac"
+    },
+    {
+      "action": "",
+      "bounds": [
+        550,
+        505,
+        930,
+        729.828125
+      ],
+      "heading": "Set the atmosphere",
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "target": "skin-transport tour-highlight",
+      "theme": "mac"
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "win95",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "win95",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "win95",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "win95",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "win95",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "win95",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "win98",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "win98",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "win98",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "win98",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "win98",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "win98",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "win2000",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "win2000",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "win2000",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "win2000",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "win2000",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "win2000",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "me",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "me",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "me",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "me",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "me",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "me",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "xp",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "xp",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "xp",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "xp",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "xp",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "xp",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "classic",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "classic",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "classic",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "classic",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "classic",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "classic",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Welcome to your other desktop",
+      "outside": false,
+      "overflow": false,
+      "spotlight": false,
+      "step": "0",
+      "theme": "mac",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Travel with the clock",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "1",
+      "theme": "mac",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Choose your desktop’s appearance",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "2",
+      "theme": "mac",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Move, resize, and switch windows",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "3",
+      "theme": "mac",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Make all of WebThen fullscreen",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "4",
+      "theme": "mac",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "heading": "Set the atmosphere",
+      "outside": false,
+      "overflow": false,
+      "spotlight": true,
+      "step": "5",
+      "theme": "mac",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "eras": [
+    {
+      "era": "boom",
+      "during": {
+        "archiveWindows": 0,
+        "modem": false,
+        "radio": true,
+        "status": "Dialing…",
+        "videoFrames": 0
+      },
+      "os": "win98",
+      "variant": "win98",
+      "clock": "Sunday, October 15, 2000 · Set date and time",
+      "radio": "PAUSED",
+      "favorites": "Yahoo! Directory\nNeopets\neBaum’s World",
+      "videos": "Video Lounge\n_\n□\n×\n1999–2001 · The Dot-Com Boom\n\nChoose a video.\n\nThe Matrix — original trailer · 1999\n\n← Previous\nNext →\nPlay / retry\nOpen on YouTube ↗\n\nMore info\nThe Matrix — original trailer\n1999 · Rotten Tomatoes Classic Trailers\nThe Fellowship of the Ring — original trailer\n2001 · Movieclips\nSmash Mouth — All Star\n1999 · SmashMouthVEVO · Open on YouTube\nDarude — Sandstorm\n2000 · Darude · Open on YouTube\nFatboy Slim — Weapon of Choice\n2001 · Fatboy Slim · Open on YouTube\nDaft Punk — One More Time\n2001 · Daft Punk · Open on YouTube"
+    },
+    {
+      "era": "flash",
+      "during": {
+        "archiveWindows": 0,
+        "modem": true,
+        "radio": true,
+        "status": "Connecting…",
+        "videoFrames": 0
+      },
+      "os": "xp",
+      "variant": "xp",
+      "clock": "Wednesday, October 15, 2003 · Set date and time",
+      "radio": "PAUSED",
+      "favorites": "Xanga\neBaum’s World\nSalad Fingers",
+      "videos": "Video Lounge\n_\n□\n×\n2002–2004 · The Flash & Community Era\n\nChoose a video.\n\nSalad Fingers 1: Spoons · 2004\n\n← Previous\nNext →\nPlay / retry\nOpen on YouTube ↗\n\nMore info\nSalad Fingers 1: Spoons\n2004 · David Firth\nBadgers\n2003 · Weebl's Stuff\nThe End of the World\n2003 · AlbinoBlackSheep\nNuma Numa\n2004 · Gary Brolsma · Open on YouTube"
+    },
+    {
+      "era": "social",
+      "during": {
+        "archiveWindows": 0,
+        "modem": true,
+        "radio": true,
+        "status": "Connecting…",
+        "videoFrames": 0
+      },
+      "os": "xp",
+      "variant": "xp",
+      "clock": "Sunday, October 15, 2006 · Set date and time",
+      "radio": "PAUSED",
+      "favorites": "MySpace\nYouTube\nXanga",
+      "videos": "Video Lounge · YouTube\n_\n□\n×\n2005–2007 · The Social Web\n\nChoose a video.\n\nChocolate Rain · 2007\n\n← Previous\nNext →\nPlay / retry\nOpen on YouTube ↗\n\nMore info\nChocolate Rain\n2007 · TayZonday\nPotter Puppet Pals: The Mysterious Ticking Noise\n2007 · Neil Cicierega\nCharlie the Unicorn\n2005 · FilmCow\nEvolution of Dance\n2006 · Judson Laipply · Open on YouTube"
+    },
+    {
+      "era": "modern",
+      "during": {
+        "archiveWindows": 0,
+        "modem": true,
+        "radio": true,
+        "status": "Connecting…",
+        "videoFrames": 0
+      },
+      "os": "xp",
+      "variant": "xp",
+      "clock": "Wednesday, October 15, 2008 · Set date and time",
+      "radio": "PAUSED",
+      "favorites": "YouTube\nTwitter\nNewgrounds",
+      "videos": "Video Lounge · YouTube\n_\n□\n×\n2008–2009 · The Modern Web Emerges\n\nChoose a video.\n\nDavid After Dentist · 2009\n\n← Previous\nNext →\nPlay / retry\nOpen on YouTube ↗\n\nMore info\nDavid After Dentist\n2009 · booba1234\nThe Annoying Orange\n2009 · Dane Boe\nCharlie the Unicorn 2\n2008 · FilmCow\nJK Wedding Entrance Dance\n2009 · TheKheinz · Open on YouTube"
+    },
+    {
+      "era": "early",
+      "during": {
+        "archiveWindows": 0,
+        "modem": false,
+        "radio": true,
+        "status": "Dialing…",
+        "videoFrames": 0
+      },
+      "os": "win98",
+      "variant": "win95",
+      "clock": "Tuesday, October 15, 1996 · Set date and time",
+      "radio": "PAUSED",
+      "favorites": "Yahoo! Directory\nGeoCities\nAltaVista",
+      "videos": "Video Lounge\n_\n□\n×\n1995–1998 · The Early Web\n\nChoose a video.\n\nToy Story — original trailer · 1995\n\n← Previous\nNext →\nPlay / retry\nOpen on YouTube ↗\n\nMore info\nToy Story — original trailer\n1995 · nickbtube\nSpace Jam — original trailer\n1996 · Rotten Tomatoes Classic Trailers\nSpice Girls — Wannabe\n1996 · SpiceGirlsVEVO · Open on YouTube\nBackstreet Boys — Everybody (Backstreet’s Back)\n1997 · BackstreetBoysVEVO · Open on YouTube\nDaft Punk — Around the World\n1997 · Daft Punk · Open on YouTube\nJamiroquai — Virtual Insanity\n1996 · JamiroquaiVEVO · Open on YouTube"
+    }
+  ],
+  "skins": [
+    {
+      "broken": 0,
+      "skin": "graphite",
+      "status": "PAUSED"
+    },
+    {
+      "broken": 0,
+      "skin": "midnight",
+      "status": "PAUSED"
+    },
+    {
+      "broken": 0,
+      "skin": "copper",
+      "status": "PAUSED"
+    },
+    {
+      "broken": 0,
+      "skin": "pocket",
+      "status": "PAUSED"
+    },
+    {
+      "broken": 0,
+      "skin": "sky",
+      "status": "PAUSED"
+    },
+    {
+      "broken": 0,
+      "skin": "glacier",
+      "status": "PAUSED"
+    }
+  ],
+  "games": [
+    {
+      "id": "line-rider-current",
+      "src": "https://www.linerider.com/"
+    },
+    {
+      "id": "elf-bowling-gba",
+      "src": "https://arcadespot.com/game/elf-bowling-1-2/"
+    },
+    {
+      "id": "alien-hominid-flash",
+      "src": "https://archive.org/embed/1100_alien_hominid"
+    }
+  ],
+  "videoPlayback": [
+    {
+      "era": "boom",
+      "status": "Connecting to Rotten Tomatoes Classic Trailers…"
+    },
+    {
+      "era": "flash",
+      "status": "Playing · Salad Fingers 1: Spoons"
+    },
+    {
+      "era": "social",
+      "status": "Playing · Chocolate Rain"
+    },
+    {
+      "era": "boom-recheck",
+      "status": "Playing · The Matrix — original trailer"
+    }
+  ],
+  "silentDialup": {
+    "stillVisibleAfterConnect": true,
+    "elapsedMs": 5183
+  },
+  "consoleErrors": [
+    {
+      "level": "error",
+      "message": "TypeError: Cannot read properties of null (reading 'categories')\n    at Ag (https://archive.org/includes/build/js/emulation.min.js?v=f150e5c7:2525:1860)\n    at HTMLDocument.<anonymous> (https://archive.org/includes/build/js/emulation.min.js?v=f150e5c7:2525:1961)\n    at HTMLDocument.n (https://archive.org/includes/build/js/ia-sentry.min.js?v=f150e5c7:502:20927)",
+      "timestamp": "2026-11-19T22:31:23.395Z",
+      "url": "https://archive.org/includes/build/js/ia-sentry.min.js?v=f150e5c7"
+    }
+  ],
+  "scope": "Live IAB/Chromium QA; not exhaustive catalog or game-completion certification"
+}

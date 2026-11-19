@@ -7,6 +7,10 @@ Open **https://webthen.org/**. Access remains limited to the existing approved t
 The domain serves the `hosting/cloudflare-pages` preview at commit `57abc94`, deployed November 19, 2026. ThenChat, original artwork, Favorites/tour fixes and the 2002–2004 connection choice are live. Main remains unchanged. See `dev/hosting/WEBTHEN-ORG.md` for routing, access settings and verification.
 
 
+## Live QA status
+
+The November 19 live era/theme QA found four issues requiring follow-up; the app is not an all-pass. See [QA results and reproduction steps](dev/qa/LIVE-QA-2026-11-19.md). This check changed documentation only, on `qa/live-eras-and-themes`; the deployed app and main remain unchanged.
+
 ## Dial-up or broadband in 2002–2004
 
 In Connect To, choose the 2002–2004 era, then set **Connection** to **Dial-up** or **Broadband**. Broadband is the default. Dial-up shows the modem checkbox and uses the supplied recording's first 18 seconds when **Play modem recording** is checked. The simulated connection speed is 53,333 bps.

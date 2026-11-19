@@ -1,3 +1,9 @@
+# Live QA across eras and themes — 2026-11-19
+
+- Checked the protected WebThen.org build at `57abc94` using all 28 era-compatible theme combinations at 1280×720 and 1440×900 (56 startup layout cases), plus 84 tour-step fit checks.
+- Found four issues: Classic Mac menu-bar occlusion, raw archive 429 pages reported as Done, Show Appearance tour action not opening settings, and silent Dial-up retaining a roughly five-second delay. No app fixes or deployment were made in this QA task.
+- Functional results, reproduction steps, provider errors and coverage limits: dev/qa/LIVE-QA-2026-11-19.md. Access membership and main are unchanged.
+
 # Private preview deployment — 2026-11-19
 
 - Deployed combined commit `57abc94` through `hosting/cloudflare-pages` to https://webthen.org/. Main was not changed.
