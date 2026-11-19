@@ -9,5 +9,6 @@
 - Preserve the era rules, quiet startup, period controls, window accessibility and no-overlap startup layout. Do not change AIM/chat behavior incidentally.
 - Payments remain on hold unless the user resumes that work. Moving source to GitHub does not authorize hosting, a public release, payment setup or account provisioning.
 - Public-launch requirement (Tom, 2026-11-19): custom screen names are a paid registration feature. Keep them free during the private-access testing period; gate custom screen-name editing to registered users before publishing publicly. This records the launch decision only; do not enable the gate during private testing.
+- The simulated messenger's approved name is ThenChat. Use the project-authored artwork in `contents/original-art/`; do not restore retired brand-image caches, WSZ sprites or the Bliss photo to the active app. Read `dev/artwork/REVIEW.md` before public-release work for unresolved game-host/radio permissions and the recording provenance note.
 - Never commit secrets, local credentials, `.env` files, generated ZIPs or old release/check folders. No blanket license is granted for third-party assets.
 - Work on focused branches for future changes; preserve existing commits and user work. Do not force-push or publish a release without a request.

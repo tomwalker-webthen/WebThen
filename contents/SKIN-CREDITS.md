@@ -1,3 +1,9 @@
+# Current ThenAmp artwork
+
+ThenAmp now uses six project-authored SVG skins: Graphite, Midnight, Copper, Pocket, Skyline and Glacier. Artwork, title strips, controls, volume sprites and previews are generated from dev/generate-original-art.mjs and saved in contents/original-art/. No preserved WSZ artwork is used by the active player. Previously saved skin choices map to the new finishes; the player remains paused at launch.
+
+The preservation credits below are historical evidence for retired assets retained in this private source checkout, excluded from the website build. They do not grant public distribution permission.
+
 # Winamp skin artwork
 
 Selected from [Winamp Skin Museum sorted by downloads](https://skins.webamp.org/?sort=downloads) on November 18, 2026. The list positions are observations on that date, not permanent rankings or verified total download counts. These are original classic skin assets adapted to WebThen’s live-radio controls, not full Winamp or an EQ engine.

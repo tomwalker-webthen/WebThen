@@ -1,3 +1,13 @@
+# Unreleased — Original artwork and Line Rider — 2026-11-19
+
+- Rename the simulated messenger to ThenChat; retain buddy identities, archived quotations, chat logic, screen-name storage and preferences.
+- Add original waving-person, browser-window, cassette, diamond Start mark and folder artwork. Replace Bliss with original Evening Lake.
+- Replace preserved WSZ skins with six original ThenAmp SVG finishes; migrate old skin IDs and retain the paused launch, size and controls.
+- Retire the active destination brand-image cache in favor of existing original category illustrations.
+- Compose three original buddy sound cues. Preserve the user-supplied modem MP3.
+- Route new and previously received simulated Line Rider links to its current browser edition, clearly labeled; keep historical links and archived quotes separate. Add Game Room entry and More info verification limits.
+- Document artwork provenance, user-confirmed royalty-free modem status and unresolved public-use permissions. No outreach or deployment.
+
 # Unreleased — Favorites and Quick Tour — 2026-11-19
 
 - Refresh Favorites when opened so the first Connect era selection applies immediately to Start page, Directory and historical-browser menus.

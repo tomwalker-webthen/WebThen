@@ -1,0 +1,208 @@
+{
+  "createdFor": "WebThen",
+  "createdAt": "2026-11-19",
+  "generator": "dev/generate-original-art.mjs",
+  "note": "Project-authored SVG and generated PCM WAV assets; no third-party sprites or photographs. This inventory is not overall product or hosting rights clearance.",
+  "files": [
+    {
+      "file": "aim.svg",
+      "bytes": 478,
+      "sha256": "31cbf7bf1d3a7f1515dca0b14427b3c31a0f3bc3a689b6bb9bc5e8724586c62d"
+    },
+    {
+      "file": "aqua.svg",
+      "bytes": 308,
+      "sha256": "cc97dee667a08c94b983f688f7e4c5015ed7cdc505e56715110203e7cd12fe29"
+    },
+    {
+      "file": "copper-buttons.svg",
+      "bytes": 2232,
+      "sha256": "be0000dbf03a21e5c7b0aee63df0ffead9ac73eda5db742ce7af1c8d4cbecbfa"
+    },
+    {
+      "file": "copper-main.svg",
+      "bytes": 742,
+      "sha256": "2d8da55bd8c900c2c8ca134fca06258d6c7fd9786615f91a7d1c007a9b668bc8"
+    },
+    {
+      "file": "copper-preview.svg",
+      "bytes": 1237,
+      "sha256": "b108f071163e4c0a49fcadfe583021bb2ac1e80f7b5208a1b2a78b6ccdb6bdbf"
+    },
+    {
+      "file": "copper-title.svg",
+      "bytes": 448,
+      "sha256": "a51a2d71df0a29468e4335ff6554cffc0e0b45b89982707f352c0b7da55cdd2f"
+    },
+    {
+      "file": "copper-volume.svg",
+      "bytes": 4054,
+      "sha256": "dac42547061704104a22012a306ba91f2fc116763f7dfbd0aca4bd8ea59149e6"
+    },
+    {
+      "file": "evening-lake.svg",
+      "bytes": 1152,
+      "sha256": "6132e1d5edfbdc1173e491fbc4044b3807f146c2cb9d48d486d8dc152cecb180"
+    },
+    {
+      "file": "flag.svg",
+      "bytes": 271,
+      "sha256": "555d7d13713b62a9e53e09cc0da3317cb876af6c4cf710844116cb8169af2afb"
+    },
+    {
+      "file": "glacier-buttons.svg",
+      "bytes": 2232,
+      "sha256": "b3c61990b3ae06f0f853073c38e8a16b0e26a03fbe34d17c7957994c3b3d7b60"
+    },
+    {
+      "file": "glacier-main.svg",
+      "bytes": 742,
+      "sha256": "1a32ec396303e3b09a187027339ef862322a8c61a56a96568d3e766c12d00012"
+    },
+    {
+      "file": "glacier-preview.svg",
+      "bytes": 1238,
+      "sha256": "cec58b0069c66a731efa922a91ae9e41367adfb91993c236b0b25fc40a13c02f"
+    },
+    {
+      "file": "glacier-title.svg",
+      "bytes": 448,
+      "sha256": "b210ced03bdd41854cda40ea3221dac8f96da8bb8f3fd05190458dc7e3c728e1"
+    },
+    {
+      "file": "glacier-volume.svg",
+      "bytes": 4054,
+      "sha256": "7f2a1b836fc71dd4df3bb72e6d96f34d57d46a874c13e27aa39867a333d4d048"
+    },
+    {
+      "file": "graphite-buttons.svg",
+      "bytes": 2232,
+      "sha256": "3bd6a0fb60b51ef560aee7f451c3056c6cf49f52aa5310a457db6538b9eae4b5"
+    },
+    {
+      "file": "graphite-main.svg",
+      "bytes": 742,
+      "sha256": "cc5c9297c90c3ebc521c451889856b5db57725d19946495bac3fbcb9b6a24d7d"
+    },
+    {
+      "file": "graphite-preview.svg",
+      "bytes": 1239,
+      "sha256": "d93df9b5d849fe996218c1bc39b232481ac78a8ace08be77c7869f3d81e7be24"
+    },
+    {
+      "file": "graphite-title.svg",
+      "bytes": 448,
+      "sha256": "2d316f298c098f8df25b30151b755cb22f7f1df87913b40ed3194205b913d0dc"
+    },
+    {
+      "file": "graphite-volume.svg",
+      "bytes": 4054,
+      "sha256": "037d8df68874e9a815e9205970ff128f746588ba3ee90f1874794ef4aa922ee0"
+    },
+    {
+      "file": "internet.svg",
+      "bytes": 475,
+      "sha256": "855f2ffb7eed30d2a018f25cd634d3ee125a73db9af4f28080bf66f50cf33be2"
+    },
+    {
+      "file": "message.wav",
+      "bytes": 19888,
+      "sha256": "494a55bc0e76a6848383b58436b5fbfc162ab35d3cd6e2c86012a0b3ab45be3c"
+    },
+    {
+      "file": "midnight-buttons.svg",
+      "bytes": 2232,
+      "sha256": "c4850656176d8ee49e8a5c2b3a389cd679507c66195281bb31cb7000f39dc217"
+    },
+    {
+      "file": "midnight-main.svg",
+      "bytes": 742,
+      "sha256": "36cb9c2c1b876cd0c5e65097ef3646e9ae6d3ee925486579db1dff577bc4bc4d"
+    },
+    {
+      "file": "midnight-preview.svg",
+      "bytes": 1239,
+      "sha256": "204bd19a73043abc00942836622e79c9311d97475b66b7cb48b9b16780fc225a"
+    },
+    {
+      "file": "midnight-title.svg",
+      "bytes": 448,
+      "sha256": "6eb9fcd99fea723e1b276cf20629e1565ea89864131d2d211a4d47a5ca9a8e16"
+    },
+    {
+      "file": "midnight-volume.svg",
+      "bytes": 4054,
+      "sha256": "6fed403ed41de05ac07bda8f9d24181aea25947cc78c0971b7f7a652b4f6b0bb"
+    },
+    {
+      "file": "music.svg",
+      "bytes": 450,
+      "sha256": "ecdb48e59a20e6fdbd7f2726481ab6ac53646564fe8a2ac2350270a7de85047e"
+    },
+    {
+      "file": "pocket-buttons.svg",
+      "bytes": 2232,
+      "sha256": "383316a036b098a24e4b613e34eed96e3a4a357b228145b7e0934f8c7aca15bb"
+    },
+    {
+      "file": "pocket-main.svg",
+      "bytes": 742,
+      "sha256": "23fd4bdf821a93790f3b29d76be28b0e314c6e64a8171b2a8a94a297ed658fa2"
+    },
+    {
+      "file": "pocket-preview.svg",
+      "bytes": 1237,
+      "sha256": "e51dc7058be4ad31526204035d82c68d4e5e1cb579f507c8eca8101ce9fb090e"
+    },
+    {
+      "file": "pocket-title.svg",
+      "bytes": 448,
+      "sha256": "da3745237f51dcbdff0fd6ed31c792c3c645539520b952c5450a24f3c351a173"
+    },
+    {
+      "file": "pocket-volume.svg",
+      "bytes": 4054,
+      "sha256": "84d3a390f653d89bf890922fcdb84ed26d1a233d3134197de328b96615707344"
+    },
+    {
+      "file": "signin.wav",
+      "bytes": 28708,
+      "sha256": "50da8be4c6cdb8af729617fe4a04c12e6e2843ec145ebc6d746e5d0af0142fd1"
+    },
+    {
+      "file": "signout.wav",
+      "bytes": 28708,
+      "sha256": "182a06414393349ed3f85a7b66774fe79d23cf4961931c73de8545131ffd9e0c"
+    },
+    {
+      "file": "skins.json",
+      "bytes": 72875,
+      "sha256": "c7da6e9d1bfbb07ecc3c76e529672fb1f8b4b93e496349c63012d4c74c7babc9"
+    },
+    {
+      "file": "sky-buttons.svg",
+      "bytes": 2232,
+      "sha256": "e60e80082a6769473c52773de0d4a79fb407c8dccb9ffcbaab6a2f1e5f8ddfe4"
+    },
+    {
+      "file": "sky-main.svg",
+      "bytes": 742,
+      "sha256": "db579755d74ee463e06061c40cf98c0fbcbf471e746612a3f3570bff18eea4c4"
+    },
+    {
+      "file": "sky-preview.svg",
+      "bytes": 1238,
+      "sha256": "de4a87a2fd44f8d71465d68bd9a140339d445228ca68fb4113740499a25ffd03"
+    },
+    {
+      "file": "sky-title.svg",
+      "bytes": 448,
+      "sha256": "17c2442e63ca9ed96d168b035f4579620af4d0767187007f76040fafa4c1b5da"
+    },
+    {
+      "file": "sky-volume.svg",
+      "bytes": 4054,
+      "sha256": "18b51c4b35308c46a24312a480eb0364cf8b562a14ba9bed8de97de0db67c514"
+    }
+  ]
+}

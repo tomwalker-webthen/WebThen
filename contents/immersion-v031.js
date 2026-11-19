@@ -28,7 +28,7 @@
   ['.session-window','.session-title','button[aria-label="Minimize browser window"]','button[aria-label="Close browser window"]','Browser'],
   ['#portal-shell','.desktop-directory-chrome','#desktop-directory-minimize',null,'Directory'],
   ['#welcome-browser','.welcome-titlebar','#welcome-minimize','#welcome-close','Start page'],
-  ['#ambient-aim','.aim-titlebar','#aim-minimize','#aim-close','AIM'],
+  ['#ambient-aim','.aim-titlebar','#aim-minimize','#aim-close','ThenChat'],
   ['#webthen-music','#music-drag','#music-minimize','#music-close','ThenAmp'],
   ['.game-window','.game-titlebar',null,'#game-close','Game'],
   ['.video-window','.video-titlebar','.video-minimize','.video-close','Video Lounge'],

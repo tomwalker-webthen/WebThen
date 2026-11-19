@@ -10,8 +10,8 @@
  const paths={
   network:'<path d="M2 3h14v11H2zM10 11h14v11H10z" fill="#b8cbd8" stroke="currentColor"/><path d="M4 5h10v6H4zM12 13h10v6H12z" fill="#2789b9"/><path d="M7 14v3H3m14 5v2h7" fill="none" stroke="currentColor"/>',
   full:'<path d="M3 10V3h7m6 0h7v7m0 6v7h-7m-6 0H3v-7" fill="none" stroke="currentColor" stroke-width="2"/>',
-  aim:'<circle cx="15" cy="4" r="3" fill="#e3c02b"/><path d="M13 8l-5 6 7 4-4 6m3-15 5 5 5-2M9 12l-5 2-3-1" fill="none" stroke="#d3ac16" stroke-width="3"/>',
-  music:'<path d="M15 1L4 15h8l-2 10 13-16h-8z" fill="#e7c245" stroke="currentColor"/>',
+  aim:'<g transform="translate(0 -1) scale(.8)"><path d="M3 3h13v9H8l-4 4v-4H3z" fill="#fff4c2" stroke="#34545b"/><path d="M6 6h7M6 9h5" stroke="#54989a"/><circle cx="19" cy="13" r="4" fill="#55b6aa" stroke="#24565c"/><path d="M12 30v-7q0-6 7-6t7 6v7z" fill="#398d94" stroke="#24565c"/><path d="M24 21l4-4V9m-2 1 2 2 2-2" fill="none" stroke="#24565c" stroke-width="2.5" stroke-linecap="round"/><path d="M16 21v5m6-5v5" stroke="#b9eee1"/></g>',
+  music:'<g transform="translate(0 -1) scale(.8)"><rect x="2" y="5" width="28" height="23" rx="2" fill="#354758" stroke="#152b3b"/><rect x="5" y="8" width="22" height="10" rx="1" fill="#b7dbd2"/><circle cx="10" cy="13" r="3" fill="#354758"/><circle cx="22" cy="13" r="3" fill="#354758"/><path d="M10 13h12M9 25l2-5h10l2 5z" fill="none" stroke="#e3bc72" stroke-width="2"/><path d="M5 24h2m18 0h2" stroke="#eee"/></g>',
   folder:'<path d="M2 6h8l3 3h11v14H2z" fill="#e6ce70" stroke="currentColor"/><path d="M3 11h20l-2 11H3z" fill="#fff0ad" stroke="currentColor"/>',
   home:'<path d="M2 12L13 2l11 10M5 11v13h16V11m-12 13v-8h7v8" fill="none" stroke="currentColor" stroke-width="2"/>',
   window:'<rect x="2" y="3" width="22" height="20" fill="#e5e9eb" stroke="currentColor"/><path d="M2 8h22" stroke="currentColor"/><rect x="4" y="5" width="10" height="2" fill="#285ba1"/>',
@@ -25,7 +25,7 @@
  function camouflage(){iconQueued=false;const mac=['mac','classic'].includes(body.dataset.os);for(const b of bar.querySelectorAll('button')){
    const raw=b.textContent.trim();if(raw)rawLabels.set(b,raw);const label=rawLabels.get(b)||b.getAttribute('aria-label')||'Window';
    if(b===dial)continue;if(b===full){icon(b,'full',document.fullscreenElement?'Exit fullscreen':'Fullscreen WebThen');continue}
-   if(b===aim){icon(b,'aim','AIM · '+(b.getAttribute('aria-pressed')==='true'?'Show buddy list':'Sign On'));continue}
+   if(b===aim){icon(b,'aim','ThenChat · '+(b.getAttribute('aria-pressed')==='true'?'Show buddy list':'Sign On'));continue}
    if(b===music){icon(b,'music','ThenAmp · Show player');continue}
    if(b.id==='browser-close-all'){icon(b,'window','Close all browser windows');continue}
    if(mac){const kind=b.id==='shell-start'?'home':/Directory/i.test(label)?'folder':/Start page|Desktop/i.test(label)?'home':'window';icon(b,kind,label)}

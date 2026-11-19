@@ -1,3 +1,9 @@
+# Current original artwork
+
+The original-artwork branch replaces the active cached site-logo map with project-authored category illustrations, the Bliss photo with Evening Lake, and the shell brand-like marks with original WebThen icons. Source SVGs and generation code are in contents/original-art/ and dev/generate-original-art.mjs. The retained wave, geometric and cloud wallpapers are project-authored SVGs. See dev/artwork/REVIEW.md for scope, evidence and outstanding permissions.
+
+The older credits below document retired reference assets in the private source tree. They do not describe the active published-image set. No blanket reuse licence is asserted.
+
 # Cached destination logos and icons
 
 Cached November 17, 2026 (local date). Logos identify their respective sites and remain the property of their owners. Images are identifiers, not archived screenshots or proof of era-specific branding. Some favicon sources reflect current branding. Missing images retain initials. No remote favicon request is needed while browsing WebThen.

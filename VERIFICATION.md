@@ -1,3 +1,19 @@
+# Original artwork and Line Rider branch verification — 2026-11-19
+
+Branch: `art/original-desktop-assets`, including the previous Favorites/tour fix and public-launch screen-name note. Main and the Cloudflare preview were not updated.
+
+- `node dev/verify.cjs`, `node dev/check-original-art.cjs`, `node dev/test-line-rider-links.cjs`: passed. Script mirrors, documentation parity, game data, local assets and original runtime artwork checks passed.
+- Six original ThenAmp skin previews loaded; each skin selected through the picker and remained PAUSED. The original/native layout option is retained. No radio autoplay introduced.
+- All seven OS options selected at a measured 1280×720: Win95, Win98, Win2000, ME, XP, classic Mac and Aqua. No open startup window intersected a desktop shortcut. XP and Aqua visually reviewed. Larger viewports and other browsers were not retested.
+- ThenChat desktop/header/Start/Dock/tray artwork and visible branding reviewed. Screen-name and chat storage keys remain unchanged. Archived quote text and source screen names were not renamed.
+- Three original sound preview actions reported played. This verifies playback initiation, not human listening quality. Modem bytes remain unchanged; Tom confirmed royalty-free status, with no license reference yet recorded.
+- Existing clock spotlight still appeared after replaying the tour.
+- Current official Line Rider page loaded inside the WebThen Game Room iframe. Closed its announcement and clicked Play; editor controls appeared. This is current version 2262.0, not the 2006 Flash file. Drawing, physics, audio and touch behavior remain unverified; public embedding permission is unconfirmed. The host logged a cross-origin BroadcastChannel SecurityError warning, although editor controls appeared. Pointer-drawing checks did not establish a visible track; no successful gameplay claim is made.
+- Routing regression test executes the real message-rendering function: new and legacy simulated Line Rider actions open the current game; an archived quote retains its original catalog route and label. This is a routing test, not a randomly delivered end-to-end buddy-session test.
+- No console warning/error entries during skin/theme/tour checks. Full third-party request tracing and a complete live-provider availability audit were not performed.
+
+Artwork/permission findings are in `dev/artwork/REVIEW.md`. Original source artwork is in `contents/original-art/`; retired reference files remain in the private source tree but are absent from the publish bundle. This does not certify public-launch rights clearance.
+
 # Favorites and Quick Tour branch verification — 2026-11-19
 
 Branch: `fix/first-connect-favorites`, based on hosting/cloudflare-pages at 1999acd. Main remains afb74ab95e03d4e817bb2fb1734cb9476ce6702f. This is local verification, not a deployment of the fix.

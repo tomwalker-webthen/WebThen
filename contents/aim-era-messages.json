@@ -21,7 +21,7 @@
     {"id":"social-elf","year":2005,"text":"lol look at Elf Bowling 1 & 2. see if you can beat my score! this one's the GBA version","action":{"kind":"game","id":"elf-bowling-gba","label":"Play Elf Bowling 1 & 2 · GBA (2005)"}},
     {"id":"social-youtube","year":2006,"text":"someone keeps sending me youtube videos and now my homework is not happening","action":{"kind":"catalog","name":"YouTube","label":"Open early YouTube"}},
     {"id":"social-harry","year":2007,"text":"getting the last Harry Potter book at midnight. NO SPOILERS in away messages!!"},
-    {"id":"social-line","year":2006,"text":"made a Line Rider track. he survives approximately three seconds lol","action":{"kind":"catalog","name":"Line Rider","label":"Visit Line Rider · playback untested"}}
+    {"id":"social-line","year":2006,"text":"made a Line Rider track. he survives approximately three seconds lol","action":{"kind":"game","id":"line-rider-current","label":"Play Line Rider · current browser edition"}}
   ],
   "modern": [
     {"id":"modern-elf","year":2008,"text":"rediscovered Elf Bowling lol. try the 2005 GBA edition and beat my score","action":{"kind":"game","id":"elf-bowling-gba","label":"Play Elf Bowling 1 & 2 · GBA (2005)"}},

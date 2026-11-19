@@ -97,6 +97,29 @@
         "Loaded creator-hosted Ruffle game inside WebThen",
         "Clicked red direction switch and observed green arrow"
       ]
+    },
+    {
+      "id": "line-rider-current",
+      "name": "Line Rider",
+      "edition": "Current browser edition · original game 2006",
+      "availableFromYear": 2006,
+      "kind": "browser",
+      "playback": "candidate",
+      "provider": "Line Rider official site",
+      "sourceUrl": "https://www.linerider.com/",
+      "embedUrl": "https://www.linerider.com/",
+      "description": "Draw tracks and send the sled rider down them. This is the current official browser edition, not the original 2006 Flash file or an archived webpage.",
+      "launchHint": "Close any announcement, then choose Play. Use the pencil to draw a track and the playback controls to try it.",
+      "controls": "Mouse: draw a track. Use the game’s own tool and playback buttons. Current controls may differ from the 2006 edition.",
+      "catalogIds": [
+        "42"
+      ],
+      "verificationNote": "Current browser edition, not a historical capture. Page loading and editor launch checked inside WebThen on November 19, 2026. Drawing, physics playback, audio, touch and other browsers remain unverified. Public embedding permission has not been established. No game assets are bundled. The host logged a cross-origin BroadcastChannel warning during embedded editor launch; its effect on gameplay is unverified.",
+      "testedAt": "2026-11-19",
+      "testedActions": [
+        "Current official page loaded inside WebThen Game Room",
+        "Closed announcement and clicked Play; editor controls appeared"
+      ]
     }
   ]
 }

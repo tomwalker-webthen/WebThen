@@ -1,10 +1,21 @@
 # WebThen v0.35
 
+## Original artwork and Line Rider update
+
+Work on `art/original-desktop-assets` replaces the messenger branding with ThenChat, introduces original shell icons and Evening Lake wallpaper, and replaces preserved ThenAmp skins with six project-authored finishes. Original category art replaces cached destination logos. Three newly composed buddy sound cues replace the old set; the supplied modem recording remains unchanged. Tom confirms it is royalty-free; its source/license reference is not yet recorded.
+
+Simulated buddy links to Line Rider now open the current official browser edition, explicitly labeled, rather than a rate-limited archive replay. The current player is also in Game Room from 2006 onward. Historical Directory links remain separate, and archived quotes retain their original screen names and actions.
+
+Permissions are not fully cleared for public release. See `dev/artwork/REVIEW.md`: Arcade Spot embedding permission is pending (Tom requested keeping Elf Bowling embedded for private testing); other game-host and radio integration permissions still need confirmation. Retired reference assets remain only in the private source tree and are excluded from the website build.
+
+Main and the live protected preview are unchanged. Public registration and payment work remain on hold.
+
+
 ## Pending update: Favorites and Quick Tour
 
 Favorites now uses the era chosen on the first Connect screen, in both Start page and Directory. Quick Tour uses a labeled, pulsing spotlight with a dimmed desktop so its current control is easy to find. The control remains clickable; the spotlight follows moving controls, pauses for system dialogs, and clears on completion, Skip or Escape. Reduced-motion preferences disable the pulse. Reopen the tour from Appearance, the Start menu, or Mac Help.
 
-This update is on `fix/first-connect-favorites`; main and the hosted friends-and-family preview have not been changed.
+The earlier Favorites/tour fix is on `fix/first-connect-favorites` and is included in the original-artwork branch; main and the hosted friends-and-family preview have not been changed.
 
 
 Active private repository: https://github.com/tomwalker-webthen/WebThen

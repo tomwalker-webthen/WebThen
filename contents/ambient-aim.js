@@ -17,11 +17,11 @@
     const online=state.buddies.filter(b=>b.online&&b.available),offline=state.buddies.filter(b=>!b.online&&b.available);
     panel.hidden=!state.running;panel.dataset.minimized=String(minimized);panel.classList.toggle('aim-message-pending',state.unread>0);panel.dataset.paused=String(state.paused);
     mainToggle.setAttribute('aria-pressed',String(state.running));browserToggle.setAttribute('aria-pressed',String(state.running));
-    const gameToggle=document.querySelector('#game-aim-toggle');if(gameToggle){gameToggle.setAttribute('aria-pressed',String(state.running));gameToggle.textContent=state.running?'AIM On':'AIM Off';}
-    mainToggle.textContent='Ambient AIM · '+(state.running?'On':'Off');browserToggle.textContent=state.running?'AIM On':'AIM Off';
+    const gameToggle=document.querySelector('#game-aim-toggle');if(gameToggle){gameToggle.setAttribute('aria-pressed',String(state.running));gameToggle.textContent=state.running?'ThenChat On':'ThenChat Off';}
+    mainToggle.textContent='Ambient ThenChat · '+(state.running?'On':'Off');browserToggle.textContent=state.running?'ThenChat On':'ThenChat Off';
     document.querySelector('#aim-title').textContent=(state.unread?'✉ '+state.unread+' · ':'')+WebThenScreenName.get()+'’s Buddy List'+(minimized?' ('+online.length+' online)':'');
     document.querySelector('#aim-self-name').textContent=WebThenScreenName.get();
-    document.querySelector('#aim-minimize').textContent=minimized?'▣':'_';document.querySelector('#aim-minimize').setAttribute('aria-label',minimized?'Expand AIM buddy list':'Minimize AIM buddy list');
+    document.querySelector('#aim-minimize').textContent=minimized?'▣':'_';document.querySelector('#aim-minimize').setAttribute('aria-label',minimized?'Expand ThenChat buddy list':'Minimize ThenChat buddy list');
     onlineList.replaceChildren(...online.filter(b=>b.group==='Buddies').map(b=>item(b,state)));
     familyList.replaceChildren(...online.filter(b=>b.group==='Family').map(b=>item(b,state)));
     document.querySelector('#aim-buddies-heading').textContent=(buddiesExpanded?'▾':'▸')+' Buddies ('+online.filter(b=>b.group==='Buddies').length+')';
