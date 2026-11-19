@@ -38,6 +38,8 @@ Both source and **dist alone** were served on separate loopback origins. Browser
 | Source verification | `node dev/verify.cjs` passes. |
 | Package verification | `node dev/check-dist.mjs http://127.0.0.1:8872` checks bytes, header values, output inventory and HTTP exclusions. |
 
+The local environment has Node but no npm executable on PATH, so build/check commands were run directly with Node; the npm build mapping is configured for Cloudflare, where it still needs verification.
+
 Normal click-throughs have zero same-origin 404s. Deliberate negative-path probes are separate expected 404s. Zero console errors is a local observation, not a deployed-site certification.
 
 ## HTTPS findings
