@@ -1,6 +1,6 @@
 # Cloudflare Pages hosting preparation — v0.35
 
-Status: local preparation complete; Cloudflare login and account email verification succeeded. GitHub identity authorization succeeded. Repository installation is prepared for WebThen only and awaits approval of the actual repository permissions. Zero Trust Free is selected, but activation requires Tom to complete billing/usage-charge consent himself. Tester list was supplied for Cloudflare only; no tester addresses are recorded here. No Pages project or deployment has been created yet. No app behavior, wording, runtime source or assets changed. No push to main.
+Status: Pages project `webthen-family-test` created and connected to WebThen only. Production and wildcard previews are protected by separate Access applications using one shared exact-email policy (two invited testers, addresses kept only in Cloudflare), One-time PIN and one-week sessions. Anonymous login gates verified before the first preview build. Production auto-deploy is disabled; only `hosting/cloudflare-pages` is enabled for previews. Preview build and authenticated smoke tests are next. App/source/assets and main remain unchanged.
 
 ## Publish folder
 
@@ -83,3 +83,15 @@ The interview uses `https://markprindle.com/longmont-i.htm`; YouTube API, iframe
 - [Serving Pages: top-level 404.html disables SPA fallback](https://developers.cloudflare.com/pages/configuration/serving-pages/)
 - [Access session durations](https://developers.cloudflare.com/cloudflare-one/access-controls/access-settings/session-management/)
 - [Access troubleshooting: OTP policy denial masks enumeration](https://developers.cloudflare.com/cloudflare-one/access-controls/troubleshooting/)
+
+## Cloudflare configuration observed
+
+- Project: `webthen-family-test`; production branch `main`, auto-deploy off. Framework None; `npm run build`; output `dist`; build environment observed Node 22.23.4 and npm 10.9.9.
+- Initial main build failed as expected with Missing script: build at commit `afb74ab95e03d4e817bb2fb1734cb9476ce6702f`. No successful production deployment. Do not merge the PR.
+- Production Access application: **WebThen production**, `webthen-family-test.pages.dev`, ID `4403f861-fc11-48a9-acb4-046e54e0913c`.
+- Preview Access application: **WebThen previews**, `*.webthen-family-test.pages.dev`, ID `f1ea648d-8fc1-4aee-ac0c-377fe95c5858`. Pages preview restriction confirmed enabled.
+- Shared policy: **WebThen invited testers**, ID `8ca3984b-f1a4-44b3-80a3-1a0cf25b512b`, Allow, exact Emails, two addresses, one-week policy duration. Application duration also one week. Default member policies removed from both apps. Only One-time PIN is available, with accept-all-providers off.
+- Anonymous production and branch-alias navigations displayed the correct Cloudflare Access login names before app output was deployed. No auth URLs, cookies, codes, credentials or tester emails are stored here.
+- Prospective tester preview URL: `https://hosting-cloudflare-pages.webthen-family-test.pages.dev` (not yet an authenticated smoke-test pass).
+- To manage testers: Cloudflare Zero Trust → Access controls → Policies → **WebThen invited testers** → Edit → Include / Emails → add/remove exact address → Save. This shared policy updates both apps. Revoke active Access sessions for immediate removal; otherwise existing one-week sessions can remain valid.
+- Zero Trust app-list onboarding showed a transient inactive-plan notice even though the app detail routes allowed saving and the anonymous gates worked. Tom reports Free activation; no billing changes were made by the agent.
