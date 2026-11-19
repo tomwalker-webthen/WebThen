@@ -1,6 +1,6 @@
 # Cloudflare Pages hosting preparation — v0.35
 
-Status: local preparation complete; Cloudflare login and account email verification succeeded. GitHub app authorization and selection of Zero Trust Free await Tom. Tester list was supplied for Cloudflare only; no tester addresses are recorded here. No Pages project or deployment has been created yet. No app behavior, wording, runtime source or assets changed. No push to main.
+Status: local preparation complete; Cloudflare login and account email verification succeeded. GitHub identity authorization succeeded. Repository installation is prepared for WebThen only and awaits approval of the actual repository permissions. Zero Trust Free is selected, but activation requires Tom to complete billing/usage-charge consent himself. Tester list was supplied for Cloudflare only; no tester addresses are recorded here. No Pages project or deployment has been created yet. No app behavior, wording, runtime source or assets changed. No push to main.
 
 ## Publish folder
 
@@ -68,8 +68,8 @@ The interview uses `https://markprindle.com/longmont-i.htm`; YouTube API, iframe
 ## Deployment acceptance still pending
 
 - Cloudflare account/login and email verification: complete. Tester list: supplied privately in the chat, for Cloudflare only.
-- GitHub app authorization: awaiting explicit approval on the actual permission screen (verify identity, know accessible resources, act on behalf). Repository installation must be limited to WebThen.
-- Zero Trust onboarding: current dashboard offers Free at $0 per seat/month, 50-seat limit. Plan selection awaits Tom; stop for payment details or paid commitments.
+- GitHub identity authorization: complete. Installation screen has only WebThen selected; read metadata plus read/write administration, checks, code, deployments and pull requests awaits explicit approval. Install has not been submitted.
+- Zero Trust onboarding: Free ($0 per seat/month, 50-seat limit) selected with approval. Checkout requires payment details, billing address, terms acceptance and recurring charges for usage beyond free limits. No payment information entered, checkbox accepted or activation submitted. Handed to Tom; no paid commitment authorized.
 - Pages project creation, protected preview deployment and Access policy configuration: pending these approvals.
 - Fresh-session Access login, denied identity, allowed OTP session, one-week settings, production and preview protection.
 - Deployed forbidden-path 404s **after authentication** (Access redirect alone is not a 404 check).
