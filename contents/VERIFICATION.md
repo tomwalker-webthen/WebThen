@@ -1,3 +1,23 @@
+# Favorites and Quick Tour branch verification — 2026-11-19
+
+Branch: `fix/first-connect-favorites`, based on hosting/cloudflare-pages at 1999acd. Main remains afb74ab95e03d4e817bb2fb1734cb9476ce6702f. This is local verification, not a deployment of the fix.
+
+- Five separate fresh localhost origins: changed the first Connect selection to each era, entered via Skip, then opened Favorites in Start page and Directory. All matched the table below. For 1996, Connect was also started before Skip.
+- Clock travel from 1996 to 2006 reloaded correctly; Favorites became MySpace / YouTube / Xanga. A historical browser opened from MySpace also showed that list. External MySpace replay itself was outside this fix's verification.
+- Quick Tour visually checked in Win95, XP and Aqua at a measured 1280×720 viewport. Windows taskbar and Mac menu-bar clock targets were visible with label, bright frame and dim surroundings. No larger-viewport result is claimed.
+- Appearance, window-title, fullscreen and visible skinned ThenAmp Play targets checked. The fullscreen tour action focused its actual control. Moving ThenAmp right by 10 px moved its spotlight by 10 px.
+- Clock remained clickable through the overlay. Spotlight hid for Date/Time Properties and returned after Cancel. Completion, Skip and Escape cleared it. No console warnings/errors observed in the tour checks.
+- Reduced-motion CSS disables the pulse; an OS-level reduced-motion session was not exercised. Other OS theme variants were not separately visually retested.
+- `node dev/verify.cjs`: passed (29 scripts parse, 31 mirrors match; local assets, game data, documentation parity and credential-pattern checks).
+
+| First Connect era | Start page and Directory Favorites |
+| --- | --- |
+| 1995–1998 | Yahoo! Directory / GeoCities / AltaVista |
+| 1999–2001 | Yahoo! Directory / Neopets / eBaum’s World |
+| 2002–2004 | Xanga / eBaum’s World / Salad Fingers |
+| 2005–2007 | MySpace / YouTube / Xanga |
+| 2008–2009 | YouTube / Twitter / Newgrounds |
+
 # GitHub repository preparation verification — 2026-11-19
 
 node dev/verify.cjs passed: 29 inline scripts parse, 31 source mirrors match, game data matches, local index links resolve, linked documentation copies match, local development tools are separated, and the inspected runtime files contain none of the checked credential patterns. The relocated local server returned HTTP 200 for index, game data and documentation. These checks do not establish external playback or asset rights clearance.

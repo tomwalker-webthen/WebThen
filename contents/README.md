@@ -1,5 +1,12 @@
 # WebThen v0.35
 
+## Pending update: Favorites and Quick Tour
+
+Favorites now uses the era chosen on the first Connect screen, in both Start page and Directory. Quick Tour uses a labeled, pulsing spotlight with a dimmed desktop so its current control is easy to find. The control remains clickable; the spotlight follows moving controls, pauses for system dialogs, and clears on completion, Skip or Escape. Reduced-motion preferences disable the pulse. Reopen the tour from Appearance, the Start menu, or Mac Help.
+
+This update is on `fix/first-connect-favorites`; main and the hosted friends-and-family preview have not been changed.
+
+
 Active private repository: https://github.com/tomwalker-webthen/WebThen
 
 Use a focused branch for future changes and run `npm run check` (or `node dev/verify.cjs`) before committing. No dependency installation or build step is required.

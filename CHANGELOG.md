@@ -1,3 +1,11 @@
+# Unreleased — Favorites and Quick Tour — 2026-11-19
+
+- Refresh Favorites when opened so the first Connect era selection applies immediately to Start page, Directory and historical-browser menus.
+- Add a bright labeled spotlight, dim surrounding UI and pulse the frame during targeted Quick Tour steps. Keep controls clickable and track window movement.
+- Highlight the visible ThenAmp skin Play control and focus the fullscreen control from its tour action.
+- Suspend the spotlight for open system dialogs, clear it when the tour ends, and disable pulsing for reduced-motion preferences.
+- Work stays on a new fix branch. Main and the deployed private preview remain unchanged. No AIM/chat or payment changes.
+
 # GitHub repository migration — 2026-11-19
 
 - Imported the active v0.35 source only; historical releases/ZIPs remain outside the repository.
