@@ -8,5 +8,6 @@
 - Record what was actually tested. Keep unverified playback, embedding and capture dates explicitly marked under More info. Do not invent historical timestamps.
 - Preserve the era rules, quiet startup, period controls, window accessibility and no-overlap startup layout. Do not change AIM/chat behavior incidentally.
 - Payments remain on hold unless the user resumes that work. Moving source to GitHub does not authorize hosting, a public release, payment setup or account provisioning.
+- Public-launch requirement (Tom, 2026-11-19): custom screen names are a paid registration feature. Keep them free during the private-access testing period; gate custom screen-name editing to registered users before publishing publicly. This records the launch decision only; do not enable the gate during private testing.
 - Never commit secrets, local credentials, `.env` files, generated ZIPs or old release/check folders. No blanket license is granted for third-party assets.
 - Work on focused branches for future changes; preserve existing commits and user work. Do not force-push or publish a release without a request.
