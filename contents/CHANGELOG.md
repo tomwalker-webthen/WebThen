@@ -1,3 +1,11 @@
+# Unreleased — 2002–2004 connection choice — 2026-11-19
+
+- Add a period Connection selector in Connect To for 2002–2004: Broadband (default) or Dial-up.
+- Dial-up uses the 53,333 bps sequence and the existing supplied modem recording when enabled. Broadband remains quiet and brief.
+- Save the choice locally for visits, Replay, Disconnect/reconnect and clock travel; lock the selector while connecting.
+- Preserve other eras, instant Skip, the separate sound toggle and skip-intro setting, radio's paused startup and existing audio bytes.
+- Add connection-model regression checks and document the controls. No deployment, DNS or Access-policy changes.
+
 # Unreleased — Original artwork and Line Rider — 2026-11-19
 
 - Rename the simulated messenger to ThenChat; retain buddy identities, archived quotations, chat logic, screen-name storage and preferences.

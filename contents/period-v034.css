@@ -25,3 +25,5 @@ body.desktop-mode[data-os] #webthen-quick-tour[data-start-layout="true"]{width:3
 @media(max-width:1099px){body.desktop-mode[data-os] #webthen-quick-tour[data-start-layout="true"]{left:110px!important;top:100px!important;width:min(380px,calc(100vw - 125px))!important}}
 
 #connection-sound-row[hidden]{display:none!important}
+
+#connection-type[hidden],#connection-type-label[hidden]{display:none!important}

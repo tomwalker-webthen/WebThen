@@ -1,5 +1,14 @@
 # WebThen v0.35
 
+## Dial-up or broadband in 2002–2004
+
+In Connect To, choose the 2002–2004 era, then set **Connection** to **Dial-up** or **Broadband**. Broadband is the default. Dial-up shows the modem checkbox and uses the supplied recording's first 18 seconds when **Play modem recording** is checked. The simulated connection speed is 53,333 bps.
+
+Your choice is saved locally and reused for new visits, Replay connection, Disconnect/reconnect, and clock travel back into 2002–2004. Open the two-monitor tray icon to reach Replay or Disconnect. Skip still enters immediately and stops the recording. The connection-type selector appears only in 2002–2004; other eras keep their existing connection profiles. The skip-intro preference is separate and unchanged.
+
+This work is on `fix/flash-era-connection-choice`, based on the original-artwork branch. Main and the live Pages preview are unchanged.
+
+
 ## Original artwork and Line Rider update
 
 Work on `art/original-desktop-assets` replaces the messenger branding with ThenChat, introduces original shell icons and Evening Lake wallpaper, and replaces preserved ThenAmp skins with six project-authored finishes. Original category art replaces cached destination logos. Three newly composed buddy sound cues replace the old set; the supplied modem recording remains unchanged. Tom confirms it is royalty-free; its source/license reference is not yet recorded.

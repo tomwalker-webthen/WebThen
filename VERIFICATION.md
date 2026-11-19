@@ -1,3 +1,19 @@
+# 2002–2004 connection choice verification — 2026-11-19
+
+Branch: `fix/flash-era-connection-choice`, based on `art/original-desktop-assets`. Main remains unchanged and no Pages deployment was triggered.
+
+- Fresh localhost origin: 2002–2004 initially displayed Broadband and hid the modem checkbox. Choosing Dial-up revealed it and enabled the simulated phone field.
+- Connect, Replay and Disconnect/reconnect with Dial-up and the modem checkbox checked: audio unmuted, volume 0.8, readyState 4, playback time advancing, no media error. These are browser playback-state checks, not human listening confirmation.
+- Dial-up with recording unchecked stayed silent. Broadband showed Connecting without modem playback.
+- Skip stopped the recording and removed its source immediately. The type selector was disabled while connecting and enabled again on Replay/Disconnect.
+- Reload preserved Dial-up. Clock travel from 2003 to 2006 and back reused Dial-up and started the recording automatically in the 2003 reconnect.
+- Selector hidden in 1995–1998, 1999–2001, 2005–2007 and 2008–2009. Earlier eras retained their modem controls; later eras hid them.
+- Dialog visually checked at 1280×720: selector, sound checkbox, Connect and Skip fit without scrolling. Other themes and larger viewports were not separately retested for this change.
+- No console warnings/errors observed in the connection checks. Original modem file hash and embedded bytes are unchanged.
+- `node dev/test-connection-choice.cjs` passed: flash defaults/invalid preference fallback, recorded and silent dial-up timelines, broadband timing and unchanged profiles in every other era. `node dev/verify.cjs` passed for inline syntax, source mirrors, game data, asset links, documentation parity and credential patterns.
+
+Preference key: `webthen-flash-connection-v1`; valid values `broadband` and `dialup`. It does not change real network speed. The existing 56k reveal setting remains restricted to the earlier eras.
+
 # Original artwork and Line Rider branch verification — 2026-11-19
 
 Branch: `art/original-desktop-assets`, including the previous Favorites/tour fix and public-launch screen-name note. Main and the Cloudflare preview were not updated.
