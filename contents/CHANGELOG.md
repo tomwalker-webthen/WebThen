@@ -1,3 +1,10 @@
+# Private preview deployment — 2026-11-19
+
+- Deployed combined commit `57abc94` through `hosting/cloudflare-pages` to https://webthen.org/. Main was not changed.
+- Includes ThenChat, original shell/category artwork and six ThenAmp skins, initial-Connect Favorites repair, stronger tour spotlight, and the remembered 2002–2004 Dial-up/Broadband choice. Includes the previously prepared current-edition Line Rider routing repair.
+- Existing approved-email protection, DNS and policy membership are unchanged. No public release or payment work.
+- Deployment details and honest test limits: dev/hosting/RELEASE-2026-11-19.md. Earlier Unreleased entries below describe development history; these listed features are now deployed.
+
 # Private test custom domain — 2026-11-19
 
 - Connected WebThen.org to the existing hosting/cloudflare-pages preview with a proxied CNAME. Pages reports Active / SSL enabled.

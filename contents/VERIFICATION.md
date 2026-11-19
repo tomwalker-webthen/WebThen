@@ -1,3 +1,17 @@
+# Latest private preview deployment — 2026-11-19
+
+Deployed app commit `57abc94fc505f0d26781343dbfea632bd4b747a2`, Cloudflare deployment `a0644268-15b2-4441-b034-ccdac5037967` (Success). Main remains `afb74ab95e03d4e817bb2fb1734cb9476ce6702f`.
+
+- Preflight passed: verify.cjs, check-original-art.cjs, test-line-rider-links.cjs, test-connection-choice.cjs, build-dist.mjs, check-dist.mjs and git diff --check. Publish folder: 3 files, 2,409,904 bytes.
+- Live approved-session browser: new ThenChat/original desktop art, six original ThenAmp skins, Midnight selection, paused radio and 1.5× size confirmed. No captured console errors during these checks.
+- First Connect: selected 1995–1998 from the existing 2003 session; Start page and Directory Favorites both listed Yahoo! Directory, GeoCities and AltaVista. Returning to 2003 showed Xanga, eBaum’s World and Salad Fingers.
+- Live 2003 Dial-up: recording readyState 4, unmuted, no audio error; playback time advanced from 0.53 to 11.20 seconds. Skip ended the connection. Replay retained Dial-up. Broadband showed Connecting, entered the desktop, and recording remained paused at 0. Browser playback state was checked; no claim of human listening.
+- Replayed tour: clock step displayed the labeled spotlight and highlighted session-clock. Skip removed the tour.
+- Fresh anonymous HTTPS requests without cookies to the custom domain, branch alias and immutable deployment URL each returned 302 to Cloudflare Access and no desktop. Existing authorized browser entered the app. Fresh OTP/non-listed identity rejection were not repeated.
+- Media provider playback, full game playthroughs, every OS/viewport and complete tour were not repeated live. Earlier local checks below remain the detailed evidence for those covered cases. External-provider limitations are unchanged.
+
+See dev/hosting/RELEASE-2026-11-19.md. Historical verification sections below retain the branch/deployment state at their original test time.
+
 # WebThen.org domain verification — 2026-11-19
 
 - Pages custom domain Active / SSL enabled. DNS readback: CNAME webthen.org → hosting-cloudflare-pages.webthen-family-test.pages.dev, Proxied, TTL Auto.

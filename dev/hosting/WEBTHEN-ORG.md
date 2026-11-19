@@ -7,8 +7,8 @@ Configured and checked November 19, 2026. Tester URL: **https://webthen.org/**. 
 - Cloudflare Pages project: `webthen-family-test`.
 - Custom domain: `webthen.org` (apex only), observed **Active / SSL enabled**.
 - DNS: `CNAME @` → `hosting-cloudflare-pages.webthen-family-test.pages.dev`, **Proxied**, TTL Auto. Cloudflare first created the production target during domain activation; it was then changed to the documented preview-branch target.
-- Preview branch: `hosting/cloudflare-pages`; serving deployment `1efc8b40-f6f3-4a1a-a2f4-3613117d2ba9`, commit `1999acd904338a2b0ef762df16019a0ad9cc3ef8`.
-- Production automatic deployment remains paused, with no production app deployed. The newer Favorites/tour, artwork/ThenChat/Line Rider and connection-choice branches were listed as skipped with no deployment. This task did not publish those changes or change the app.
+- Preview branch: `hosting/cloudflare-pages`; serving deployment `a0644268-15b2-4441-b034-ccdac5037967`, commit `57abc94fc505f0d26781343dbfea632bd4b747a2`.
+- Production automatic deployment remains paused, with no production app deployed. On November 19, Tom authorized deploying the combined Favorites/tour, original artwork/ThenChat/Line Rider and connection-choice updates. The hosting branch was fast-forwarded to `57abc94`; its preview deployment succeeded. Main was not merged or pushed.
 - No `www` hostname, email routing, nameserver replacement, billing setting or registrar-contact change was made. Tom completed registration himself.
 
 ## Access protection
@@ -29,7 +29,7 @@ No Everyone, Bypass or email-domain wildcard was added. Login remains through th
 
 Adding an email does not send an invitation. Share https://webthen.org/ yourself; the tester requests their login code on the Access page. People with a still-valid approved session may enter without another email prompt.
 
-## Verification
+## Original domain-setup verification (before latest deployment)
 
 | Check | Observed result |
 | --- | --- |
@@ -50,4 +50,6 @@ DNS and certificate setup initially took time to propagate; an early anonymous T
 - [Custom domain for a preview branch](https://developers.cloudflare.com/pages/how-to/custom-branch-aliases/)
 - [Shared Access policies](https://developers.cloudflare.com/cloudflare-one/access-controls/policies/policy-management/)
 
-The documentation branch `hosting/webthen-org` is based on the latest local feature branch so the ongoing source work is preserved. It is not the serving Pages branch.
+## Latest deployment
+
+The combined app is now live on the hosting preview branch. See [release verification](RELEASE-2026-11-19.md). Deployment documentation is recorded separately on `docs/private-preview-release` to avoid a second app deployment. The original domain-setup checks above remain historical evidence.

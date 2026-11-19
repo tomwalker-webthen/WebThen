@@ -4,7 +4,7 @@
 
 Open **https://webthen.org/**. Access remains limited to the existing approved tester emails through Cloudflare Access. The older Pages preview link also works. Manage the list under Cloudflare → Zero Trust → Access controls → Policies → WebThen invited testers; no deployment is needed when changing the list.
 
-The domain serves the existing `hosting/cloudflare-pages` preview at commit `1999acd`. The feature work described below is still on separate branches and has not been deployed. See `dev/hosting/WEBTHEN-ORG.md` for routing, access settings and verification.
+The domain serves the `hosting/cloudflare-pages` preview at commit `57abc94`, deployed November 19, 2026. ThenChat, original artwork, Favorites/tour fixes and the 2002–2004 connection choice are live. Main remains unchanged. See `dev/hosting/WEBTHEN-ORG.md` for routing, access settings and verification.
 
 
 ## Dial-up or broadband in 2002–2004
@@ -13,7 +13,7 @@ In Connect To, choose the 2002–2004 era, then set **Connection** to **Dial-up*
 
 Your choice is saved locally and reused for new visits, Replay connection, Disconnect/reconnect, and clock travel back into 2002–2004. Open the two-monitor tray icon to reach Replay or Disconnect. Skip still enters immediately and stops the recording. The connection-type selector appears only in 2002–2004; other eras keep their existing connection profiles. The skip-intro preference is separate and unchanged.
 
-This work is on `fix/flash-era-connection-choice`, based on the original-artwork branch. Main and the live Pages preview are unchanged.
+This work originated on `fix/flash-era-connection-choice` and is now included in the private preview deployment.
 
 
 ## Original artwork and Line Rider update
@@ -24,14 +24,14 @@ Simulated buddy links to Line Rider now open the current official browser editio
 
 Permissions are not fully cleared for public release. See `dev/artwork/REVIEW.md`: Arcade Spot embedding permission is pending (Tom requested keeping Elf Bowling embedded for private testing); other game-host and radio integration permissions still need confirmation. Retired reference assets remain only in the private source tree and are excluded from the website build.
 
-Main and the live protected preview are unchanged. Public registration and payment work remain on hold.
+The artwork and ThenChat update is now in the live protected preview. Main remains unchanged; public registration and payment work remain on hold.
 
 
-## Pending update: Favorites and Quick Tour
+## Favorites and Quick Tour
 
 Favorites now uses the era chosen on the first Connect screen, in both Start page and Directory. Quick Tour uses a labeled, pulsing spotlight with a dimmed desktop so its current control is easy to find. The control remains clickable; the spotlight follows moving controls, pauses for system dialogs, and clears on completion, Skip or Escape. Reduced-motion preferences disable the pulse. Reopen the tour from Appearance, the Start menu, or Mac Help.
 
-The earlier Favorites/tour fix is on `fix/first-connect-favorites` and is included in the original-artwork branch; main and the hosted friends-and-family preview have not been changed.
+The Favorites/tour fix originated on `fix/first-connect-favorites` and is now in the hosted friends-and-family preview. Main has not changed.
 
 
 Active private repository: https://github.com/tomwalker-webthen/WebThen

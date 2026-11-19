@@ -1,3 +1,7 @@
+# Latest preview update — November 19, 2026
+
+Combined app commit `57abc94` is now live at https://webthen.org/ behind the existing approved-email gate. Main is unchanged. Current build inventory and live checks: [release report](RELEASE-2026-11-19.md). The older inventories and deployment IDs below are historical.
+
 # Custom domain update — November 19, 2026
 
 The primary tester address is now **https://webthen.org/**, protected by the existing approved-email policy. Details: [WebThen.org setup and checks](WEBTHEN-ORG.md). The shared policy now contains the current tester list; membership was not changed during domain setup.
