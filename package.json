@@ -5,7 +5,8 @@
   "description": "A retro internet desktop experience",
   "scripts": {
     "start": "node dev/server.cjs",
-    "check": "node dev/verify.cjs"
+    "check": "node dev/verify.cjs",
+    "build": "node dev/build-dist.mjs"
   },
   "engines": {
     "node": ">=20"

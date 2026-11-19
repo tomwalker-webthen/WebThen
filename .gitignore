@@ -10,3 +10,4 @@ coverage/
 /zip-check*/
 .DS_Store
 Thumbs.db
+/dist/

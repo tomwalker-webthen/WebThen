@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-19",
+  "appChanged": false,
+  "package": {
+    "files": [
+      {
+        "path": "404.html",
+        "bytes": 103
+      },
+      {
+        "path": "_headers",
+        "bytes": 112
+      },
+      {
+        "path": "index.html",
+        "bytes": 6120932
+      }
+    ],
+    "fileCount": 3,
+    "totalBytes": 6121147,
+    "excludedReferences": [
+      "contents/destination-audit.json",
+      "contents/historical-additions.json",
+      "contents/xanga-research.json"
+    ],
+    "discovery": {
+      "method": "CUA in-app Chromium browser (background/headless surface); Node preview server logged every same-origin request. Connect 1996, ThenAmp Play, Skins/XP skin, Appearance, Video Lounge Play/retry, Game Room/Elf Bowling page, clock travel early→boom→flash→social→modern.",
+      "recordedAt": "2026-11-19",
+      "paths": [
+        "index.html"
+      ],
+      "requestCount": 5,
+      "failedSameOrigin": []
+    }
+  },
+  "distRequests": {
+    "successful": 8,
+    "successfulPaths": [
+      "/",
+      "/index.html"
+    ],
+    "expected404Paths": [
+      "/dev/",
+      "/VERIFICATION.md",
+      "/contents/server.cjs",
+      "/contents/README.md",
+      "/contents/desktop.js",
+      "/contents/ui.css",
+      "/contents/destination-audit.json",
+      "/package.json"
+    ]
+  },
+  "consoleChecks": {
+    "errors": [],
+    "warnings": [],
+    "limitation": "Browser dev logs queried; no full external network tracing exposed by the CUA surface."
+  },
+  "externalFailures": [
+    {
+      "step": "Real Yahoo! Directory Wayback iframe",
+      "status": 429,
+      "message": "429 Too Many Requests — nginx",
+      "kind": "external",
+      "resolved": false
+    }
+  ],
+  "deployedChecks": "pending Cloudflare login and tester-list handoff"
+}
