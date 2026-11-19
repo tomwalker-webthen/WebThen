@@ -1,97 +1,94 @@
-# Cloudflare Pages hosting preparation — v0.35
+# Cloudflare Pages private test — WebThen v0.35
 
-Status: Pages project `webthen-family-test` created and connected to WebThen only. Production and wildcard previews are protected by separate Access applications using one shared exact-email policy (two invited testers, addresses kept only in Cloudflare), One-time PIN and one-week sessions. Anonymous login gates verified before the first preview build. Production auto-deploy is disabled; only `hosting/cloudflare-pages` is enabled for previews. Preview build and authenticated smoke tests are next. App/source/assets and main remain unchanged.
+The private preview is deployed. Use **https://hosting-cloudflare-pages.webthen-family-test.pages.dev** for testers. It requires Cloudflare Access email verification. The two approved addresses are stored only in Cloudflare, not here.
 
-## Publish folder
+PR: https://github.com/tomwalker-webthen/WebThen/pull/1. Branch: `hosting/cloudflare-pages`. Main remains at `afb74ab95e03d4e817bb2fb1734cb9476ce6702f`; no merge or main push. The app, its wording and its assets are unchanged.
 
-Run `npm run build` (Node 20+, no dependencies). Output is **3 files, 6,121,147 bytes** (about 5.84 MiB):
+## Publish folder and build
 
-| File | Purpose |
+`npm run build` runs `node dev/build-dist.mjs`, without added dependencies. Output: **3 files, 6,121,147 bytes** (5.84 MiB).
+
+| File | Bytes | Purpose |
+| --- | ---: | --- |
+| `index.html` | 6,120,932 | Byte-for-byte v0.35 app, including inline images, skins, sounds, data, scripts and styles. |
+| `_headers` | 112 | nosniff, strict-origin-when-cross-origin and DENY for `/*`; no CSP. |
+| `404.html` | 103 | Prevents Pages SPA fallback from serving the app for missing source files. |
+
+The build scans all literal/escaped `contents/...` references, including JavaScript directory prefixes, and unions them with actual same-origin requests from the source click-through in `dev/runtime-requests.json`. Only `index.html` was requested. Runtime assets are already inline; separate icons, MP3, skin images, JSON, CSS and JS mirrors are not fetched by this build.
+
+The requested exclusions omit three files still linked under More info: `contents/destination-audit.json`, `contents/historical-additions.json`, `contents/xanga-research.json`. Those links intentionally lead to Not found. Inline catalog/provenance data is retained. No links were edited because this is hosting only.
+
+`dist/`, local raw request logs and generated build reports are ignored. No development tools, documentation, evidence screenshots, research files, source mirrors, secrets or tester emails are published. Cloudflare uploads the two web assets; `_headers` is consumed as configuration.
+
+## Cloudflare configuration
+
+- Project: **webthen-family-test**, connected to only `tomwalker-webthen/WebThen` through the approved GitHub installation.
+- Framework None; production branch `main`; build `npm run build`; output `dist`; root repository directory. Build environment observed Node 22.23.4 / npm 10.9.9.
+- **Production automatic deployments are paused.** Only `hosting/cloudflare-pages` is enabled as a custom preview branch. Main has no hosting build script until Tom merges the PR; its initial build failed with Missing script: build, and no production app was published.
+- First successful preview: commit `056e7dd030f0a25a6949669e0f326a77d865901c`, deployment `803f975c-57c6-49af-93d4-58748e628fd3`, https://803f975c.webthen-family-test.pages.dev, November 19, 2026, 12:56 PM EST. Build/deploy succeeded in 19 seconds. The branch alias is the recommended tester URL; documentation-only updates may create later equivalent builds.
+- **WebThen production** Access application: `webthen-family-test.pages.dev`, ID `4403f861-fc11-48a9-acb4-046e54e0913c`.
+- **WebThen previews** Access application: `*.webthen-family-test.pages.dev`, ID `f1ea648d-8fc1-4aee-ac0c-377fe95c5858`. Pages preview restriction is enabled, covering branch aliases and immutable deployment hashes.
+- Both use the same **WebThen invited testers** policy, ID `8ca3984b-f1a4-44b3-80a3-1a0cf25b512b`: Allow, Include → exact Emails, two approved addresses. Default Cloudflare-member policies were removed. No Everyone, Bypass or wildcard-email rule is attached.
+- Authentication: One-time PIN (the only available provider), accept-all-providers off. Application and shared-policy session duration: **1 week**. Cloudflare One Client authentication off.
+- Both anonymous gates worked before app output was deployed. No transient unprotected app deployment was made. No DNS/custom-domain changes; no billing details entered or terms accepted by the agent. Tom completed the Free-plan checkout. A dashboard onboarding banner still sometimes requested an active plan; saved application settings and the actual Access gate worked.
+
+## Add or remove testers
+
+1. Open Cloudflare → Zero Trust → Access controls → **Policies**.
+2. Open **WebThen invited testers** → Edit.
+3. Under Include / Emails, add or remove the exact address; Save.
+4. This shared policy updates **both** WebThen production and WebThen previews. Do not add a separate broad Allow or Bypass policy.
+5. To remove access immediately, also revoke that person's active Access sessions under Team & Resources → Users. Otherwise an issued one-week session may remain valid until expiry.
+
+No GitHub change or redeployment is required for tester-list changes. Share the preview alias, not the currently empty production address.
+
+## Verification
+
+| Check | Result and evidence |
 | --- | --- |
-| `index.html` | Unchanged v0.35 app; 6,120,932 bytes, including inline images, sounds, skins, data and styles. |
-| `_headers` | nosniff, strict-origin-when-cross-origin, DENY for all routes; no CSP. |
-| `404.html` | Real missing-file responses instead of Pages' implicit SPA fallback. |
+| Source and dist-only local click-through | Passed: Connect, ThenAmp Play, skin picker/XP skin, Video Lounge, Game Room/Elf Bowling provider page, Appearance and clock travel through all five eras. Node preview server logged all same-origin requests; zero runtime 404s. |
+| Local package checks | `node dev/verify.cjs` and `node dev/check-dist.mjs http://127.0.0.1:8872` passed, including byte equality, header values, folder inventory and numeric HTTP 200/404 checks. Local npm was unavailable, so scripts ran directly through Node. Cloudflare subsequently ran `npm run build` successfully. |
+| Deployed headers/build | Passed: Cloudflare build log reports exactly 3 files / 6,121,147 bytes, one valid header rule, successful assets publication. Its Headers view shows all three requested headers and no CSP. Raw authenticated HTTP response headers were not captured. |
+| Anonymous production and preview gates | Passed: both show the appropriate Cloudflare Access login. A fresh native Chrome Incognito window showed the preview gate without exposing WebThen. |
+| Allowed identity | Passed: the first approved tester completed OTP sign-in in the in-app browser; WebThen's Connect To screen loaded. Second tester is configured but has not personally signed in during this test. |
+| Non-listed identity | **Unverified:** another address controlled by Tom was requested but has not been supplied. Do not treat the OTP form's generic “code sent” text as proof of admission or denial. The configured exact-email default-deny rule was reviewed; this is not an end-to-end denied-identity test. |
+| Hosted 1996 connection | Passed for playback state: Dialing shown; modem audio not paused, readyState 4, currentTime advancing, no media error. The full connection finished. No human listening confirmation. |
+| Hosted broadband | Passed: 2006 travel showed Connecting, with no dialing; visible connection stage about **1.35 seconds**. |
+| Hosted radio | Passed for playback state: HTTPS 181.FM stream, readyState 4, currentTime **7.13s**, not paused, no media error. Paused again after test. No human listening confirmation. |
+| Hosted Video Lounge | Passed: Toy Story trailer reported Playing in a real HTTPS youtube-nocookie iframe. No reported browser console error/warning at that check. |
+| Hosted Game Room | HTTPS creator-hosted Hapland page loaded in the app iframe. Full gameplay/audio/completion was not repeated. |
+| Real Wayback | **Failed externally:** Yahoo! Directory iframe returned **429 Too Many Requests — nginx**. The requested URL was `https://web.archive.org/web/20030623120032if_/http://dir.yahoo.com:80/`. No stub, URL replacement or app fix was introduced. Successful historical reading is not certified. |
+| Favorites | **Existing app defect observed:** first launch selected 1996, and clock/Start picks showed 1996, but Favorites listed Xanga/eBaum's World/Salad Fingers from the original 2003 default. After clock travel/reload to 2006, Favorites correctly listed MySpace/YouTube/Xanga. App code was left untouched. |
+| Hosted quick tour at 1280×720 | Passed: clientHeight = scrollHeight = **193px**; bottom **644px**, Next bottom **631px**. All controls visible without scrolling. |
+| Deployed forbidden paths after authentication | `/dev/`, `/VERIFICATION.md`, `/contents/server.cjs` each displayed the custom **Not found** document, not the app or an Access redirect. Numeric status codes were not exposed by this browser tool; raw authenticated 404 status remains unmeasured. Local numeric 404 checks and the deployed top-level 404 asset confirm the intended configuration. |
 
-`dev/build-dist.mjs` scans all literal/escaped `contents/...` references, including JS directory prefixes, and unions them with browser-observed same-origin paths in `dev/runtime-requests.json`. The source browser click-through requested only `index.html`. In particular the standalone icons, skin images, MP3, JSON, CSS and JS mirrors are not fetched by this build: their actual runtime copies are inline.
-
-The user-requested exclusion list takes precedence over links to research evidence. Three unchanged links intentionally have no published file: `contents/destination-audit.json`, `contents/historical-additions.json`, `contents/xanga-research.json`. Opening these links returns 404. Their in-app inline catalog data remains present. Fixing these links would change the app and needs Tom's decision; no such change is made here.
-
-`dist/`, local request logs and generated reports are ignored. The build fails on missing selected assets, unsafe paths or linked output directories. No dev tools, documentation, evidence images, source mirrors or credentials are published.
-
-## Local verification
-
-Both source and **dist alone** were served on separate loopback origins. Browser interactions used the background Chromium browser surface with UI actions, without app injection. The Node server records every same-origin request. This is not a separately installed Playwright/browser dependency.
-
-| Check | Local result |
-| --- | --- |
-| Source and dist click-through: Connect, ThenAmp Play, Skins, Video Lounge, Game Room, Appearance | Pass; no missing same-origin runtime assets. |
-| Clock travel through all five eras | Pass on both origins; expected visiting dates and refreshed desktop. |
-| 1996 connection | Dialing sequence observed. Dist audio element playing, readyState 4, advancing time, data URI source; no decoder error. No human listening confirmation. |
-| Broadband connection | Dist 2006 connecting dialog visible about 1.27 seconds; no dialing. |
-| ThenAmp | Dist HTTPS 181.FM stream readyState 4, advancing time, not paused, no media error; paused again after check. No human listening confirmation. |
-| Video Lounge | Dist Toy Story trailer reported Playing with real youtube-nocookie iframe. Hosted HTTPS playback still must be retested. |
-| Game Room | Real Arcade Spot Elf Bowling provider page loaded in frame; game execution was not repeated in this hosting test. |
-| Real Wayback | **Failed externally:** Yahoo! Directory iframe displayed HTTP 429 Too Many Requests (nginx). Real HTTPS timestamp + if_/ URL was requested. No stub or app fix. |
-| Favorites | 2000 Yahoo/Neopets/eBaum's; 2003 Xanga/eBaum's/Salad Fingers; 2006 MySpace/YouTube/Xanga; 2008 YouTube/Twitter/Newgrounds. Matched Start page picks. |
-| Quick tour at 1280×720 | Pass; clientHeight = scrollHeight = 199; bottom at 610px, Next at 595px. |
-| Browser diagnostics | No error/warning entries reported in browser log checks during the local runs. External request-level tracing is not exposed by this browser tool; the visible Wayback 429 is recorded separately. No claim that all third-party requests succeeded. |
-| Source verification | `node dev/verify.cjs` passes. |
-| Package verification | `node dev/check-dist.mjs http://127.0.0.1:8872` checks bytes, header values, output inventory and HTTP exclusions. |
-
-The local environment has Node but no npm executable on PATH, so build/check commands were run directly with Node; the npm build mapping is configured for Cloudflare, where it still needs verification.
-
-Normal click-throughs have zero same-origin 404s. Deliberate negative-path probes are separate expected 404s. Zero console errors is a local observation, not a deployed-site certification.
+Browser error/warning log checks returned no entries during the hosted playback/travel/game checks. Full external network tracing is not exposed by this browser tool; **do not interpret empty console logs as proof of zero failed requests**. The visible Wayback 429 is recorded explicitly. Deliberate missing-file probes are separate from normal load checks. Raw authentication URLs, cookies, OTP codes and tester addresses are not recorded in these results.
 
 ## HTTPS findings
 
-No configured direct HTTP media/frame/script/image load was identified in the unchanged runtime. All three `contents/radio-stations.json` stream URLs are HTTPS, and the inline station list is the same. Game frame URLs are HTTPS:
+No configured direct HTTP media/frame/script/image load was identified. All three radio stream URLs in `contents/radio-stations.json` and the identical inline station list use HTTPS. Game frames use:
 
 - `https://arcadespot.com/game/elf-bowling-1-2/`
 - `https://archive.org/embed/1100_alien_hominid`
 - `https://foon.uk/farcade/hapland/`
 - `https://foon.uk/farcade/hapland2/`
 
-The interview uses `https://markprindle.com/longmont-i.htm`; YouTube API, iframe and thumbnail endpoints use HTTPS. Standard historical navigation constructs HTTPS Wayback replay URLs. Embedded `http://original-site/` strings in the **path of an HTTPS Wayback URL** do not make its outer request mixed content. Original target strings, past Availability API responses, original-page fallback links, SVG namespaces and address-bar input defaults are not automatically insecure frame/media requests.
+The interview uses `https://markprindle.com/longmont-i.htm`. YouTube API, iframe and thumbnails use HTTPS. Historical navigation uses HTTPS Wayback replay URLs. An original HTTP URL inside the **path** of an HTTPS replay URL is not itself an insecure outer request.
 
-`dev/hosting/http-url-inventory.json` lists all 714 unique absolute HTTP literal strings from the unchanged index, conservatively including metadata and originals. It is an inventory, not a claim of 714 insecure runtime requests. Subresources or redirects supplied by third-party pages/stations cannot be certified from static inspection. Those could still fail on HTTPS, and the deployed browser run must record them. **No app URL was changed.** No current feature is predicted to break specifically from a configured direct HTTP endpoint; Wayback throttling and provider restrictions remain separate risks.
+`http-url-inventory.json` lists all **714 unique absolute HTTP literals** from the unchanged index, conservatively including originals, past API-response metadata and SVG namespaces. It is not a list of 714 insecure runtime requests. Address-bar input defaults and original-source fallback links do not automatically load as HTTP frames/media. No app URLs changed. Third-party subresources/redirects remain provider-controlled and may still fail on HTTPS. No feature is predicted to break specifically because of a configured direct HTTP endpoint; observed Wayback throttling and the first-launch Favorites defect are separate issues.
 
-## Cloudflare setup and tester administration (pending)
+## Remaining checks / decisions
 
-1. Tom signs into Cloudflare and authorizes GitHub access for **only** `tomwalker-webthen/WebThen`. Stop for any login, billing, DNS or permission decision. No custom domain or DNS change is needed for pages.dev.
-2. Create a **Pages** Git-connected project. Production branch `main`; framework None; build `npm run build`; output `dist`; Node 20+ (e.g. NODE_VERSION=22, non-secret). Restrict previews to `hosting/cloudflare-pages` for this test. Do not merge the PR or push main. Main does not yet contain the build script, so it cannot produce this build until Tom merges it later.
-3. Before exposing app output, protect both the apex `<project>.pages.dev` and wildcard `*.<project>.pages.dev` preview URLs. Pages preview Access toggle alone does not cover production. Use Pages Settings → General → Enable access policy, then Manage to edit the generated Access application. Follow Cloudflare's documented apex/wildcard procedure: remove the wildcard from that application's public hostname to protect production, save, then re-enable the Pages preview policy to create a separate wildcard application. Confirm **two** protected hostnames. If the dashboard permits adding a separate self-hosted apex application directly, verify the same two-host coverage.
-4. On **both** applications: login method One-time PIN, application/policy session duration **1 week**, action Allow → Include → Emails with Tom's approved list. Remove broad default account/team allow rules; no Everyone, Bypass or wildcard-email allow. Tester addresses belong only in Cloudflare, never source, PR text, screenshots or logs.
-5. Deploy the PR branch preview only after the protection configuration is in place; verify hash and branch-alias URLs as well as the production hostname in a fresh unauthenticated session. No tester URL is available yet.
-6. Tom opens Cloudflare → Zero Trust → Access controls → Applications → the WebThen production application and preview application → Policies → edit the tester Allow policy → Include / Emails. Add or remove the exact email, then Save. Prefer a shared reusable tester policy if available, attached to both apps, so one edit updates both. For immediate removal also revoke that user's active Access session; otherwise an issued one-week session may remain usable until expiry.
-7. Test an allowed email with Tom providing its OTP, and a non-allowed address under Tom's control (no unsolicited email to someone else). OTP intentionally conceals whether an email was denied: do not call the generic “email sent” screen proof of admission or denial. Verify protected content is never served to the denied identity and review Access logs when possible.
-
-## Deployment acceptance still pending
-
-- Cloudflare account/login and email verification: complete. Tester list: supplied privately in the chat, for Cloudflare only.
-- GitHub identity authorization: complete. Installation screen has only WebThen selected; read metadata plus read/write administration, checks, code, deployments and pull requests awaits explicit approval. Install has not been submitted.
-- Zero Trust onboarding: Free ($0 per seat/month, 50-seat limit) selected with approval. Checkout requires payment details, billing address, terms acceptance and recurring charges for usage beyond free limits. No payment information entered, checkbox accepted or activation submitted. Handed to Tom; no paid commitment authorized.
-- Pages project creation, protected preview deployment and Access policy configuration: pending these approvals.
-- Fresh-session Access login, denied identity, allowed OTP session, one-week settings, production and preview protection.
-- Deployed forbidden-path 404s **after authentication** (Access redirect alone is not a 404 check).
-- Deployed dial-up sound, broadband timing, real successful Wayback capture, radio audio, video, Favorites and short-window tour; per-step console/request results.
-- Confirm no transient public deployment and no publicly accessible aliases. Keep builds paused or failing until protection is configured; do not temporarily publish unprotected content.
+- End-to-end denied-identity check needs a non-listed address controlled by Tom. Private-window allowed-identity login was not repeated; the allowed check passed in the in-app browser.
+- Raw authenticated HTTP status/header capture and complete external failed-request tracing remain unavailable in the current browser tools. No credentials were extracted to work around this.
+- Retry a real Wayback page from the tester's network after throttling clears. Do not change archive URLs or behavior without Tom's approval.
+- Fixing the existing initial-Connect Favorites mismatch, or the excluded research links, requires a separate app-change scope.
+- Main stays unmerged and production auto-deploy stays off. This delivery is the protected **preview** test.
 
 ## Official references checked November 19, 2026
 
-- [Preview deployments: default public, preview-only Access toggle](https://developers.cloudflare.com/pages/configuration/preview-deployments/)
-- [Known issues: protecting apex pages.dev and re-enabling wildcard previews](https://developers.cloudflare.com/pages/platform/known-issues/#enable-access-on-your-pagesdev-domain)
-- [Serving Pages: top-level 404.html disables SPA fallback](https://developers.cloudflare.com/pages/configuration/serving-pages/)
+- [Pages preview deployments and preview-only Access toggle](https://developers.cloudflare.com/pages/configuration/preview-deployments/)
+- [Protecting production pages.dev plus wildcard previews](https://developers.cloudflare.com/pages/platform/known-issues/#enable-access-on-your-pagesdev-domain)
+- [Top-level 404.html disables Pages SPA fallback](https://developers.cloudflare.com/pages/configuration/serving-pages/)
 - [Access session durations](https://developers.cloudflare.com/cloudflare-one/access-controls/access-settings/session-management/)
-- [Access troubleshooting: OTP policy denial masks enumeration](https://developers.cloudflare.com/cloudflare-one/access-controls/troubleshooting/)
-
-## Cloudflare configuration observed
-
-- Project: `webthen-family-test`; production branch `main`, auto-deploy off. Framework None; `npm run build`; output `dist`; build environment observed Node 22.23.4 and npm 10.9.9.
-- Initial main build failed as expected with Missing script: build at commit `afb74ab95e03d4e817bb2fb1734cb9476ce6702f`. No successful production deployment. Do not merge the PR.
-- Production Access application: **WebThen production**, `webthen-family-test.pages.dev`, ID `4403f861-fc11-48a9-acb4-046e54e0913c`.
-- Preview Access application: **WebThen previews**, `*.webthen-family-test.pages.dev`, ID `f1ea648d-8fc1-4aee-ac0c-377fe95c5858`. Pages preview restriction confirmed enabled.
-- Shared policy: **WebThen invited testers**, ID `8ca3984b-f1a4-44b3-80a3-1a0cf25b512b`, Allow, exact Emails, two addresses, one-week policy duration. Application duration also one week. Default member policies removed from both apps. Only One-time PIN is available, with accept-all-providers off.
-- Anonymous production and branch-alias navigations displayed the correct Cloudflare Access login names before app output was deployed. No auth URLs, cookies, codes, credentials or tester emails are stored here.
-- Prospective tester preview URL: `https://hosting-cloudflare-pages.webthen-family-test.pages.dev` (not yet an authenticated smoke-test pass).
-- To manage testers: Cloudflare Zero Trust → Access controls → Policies → **WebThen invited testers** → Edit → Include / Emails → add/remove exact address → Save. This shared policy updates both apps. Revoke active Access sessions for immediate removal; otherwise existing one-week sessions can remain valid.
-- Zero Trust app-list onboarding showed a transient inactive-plan notice even though the app detail routes allowed saving and the anonymous gates worked. Tom reports Free activation; no billing changes were made by the agent.
+- [OTP policy denial conceals account enumeration](https://developers.cloudflare.com/cloudflare-one/access-controls/troubleshooting/)

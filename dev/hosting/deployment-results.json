@@ -1,0 +1,86 @@
+{
+  "testedOn": "2026-11-19",
+  "version": "0.35",
+  "previewUrl": "https://hosting-cloudflare-pages.webthen-family-test.pages.dev",
+  "testedDeployment": "803f975c-57c6-49af-93d4-58748e628fd3",
+  "testedCommit": "056e7dd030f0a25a6949669e0f326a77d865901c",
+  "mainUnchanged": true,
+  "appChanged": false,
+  "publish": {
+    "fileCount": 3,
+    "totalBytes": 6121147
+  },
+  "access": {
+    "apexAndWildcard": true,
+    "sharedPolicy": true,
+    "allowedAddressCount": 2,
+    "method": "One-time PIN",
+    "session": "1 week",
+    "anonymousIncognitoGate": "passed",
+    "allowedLogin": "passed in in-app browser",
+    "deniedIdentity": "unverified; awaiting controlled non-listed address"
+  },
+  "smoke": {
+    "modem": {
+      "status": "passed playback state",
+      "readyState": 4,
+      "playing": true,
+      "humanListening": false
+    },
+    "broadband": {
+      "status": "passed",
+      "visibleMs": 1348
+    },
+    "radio": {
+      "status": "passed playback state",
+      "readyState": 4,
+      "time": 7.134793,
+      "humanListening": false
+    },
+    "video": {
+      "status": "passed",
+      "player": "HTTPS youtube-nocookie",
+      "state": "Playing"
+    },
+    "game": {
+      "status": "creator page loaded",
+      "url": "https://foon.uk/farcade/hapland/"
+    },
+    "wayback": {
+      "status": "failed external HTTP 429",
+      "stub": false
+    },
+    "favorites": {
+      "status": "failed on first Connect; passed after clock travel reload",
+      "note": "1996 initial Start picks but original 2003 Favorites; after 2006 travel correct"
+    },
+    "tour": {
+      "status": "passed at 1280x720",
+      "clientHeight": 193,
+      "scrollHeight": 193,
+      "bottom": 644
+    }
+  },
+  "excludedPathChecks": {
+    "paths": [
+      "/dev/",
+      "/VERIFICATION.md",
+      "/contents/server.cjs"
+    ],
+    "authenticated": true,
+    "body": "Not found",
+    "numericHttpStatus": null
+  },
+  "console": {
+    "reportedErrors": [],
+    "reportedWarnings": [],
+    "fullExternalNetworkTraceAvailable": false
+  },
+  "knownFailedRequests": [
+    {
+      "provider": "web.archive.org",
+      "status": 429,
+      "step": "Yahoo Directory historical iframe"
+    }
+  ]
+}
