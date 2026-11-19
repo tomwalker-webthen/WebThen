@@ -1,3 +1,10 @@
+# Private test custom domain — 2026-11-19
+
+- Connected WebThen.org to the existing hosting/cloudflare-pages preview with a proxied CNAME. Pages reports Active / SSL enabled.
+- Added the exact hostname to the existing protected application before DNS activation; retained the shared approved-email policy and one-week sessions.
+- Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
+- No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
+
 # Unreleased — 2002–2004 connection choice — 2026-11-19
 
 - Add a period Connection selector in Connect To for 2002–2004: Broadband (default) or Dial-up.

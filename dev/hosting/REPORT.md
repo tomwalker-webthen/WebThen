@@ -1,3 +1,9 @@
+# Custom domain update — November 19, 2026
+
+The primary tester address is now **https://webthen.org/**, protected by the existing approved-email policy. Details: [WebThen.org setup and checks](WEBTHEN-ORG.md). The shared policy now contains the current tester list; membership was not changed during domain setup.
+
+The earlier hosting report below is a historical record captured before the custom domain and later tester-list additions. Its original URLs remain valid.
+
 # Cloudflare Pages private test — WebThen v0.35
 
 The private preview is deployed. Use **https://hosting-cloudflare-pages.webthen-family-test.pages.dev** for testers. It requires Cloudflare Access email verification. The two approved addresses are stored only in Cloudflare, not here.

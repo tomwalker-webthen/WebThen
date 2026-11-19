@@ -12,3 +12,4 @@
 - The simulated messenger's approved name is ThenChat. Use the project-authored artwork in `contents/original-art/`; do not restore retired brand-image caches, WSZ sprites or the Bliss photo to the active app. Read `dev/artwork/REVIEW.md` before public-release work for unresolved game-host/radio permissions and the recording provenance note.
 - Never commit secrets, local credentials, `.env` files, generated ZIPs or old release/check folders. No blanket license is granted for third-party assets.
 - Work on focused branches for future changes; preserve existing commits and user work. Do not force-push or publish a release without a request.
+- The primary private test URL is https://webthen.org/. Keep access limited to the existing approved-email policy unless Tom explicitly changes that scope. Record hosting/domain changes in `dev/hosting/WEBTHEN-ORG.md`; a custom domain does not authorize deploying feature branches or changing main.

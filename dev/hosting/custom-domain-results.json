@@ -1,0 +1,37 @@
+{
+  "checkedOn": "2026-11-19",
+  "url": "https://webthen.org/",
+  "project": "webthen-family-test",
+  "pagesStatus": "Active",
+  "sslEnabled": true,
+  "dns": {
+    "type": "CNAME",
+    "name": "webthen.org",
+    "target": "hosting-cloudflare-pages.webthen-family-test.pages.dev",
+    "proxied": true,
+    "ttl": "Auto"
+  },
+  "servingBranch": "hosting/cloudflare-pages",
+  "servingCommit": "1999acd904338a2b0ef762df16019a0ad9cc3ef8",
+  "access": {
+    "application": "WebThen production",
+    "hostnames": ["webthen-family-test.pages.dev", "webthen.org"],
+    "policy": "WebThen invited testers",
+    "action": "Allow",
+    "selector": "Emails",
+    "membershipChanged": false,
+    "sessionDuration": "1 week"
+  },
+  "anonymousHttp": {"status": 301, "redirect": "https://webthen.org/", "desktopReturned": false},
+  "anonymousHttps": {"status": 302, "redirectHost": "webthen-family-test-pages.cloudflareaccess.com", "desktopReturned": false},
+  "existingAuthorizedSession": "Connect To and desktop opened",
+  "excludedPaths": {
+    "/dev/": "Not found page",
+    "/VERIFICATION.md": "Not found page",
+    "/contents/server.cjs": "Not found page"
+  },
+  "notTested": ["Fresh non-listed identity rejection", "Fresh-private-window OTP login", "Raw authenticated 404 status", "Media and game playback on new hostname"],
+  "appChanged": false,
+  "deploymentTriggered": false,
+  "mainChanged": false
+}

@@ -1,5 +1,12 @@
 # WebThen v0.35
 
+## Private tester address
+
+Open **https://webthen.org/**. Access remains limited to the existing approved tester emails through Cloudflare Access. The older Pages preview link also works. Manage the list under Cloudflare → Zero Trust → Access controls → Policies → WebThen invited testers; no deployment is needed when changing the list.
+
+The domain serves the existing `hosting/cloudflare-pages` preview at commit `1999acd`. The feature work described below is still on separate branches and has not been deployed. See `dev/hosting/WEBTHEN-ORG.md` for routing, access settings and verification.
+
+
 ## Dial-up or broadband in 2002–2004
 
 In Connect To, choose the 2002–2004 era, then set **Connection** to **Dial-up** or **Broadband**. Broadband is the default. Dial-up shows the modem checkbox and uses the supplied recording's first 18 seconds when **Play modem recording** is checked. The simulated connection speed is 53,333 bps.

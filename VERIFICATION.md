@@ -1,3 +1,14 @@
+# WebThen.org domain verification — 2026-11-19
+
+- Pages custom domain Active / SSL enabled. DNS readback: CNAME webthen.org → hosting-cloudflare-pages.webthen-family-test.pages.dev, Proxied, TTL Auto.
+- Access app readback includes webthen.org and the original production Pages hostname; the shared WebThen invited testers policy still uses exact Emails with one-week sessions. Existing membership was not changed.
+- Anonymous requests without cookies: HTTP 301 to HTTPS; HTTPS 302 to the Cloudflare Access login for webthen.org. Neither response returned the desktop. Normal TLS validation passed.
+- Existing signed-in browser reached Connect To and the desktop at the new URL. A fresh OTP login and non-listed identity rejection were not repeated.
+- Authenticated browser visits to /dev/, /VERIFICATION.md and /contents/server.cjs showed the custom Not found document. Numeric authenticated statuses were not captured.
+- Existing preview remains commit 1999acd / deployment 1efc8b40. Feature-branch deploys remain skipped and production remains paused. No app or main change.
+
+Details and limits: dev/hosting/WEBTHEN-ORG.md and dev/hosting/custom-domain-results.json.
+
 # 2002–2004 connection choice verification — 2026-11-19
 
 Branch: `fix/flash-era-connection-choice`, based on `art/original-desktop-assets`. Main remains unchanged and no Pages deployment was triggered.
