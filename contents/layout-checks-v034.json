@@ -1,0 +1,100 @@
+[
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "win95",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "win98",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "win2000",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "me",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "xp",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "classic",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 720,
+    "overlaps": [],
+    "theme": "mac",
+    "trayText": [],
+    "width": 1280
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "win95",
+    "trayText": [],
+    "width": 1440
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "win98",
+    "trayText": [],
+    "width": 1440
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "win2000",
+    "trayText": [],
+    "width": 1440
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "me",
+    "trayText": [],
+    "width": 1440
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "xp",
+    "trayText": [],
+    "width": 1440
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "classic",
+    "trayText": [],
+    "width": 1440
+  },
+  {
+    "height": 900,
+    "overlaps": [],
+    "theme": "mac",
+    "trayText": [],
+    "width": 1440
+  }
+]

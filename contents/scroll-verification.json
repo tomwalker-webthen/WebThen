@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-17",
+  "checks": [
+    {
+      "case": "cross-origin short page",
+      "before": 634,
+      "afterDown": 634,
+      "afterUp": 634,
+      "pass": true
+    },
+    {
+      "case": "Real Yahoo archive at bottom boundary",
+      "backgroundBefore": 643,
+      "backgroundAfter": 643,
+      "frame": {
+        "max": 91,
+        "y": 91
+      },
+      "pass": true
+    },
+    {
+      "case": "Archived content scrolls independently with Page Down",
+      "backgroundBefore": 643,
+      "backgroundAfter": 643,
+      "frameY": 429,
+      "pass": true
+    },
+    {
+      "case": "Multiple-window lock releases only after last visible window closes",
+      "remainingLock": "hidden",
+      "finalOverflow": "visible",
+      "pass": true
+    },
+    {
+      "case": "Desktop directory behind browser toolbar",
+      "before": {
+        "overflow": "hidden",
+        "y": 717
+      },
+      "after": {
+        "overflow": "hidden",
+        "y": 717
+      },
+      "pass": true
+    },
+    {
+      "case": "Desktop minimize and taskbar restore",
+      "unlocked": "auto",
+      "restored": "hidden",
+      "pass": true
+    }
+  ]
+}

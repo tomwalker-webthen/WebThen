@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-18T00:05:23.226Z",
+  "sharedOrdering": [
+    "browser",
+    "AIM",
+    "radio",
+    "welcome",
+    "directory",
+    "game"
+  ],
+  "crossOriginIframeClickRaisesBrowser": true,
+  "aimParent": "BODY",
+  "browserFramesPreserved": 3,
+  "fullscreenEntryPreview": true,
+  "parentPageEscapeExitPreview": true,
+  "radioContinuedInFullscreen": true,
+  "limitations": [
+    "Automated Escape inside cross-origin frame did not exit preview fullscreen",
+    "Chrome automated request denied; manual Chrome/Edge fullscreen not verified"
+  ],
+  "screenshots": [
+    "layering-preview.jpg",
+    "fullscreen-preview.jpg"
+  ]
+}

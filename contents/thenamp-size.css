@@ -1,0 +1,12 @@
+#webthen-music.has-radio-skin{width:calc(275px * var(--thenamp-scale,1.5) + 2px)!important;min-width:calc(275px * var(--thenamp-scale,1.5) + 2px)!important}
+#webthen-music.has-radio-skin .radio-skin-face-wrap{width:calc(275px * var(--thenamp-scale,1.5));height:calc(116px * var(--thenamp-scale,1.5))}
+.has-radio-skin .radio-skin-face{transform:scale(var(--thenamp-scale,1.5));transform-origin:top left}
+#thenamp-double-size{display:none}
+.has-radio-skin #thenamp-double-size{display:block;flex:none;font:11px Tahoma,sans-serif!important;padding:2px 5px!important;min-width:29px;min-height:22px;border:1px outset var(--radio-skin-edge)!important;border-radius:0!important;background:var(--radio-skin-panel)!important;color:var(--radio-skin-text)!important;cursor:pointer}
+.has-radio-skin #thenamp-double-size{border-style:inset!important;font-weight:bold!important;box-shadow:inset 0 0 0 1px var(--radio-skin-text)!important}
+#thenamp-double-size:focus-visible{outline:2px solid #e6b638!important;outline-offset:1px}
+#webthen-music.has-radio-skin:not([data-skin-scale="1"]) .music-station-row,#webthen-music.has-radio-skin:not([data-skin-scale="1"]) .music-station-row label{font-size:12px!important}
+#webthen-music.has-radio-skin:not([data-skin-scale="1"]) #music-station{font-size:12px!important;height:26px}
+#webthen-music.has-radio-skin:not([data-skin-scale="1"]) .thenamp-options{font-size:12px}
+#webthen-music.has-radio-skin:not([data-skin-scale="1"]) .thenamp-options-content :is(.music-follow,#music-status,.music-links button){font-size:12px!important}
+#webthen-music.has-radio-skin:not([data-skin-scale="1"]) .thenamp-options-content .music-provider{font-size:11px}

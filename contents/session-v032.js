@@ -1,0 +1,66 @@
+(function(){
+ 'use strict';
+ const body=document.body,bar=document.querySelector('#browser-taskbar'),macbar=document.querySelector('#aqua-menu-bar'),session=WebThenSessionModel.createSession(selected);
+ const store=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+ document.querySelector('.welcome-era-control')?.remove();document.querySelector('#eras')?.remove();
+ const oldReplay=document.querySelector('.desktop-replay'),oldReturn=document.querySelector('#desktop-return'),full=document.querySelector('#desktop-fullscreen-toggle'),aim=document.querySelector('#ambient-aim-browser-toggle'),music=document.querySelector('#music-toggle');
+ oldReplay?.remove();oldReturn?.remove();
+ const clock=document.querySelector('.desktop-clock');clock.id='session-clock';clock.setAttribute('role','button');clock.tabIndex=0;
+ const tray=document.createElement('div');tray.id='session-tray';tray.setAttribute('aria-label','System tray');bar.append(tray);
+ const paths={
+  network:'<path d="M2 3h14v11H2zM10 11h14v11H10z" fill="#b8cbd8" stroke="currentColor"/><path d="M4 5h10v6H4zM12 13h10v6H12z" fill="#2789b9"/><path d="M7 14v3H3m14 5v2h7" fill="none" stroke="currentColor"/>',
+  full:'<path d="M3 10V3h7m6 0h7v7m0 6v7h-7m-6 0H3v-7" fill="none" stroke="currentColor" stroke-width="2"/>',
+  aim:'<circle cx="15" cy="4" r="3" fill="#e3c02b"/><path d="M13 8l-5 6 7 4-4 6m3-15 5 5 5-2M9 12l-5 2-3-1" fill="none" stroke="#d3ac16" stroke-width="3"/>',
+  music:'<path d="M15 1L4 15h8l-2 10 13-16h-8z" fill="#e7c245" stroke="currentColor"/>',
+  folder:'<path d="M2 6h8l3 3h11v14H2z" fill="#e6ce70" stroke="currentColor"/><path d="M3 11h20l-2 11H3z" fill="#fff0ad" stroke="currentColor"/>',
+  home:'<path d="M2 12L13 2l11 10M5 11v13h16V11m-12 13v-8h7v8" fill="none" stroke="currentColor" stroke-width="2"/>',
+  window:'<rect x="2" y="3" width="22" height="20" fill="#e5e9eb" stroke="currentColor"/><path d="M2 8h22" stroke="currentColor"/><rect x="4" y="5" width="10" height="2" fill="#285ba1"/>',
+  settings:'<circle cx="13" cy="13" r="6" fill="none" stroke="currentColor" stroke-width="3"/><path d="M13 1v5m0 14v5M1 13h5m14 0h5M4 4l4 4m10 10 4 4M4 22l4-4M18 8l4-4" stroke="currentColor" stroke-width="3"/>',
+  help:'<circle cx="13" cy="13" r="11" fill="none" stroke="currentColor"/><path d="M9 9c0-6 11-5 8 1-1 2-4 2-4 6m0 3v2" fill="none" stroke="currentColor" stroke-width="2"/>'
+ };
+ const art=kind=>'<svg data-session-art="'+kind+'" viewBox="0 0 26 26" aria-hidden="true">'+(paths[kind]||paths.window)+'</svg>';
+ function icon(button,kind,label){button.classList.add('tray-icon');button.setAttribute('aria-label',label);button.title=label;if(button.firstElementChild?.getAttribute('data-session-art')!==kind)button.innerHTML=art(kind)}
+ const dial=document.createElement('button');dial.type='button';dial.id='session-network';icon(dial,'network','Dial-up connection status');tray.append(dial,aim,music,full,document.querySelector('#browser-close-all'),clock);
+ const rawLabels=new WeakMap();let iconQueued=false;
+ function camouflage(){iconQueued=false;const mac=['mac','classic'].includes(body.dataset.os);for(const b of bar.querySelectorAll('button')){
+   const raw=b.textContent.trim();if(raw)rawLabels.set(b,raw);const label=rawLabels.get(b)||b.getAttribute('aria-label')||'Window';
+   if(b===dial)continue;if(b===full){icon(b,'full',document.fullscreenElement?'Exit fullscreen':'Fullscreen WebThen');continue}
+   if(b===aim){icon(b,'aim','AIM · '+(b.getAttribute('aria-pressed')==='true'?'Show buddy list':'Sign On'));continue}
+   if(b===music){icon(b,'music','ThenAmp · Show player');continue}
+   if(b.id==='browser-close-all'){icon(b,'window','Close all browser windows');continue}
+   if(mac){const kind=b.id==='shell-start'?'home':/Directory/i.test(label)?'folder':/Start page|Desktop/i.test(label)?'home':'window';icon(b,kind,label)}
+   else if(b.classList.contains('tray-icon')){b.classList.remove('tray-icon');if(rawLabels.has(b)&&b.textContent!==label)b.textContent=label}
+  }
+  for(const b of [...macbar.children].filter(e=>e.tagName==='BUTTON')){const label=b.dataset.sessionLabel||b.textContent.trim();b.dataset.sessionLabel=label;icon(b,label==='Help'?'help':label==='View'?'settings':label==='File'?'folder':label==='Fullscreen'?'full':'window',label);if(label==='Fullscreen')b.onclick=()=>full.click()}
+ }
+ const iconQueue=()=>{if(!iconQueued){iconQueued=true;queueMicrotask(camouflage)}};new MutationObserver(iconQueue).observe(bar,{subtree:true,childList:true,characterData:true});new MutationObserver(iconQueue).observe(body,{attributes:true,attributeFilter:['data-os']});camouflage();
+ function closeMenu(){document.querySelector('#shell-start-menu').hidden=true;document.querySelector('#shell-start').setAttribute('aria-expanded','false')}
+ function systemDialog(id,title){const d=document.createElement('dialog');d.id=id;d.className='system-dialog';d.innerHTML='<header><strong></strong><span class="chrome-controls"></span></header><div class="system-body"></div>';d.querySelector('strong').textContent=title;for(const [text,label,fn]of [['_','Minimize',()=>d.close()],['□','Maximize or restore',()=>d.classList.toggle('chrome-maximized')],['×','Close',()=>d.close()]]){const b=document.createElement('button');b.type='button';b.textContent=text;b.setAttribute('aria-label',label+' '+title);b.onclick=fn;d.querySelector('.chrome-controls').append(b)}document.body.append(d);return d}
+ const date=systemDialog('session-date-time','Date/Time Properties'),dateBody=date.querySelector('.system-body');
+ dateBody.innerHTML='<p class="system-date-preview"></p><label for="session-era">Travel to</label><select id="session-era"></select><div class="system-actions"><button type="button" id="session-date-cancel">Cancel</button><button type="button" id="session-date-apply">Apply</button></div>';
+ const eraSelect=date.querySelector('#session-era');for(const e of eras)eraSelect.add(new Option(e.range+' · '+e.name,e.id));
+ function preview(){date.querySelector('.system-date-preview').textContent=WebThenSessionModel.dateLabel(eraSelect.value)}eraSelect.onchange=preview;
+ function showDate(){closeMenu();eraSelect.value=session.get().era;preview();date.querySelector('header strong').textContent=['mac','classic'].includes(body.dataset.os)?'Date & Time':'Date/Time Properties';if(!date.open)date.showModal();eraSelect.focus()}
+ date.querySelector('#session-date-cancel').onclick=()=>date.close();clock.onclick=showDate;clock.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showDate()}};
+ function tick(){const s=session.get();clock.title=s.dateLabel;clock.setAttribute('aria-label',s.dateLabel+' · Set date and time');clock.dateTime=s.date;body.dataset.sessionEra=s.era}tick();const clockTimer=setInterval(tick,1000);
+ let balloonTimer;
+ function balloon(text,persistent=false){document.querySelector('.tray-balloon')?.remove();clearTimeout(balloonTimer);const b=document.createElement('aside');b.className='tray-balloon';b.setAttribute('role','status');b.append(document.createTextNode(text));const close=document.createElement('button');close.type='button';close.textContent='×';close.setAttribute('aria-label','Dismiss notification');close.onclick=()=>b.remove();b.append(close);document.body.append(b);if(!persistent)balloonTimer=setTimeout(()=>b.remove(),9000);return b}
+ let travelTimers=[],travelling=false,pendingEra=null;
+ function stopExperience(){for(const w of [...browserWindows])closeBrowserWindow(w);globalThis.WebThenVideos?.close();document.querySelector('#game-close').click();globalThis.WebThenMusic?.pause();const aimControl=document.querySelector('#ambient-aim-toggle');if(aimControl?.getAttribute('aria-pressed')==='true'){document.querySelector('#aim-close').click();store('webthen-aim-enabled','on')}for(const a of document.querySelectorAll('audio,video')){try{a.pause();a.removeAttribute('src');a.load?.()}catch(e){}}}
+ function finishTravel(){if(!travelling)return;travelling=false;globalThis.WebThenTheme?.resetForTravel(pendingEra);session.commit(pendingEra);store('webthen-era',pendingEra);store('webthen-radio-station',radioDefaultForEra(pendingEra));try{sessionStorage.setItem('webthen-travel-era-v1',pendingEra);sessionStorage.setItem('webthen-travel-ready-v1','yes')}catch(e){}location.reload()}
+ function travel(next){if(travelling||!WebThenSessionModel.ranges[next])return;pendingEra=next;travelling=true;if(date.open)date.close();stopExperience();document.querySelector('#welcome-browser').hidden=true;balloon('Disconnecting…',true);travelTimers.push(setTimeout(()=>{document.querySelector('.tray-balloon')?.remove();WebThenConnection.travel(next,finishTravel)},650))}
+ date.querySelector('#session-date-apply').onclick=()=>travel(eraSelect.value);
+ const network=systemDialog('session-network-status','Connection Status');network.querySelector('.system-body').innerHTML='<div class="travel-lights">'+art('network')+'<span>● ● ●</span>'+art('network')+'</div><div id="session-status-lines">Status: Connected<br>Speed: 49,333 bps</div><details><summary>More info</summary><p>This is a local connection experience. The connection speed is part of the presentation.</p></details><div class="system-actions"><button id="session-replay" type="button">Replay connection</button><button id="session-disconnect" type="button">Disconnect</button></div>';
+ dial.onclick=()=>{if(!network.open)network.showModal()};const reconnectIntro=()=>{network.close();stopExperience();oldReplay.click()};network.querySelector('#session-replay').onclick=reconnectIntro;network.querySelector('#session-disconnect').onclick=reconnectIntro;
+ function menuItem(label,id,action){const b=document.createElement('button');b.type='button';b.id=id;b.innerHTML=art('window')+'<span><strong></strong></span>';b.querySelector('strong').textContent=label;b.onclick=()=>{closeMenu();action()};document.querySelector('#shell-start-menu .start-entries').append(b);return b}
+ menuItem('Travel to another year…','session-menu-travel',showDate);menuItem('Fullscreen WebThen','session-menu-fullscreen',()=>full.click());const logoff=menuItem('Log Off…','session-menu-logoff',()=>{stopExperience();oldReturn.click()});
+ function logLabel(){logoff.querySelector('strong').textContent=['mac','classic'].includes(body.dataset.os)?'Log Out':'Log Off…'}new MutationObserver(logLabel).observe(body,{attributes:true,attributeFilter:['data-os']});logLabel();
+ const aimToggle=aim.onclick;aim.onclick=()=>{if(aim.getAttribute('aria-pressed')!=='true')aimToggle();const panel=document.querySelector('#ambient-aim');if(panel.dataset.minimized==='true')document.querySelector('#aim-minimize').click();panel.hidden=false;WebThenLayers.raise(panel)};
+ const musicToggle=music.onclick;music.onclick=()=>{if(music.getAttribute('aria-pressed')!=='true'){document.querySelector('#desktop-music-shortcut').click();WebThenMusic.pause()}const panel=document.querySelector('#webthen-music');panel.hidden=false;panel.dataset.minimized='false';WebThenLayers.raise(panel)};
+ function context(event,items){event.preventDefault();document.querySelector('.tray-context-menu')?.remove();const menu=document.createElement('div');menu.className='tray-context-menu';menu.setAttribute('role','menu');for(const [label,action]of items){const b=document.createElement('button');b.type='button';b.setAttribute('role','menuitem');b.textContent=label;b.onclick=()=>{menu.remove();action()};menu.append(b)}document.body.append(menu);menu.style.left=Math.min(innerWidth-menu.offsetWidth-6,event.clientX)+'px';menu.style.top=Math.min(innerHeight-menu.offsetHeight-8,event.clientY)+'px';menu.querySelector('button').focus()}
+ aim.oncontextmenu=e=>context(e,[['Show buddy list',()=>aim.click()],['Sign Off',()=>{if(aim.getAttribute('aria-pressed')==='true')aimToggle()}]]);music.oncontextmenu=e=>context(e,[['Show player',()=>music.click()],['Exit',()=>{if(music.getAttribute('aria-pressed')==='true')musicToggle()}]]);
+ document.addEventListener('pointerdown',e=>{if(!e.target.closest('.tray-context-menu'))document.querySelector('.tray-context-menu')?.remove()});document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelector('.tray-context-menu')?.remove()});
+ function firstHint(){if(document.querySelector('#connection-screen').open||document.querySelector('#welcome-browser').hidden)return;let seen;try{seen=localStorage.getItem('webthen-clock-tip-v1')}catch(e){}if(!seen){store('webthen-clock-tip-v1','seen');balloon('Click the clock to travel to another year')}}new MutationObserver(firstHint).observe(document.querySelector('#connection-screen'),{attributes:true,attributeFilter:['open']});firstHint();
+ globalThis.WebThenSession={get:session.get,commit(next){const value=session.commit(next);tick();return value},travel,showDate,stop:stopExperience};
+ window.addEventListener('pagehide',()=>{clearInterval(clockTimer);clearTimeout(balloonTimer);travelTimers.forEach(clearTimeout)});
+})();

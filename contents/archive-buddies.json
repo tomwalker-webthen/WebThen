@@ -1,0 +1,106 @@
+{
+  "AzureDiamond": {
+    "sourceUrl": "https://qdb.lol/quote/244321",
+    "sourceTitle": "Bash.org #244321 · IRC",
+    "sourceNote": "Original chat date unverified. Available from the 2002–2004 simulation era; this is not a verified publication date.",
+    "eras": [
+      "flash",
+      "social",
+      "modern"
+    ],
+    "messages": [
+      {
+        "id": "archive-AzureDiamond-0",
+        "text": "wait, how do you know my pw?",
+        "archive": true
+      }
+    ]
+  },
+  "Cthon98": {
+    "sourceUrl": "https://qdb.lol/quote/244321",
+    "sourceTitle": "Bash.org #244321 · IRC",
+    "sourceNote": "Original chat date unverified. Available from the 2002–2004 simulation era; this is not a verified publication date.",
+    "eras": [
+      "flash",
+      "social",
+      "modern"
+    ],
+    "messages": [
+      {
+        "id": "archive-Cthon98-0",
+        "text": "hey, if you type in your pw, it will show as stars",
+        "archive": true
+      }
+    ]
+  },
+  "erno": {
+    "sourceUrl": "https://qdb.lol/quote/5273",
+    "sourceTitle": "Bash.org #5273 · IRC",
+    "sourceNote": "Original chat date unverified. Available from the 2002–2004 simulation era. Short excerpt; omitted text is marked with an ellipsis.",
+    "eras": [
+      "flash",
+      "social",
+      "modern"
+    ],
+    "messages": [
+      {
+        "id": "archive-erno-0",
+        "text": "it responds to ping … I just can't figure out where in my apartment it is.",
+        "archive": true
+      }
+    ]
+  },
+  "Khassaki": {
+    "sourceUrl": "https://qdb.lol/quote/835030",
+    "sourceTitle": "Bash.org #835030 · IRC",
+    "sourceNote": "Original chat date unverified. Available from the 2005–2007 simulation era; this is not a verified publication date.",
+    "eras": [
+      "social",
+      "modern"
+    ],
+    "messages": [
+      {
+        "id": "archive-Khassaki-0",
+        "text": "HI EVERYBODY!!!!!!!!!!",
+        "archive": true
+      },
+      {
+        "id": "archive-Khassaki-1",
+        "text": "O THANKS!!! ITS SO MUCH EASIER TO WRITE NOW!!!!!!!",
+        "archive": true
+      }
+    ]
+  },
+  "darkshines0": {
+    "sourceUrl": "https://www.bzpower.com/blogs/entry/3629-entry-for-today/",
+    "sourceTitle": "BZPower · AIM conversation posted August 18, 2006",
+    "sourceNote": "A user-posted transcript; independently authenticating the underlying conversation is not possible.",
+    "eras": [
+      "social",
+      "modern"
+    ],
+    "messages": [
+      {
+        "id": "archive-darkshines0-0",
+        "text": "I am a banana master.",
+        "archive": true
+      }
+    ]
+  },
+  "SmarterChild": {
+    "sourceUrl": "https://www.bzpower.com/blogs/entry/3629-entry-for-today/",
+    "sourceTitle": "BZPower · AIM conversation posted August 18, 2006",
+    "sourceNote": "Recreation of the historical bot using a user-posted transcript; not a live SmarterChild service.",
+    "eras": [
+      "social",
+      "modern"
+    ],
+    "messages": [
+      {
+        "id": "archive-SmarterChild-0",
+        "text": "I know about bananas. They're fruits!",
+        "archive": true
+      }
+    ]
+  }
+}

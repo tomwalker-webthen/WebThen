@@ -1,0 +1,35 @@
+{
+  "url": "https://archive.org/metadata/elf-bowling-collection",
+  "httpStatus": 200,
+  "checkedAt": "2026-11-17T16:30:54.952Z",
+  "identifier": "elf-bowling-collection",
+  "title": "Elf Bowling Collection",
+  "description": "Elf Bowling 1-5 as included in the Super Elf Bowling Collection",
+  "files": [
+    {
+      "name": "Elf_Bowling_Collection.zip",
+      "format": "ZIP",
+      "size": "21609055"
+    },
+    {
+      "name": "elf-bowling-collection_archive.torrent",
+      "format": "Archive BitTorrent",
+      "size": "2573"
+    },
+    {
+      "name": "elf-bowling-collection_files.xml",
+      "format": "Metadata"
+    },
+    {
+      "name": "elf-bowling-collection_meta.sqlite",
+      "format": "Metadata",
+      "size": "20480"
+    },
+    {
+      "name": "elf-bowling-collection_meta.xml",
+      "format": "Metadata",
+      "size": "848"
+    }
+  ],
+  "emulator": null
+}

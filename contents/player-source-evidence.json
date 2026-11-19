@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-17T20:09:14.022Z",
+  "sources": [
+    {
+      "identifier": "elfbowling_gba",
+      "metadataUrl": "https://archive.org/metadata/elfbowling_gba",
+      "title": "Elf Bowling 1&2 (Gameboy Advance)",
+      "platform": "Game Boy Advance",
+      "year": 2005,
+      "emulator": "gba"
+    },
+    {
+      "identifier": "1100_alien_hominid",
+      "metadataUrl": "https://archive.org/metadata/1100_alien_hominid",
+      "httpStatus": 200,
+      "title": "Alien Hominid",
+      "emulator": "ruffle-swf",
+      "files": [
+        {
+          "name": "alien_hominid.swf",
+          "size": "1948525"
+        }
+      ]
+    }
+  ],
+  "rejectedPlayer": {
+    "url": "https://archive.org/embed/elfbowling_gba",
+    "note": "Reached emulator but interactive gameplay not confirmed during direct test. Alternative hosted player chosen for testing."
+  }
+}

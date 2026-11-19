@@ -1,0 +1,229 @@
+{
+  "note": "40 reviewed fictional adaptations, eight per era. Era placement is creative simulation context, not a claim of original chat dates. Early AIM messages fit the 1997–1998 part of the first era.",
+  "messages": {
+    "early": [
+      {
+        "id": "reviewed-early-1",
+        "text": "don't call the house. downloading something and i'm already at 12%",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-2",
+        "text": "my homepage has a guestbook now. please sign it so it isn't just my mom",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-3",
+        "text": "my tamagotchi needs more attention than i do",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-4",
+        "text": "got a chain email saying something bad happens if i don't forward it. does printing it count",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-5",
+        "text": "space jam website is better than my entire homepage and i'm taking that personally",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-6",
+        "text": "finally got the animated fire working. now my page takes four minutes to load",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-7",
+        "text": "if you have pokemon blue we need to talk. this is a business opportunity",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-early-8",
+        "text": "changed my screen name. apparently adding three more x's was the missing ingredient",
+        "reviewed": true
+      }
+    ],
+    "boom": [
+      {
+        "id": "reviewed-boom-1",
+        "text": "download said blink-182. it was a guy explaining how to fix a printer",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-2",
+        "text": "made a mix CD. track order is a very serious responsibility",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-3",
+        "text": "the dreamcast can go online. my console is more social than i am",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-4",
+        "text": "watched the matrix and now every pair of sunglasses in this house is mine",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-5",
+        "text": "napster says 47 minutes remaining. it has said that for 47 minutes",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-6",
+        "text": "if they vote the wrong person off survivor i'm writing a strongly worded away message",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-7",
+        "text": "brb checking if the computer clock survived midnight",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-boom-8",
+        "text": "saw fellowship. apparently that was only ONE movie's worth of walking",
+        "reviewed": true
+      }
+    ],
+    "flash": [
+      {
+        "id": "reviewed-flash-1",
+        "text": "my dad starts every IM with ‘Dear’ and signs his name. should i send him a stamp",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://www.campustimes.org/2004/01/22/aiming-for-more-than-term-papers/"
+      },
+      {
+        "id": "reviewed-flash-2",
+        "text": "your away message says studying but you've changed the lyrics three times",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://www.campustimes.org/2004/01/22/aiming-for-more-than-term-papers/"
+      },
+      {
+        "id": "reviewed-flash-3",
+        "text": "we live next door and we're making dinner plans through AIM. technology has peaked",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://www.campustimes.org/2004/01/22/aiming-for-more-than-term-papers/"
+      },
+      {
+        "id": "reviewed-flash-4",
+        "text": "someone put napoleon dynamite quotes in their profile and now lunch is unbearable",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-flash-5",
+        "text": "finished return of the king. need a minute before returning to algebra",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-flash-6",
+        "text": "halo 2 tonight? tell your brother he can't unplug the router when he's losing",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-flash-7",
+        "text": "my ipod has 800 songs and somehow i still listen to the same six",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-flash-8",
+        "text": "strong bad answered another email. there goes my productivity",
+        "reviewed": true
+      }
+    ],
+    "social": [
+      {
+        "id": "reviewed-social-1",
+        "text": "just spent ten minutes arguing with SmarterChild about bananas. neither of us grew as a person",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://www.bzpower.com/blogs/entry/3629-entry-for-today/"
+      },
+      {
+        "id": "reviewed-social-2",
+        "text": "FOUND CAPS LOCK. THIS IS MUCH LESS WORK THAN HOLDING SHIFT",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://qdb.lol/quote/835030"
+      },
+      {
+        "id": "reviewed-social-3",
+        "text": "apparently hunter2 is not a password strategy. devastating news",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://qdb.lol/quote/244321"
+      },
+      {
+        "id": "reviewed-social-4",
+        "text": "moved someone out of my top 8 and now i have actual diplomatic problems",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-social-5",
+        "text": "the wii remote has a wrist strap for a reason. our lamp would like to make a statement",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-social-6",
+        "text": "someone sent me a youtube video. now it's two hours later and i'm watching a guy review toasters",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-social-7",
+        "text": "waiting for the last harry potter book. if your away message has spoilers we're fighting",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-social-8",
+        "text": "that new iphone costs more than my computer and doesn't even have a keyboard??",
+        "reviewed": true
+      }
+    ],
+    "modern": [
+      {
+        "id": "reviewed-modern-1",
+        "text": "my computer is connected to the network. unfortunately i cannot locate it in this room",
+        "reviewed": true,
+        "adaptation": true,
+        "sourceUrl": "https://qdb.lol/quote/5273"
+      },
+      {
+        "id": "reviewed-modern-2",
+        "text": "changed my facebook status and immediately regretted giving everyone that much access to my thoughts",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-modern-3",
+        "text": "the dark knight was worth the midnight showing. tomorrow's alarm clock disagrees",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-modern-4",
+        "text": "farmville has turned checking facebook into agricultural shift work",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-modern-5",
+        "text": "this netbook is adorable until i try to type with human-sized hands",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-modern-6",
+        "text": "lady gaga dressed like the future and i'm still wearing this same hoodie",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-modern-7",
+        "text": "windows 7 installed. cautiously optimistic. keeping the recovery discs within reach",
+        "reviewed": true
+      },
+      {
+        "id": "reviewed-modern-8",
+        "text": "someone rickrolled the group project chat. morale is low",
+        "reviewed": true
+      }
+    ]
+  }
+}

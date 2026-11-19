@@ -1,0 +1,58 @@
+{
+  "T0mewalker": [
+    {
+      "id": "personal-T0mewalker-0",
+      "text": "I just ordered $200 worth of glowsticks on eBay! We're gonna sell them during the fireworks and be rich!!!!!",
+      "personal": true
+    },
+    {
+      "id": "personal-T0mewalker-1",
+      "text": "Cadillac grills, Cadillac mills. Check out the oil my Cadillac spills!",
+      "personal": true
+    },
+    {
+      "id": "personal-T0mewalker-2",
+      "text": "Is mom awake yet?",
+      "personal": true
+    }
+  ],
+  "HammzT10": [
+    {
+      "id": "personal-HammzT10-0",
+      "text": "I had another dream about Legolas last night. I must head to the Woodland Realm.",
+      "personal": true
+    },
+    {
+      "id": "personal-HammzT10-1",
+      "text": "I am unable to beat \"The Breached Wall\" on my own. I fear I will need some 2 player support. Gandalf just ain't getting it done",
+      "personal": true
+    },
+    {
+      "id": "personal-HammzT10-2",
+      "text": "Spunky just swiped half of a butterscotch krimpet from the countertop!",
+      "personal": true
+    },
+    {
+      "id": "personal-HammzT10-3",
+      "text": "Mom is freaking out about the house not being spotless and everyone is supposed to start arriving in 20 minutes :(",
+      "personal": true
+    }
+  ],
+  "ekillians": [
+    {
+      "id": "personal-ekillians-0",
+      "text": "are you coming over for dinner?",
+      "personal": true
+    },
+    {
+      "id": "personal-ekillians-1",
+      "text": "call the house when you're done with the internet",
+      "personal": true
+    },
+    {
+      "id": "personal-ekillians-2",
+      "text": "i printed the directions. they're on the kitchen counter.",
+      "personal": true
+    }
+  ]
+}

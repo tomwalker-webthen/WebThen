@@ -1,0 +1,360 @@
+{
+  "checkedAt": "2026-11-17T21:33:40.447Z",
+  "homepages": [
+    {
+      "requested": "https://web.archive.org/web/20040124162742/http://www.xanga.com:80/",
+      "finalUrl": "https://web.archive.org/web/20040124162742/http://www.xanga.com:80/",
+      "status": 200,
+      "title": "Xanga.com",
+      "links": [
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://www.xanga.com/amazon/Xangatop50.aspx?type=1&range=1",
+          "text": "music"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://www.xanga.com/amazon/Xangatop50.aspx?type=2&range=1",
+          "text": "books"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://www.xanga.com/amazon/Xangatop50.aspx?type=3&range=1",
+          "text": "movies"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://www.xanga.com/amazon/xangatop50.aspx",
+          "text": "Xanga Top 50!"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://www.xanga.com/Skins/SkinsDirectory.aspx",
+          "text": "skins"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://www.xanga.com/blogrings/",
+          "text": "Blogrings"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://main.xanga.com/amazon/xangatop50.aspx",
+          "text": "Top 50!"
+        },
+        {
+          "href": "https://web.archive.org/web/20040124162742/http://main.xanga.com/FeaturedContent.aspx",
+          "text": "more featured content"
+        }
+      ]
+    },
+    {
+      "requested": "https://web.archive.org/web/20070101182434/http://www.xanga.com:80/",
+      "finalUrl": "https://web.archive.org/web/20070101182434/http://www.xanga.com:80/",
+      "status": 200,
+      "title": "Xanga.com - The Weblog Community",
+      "links": [
+        {
+          "href": "https://web.archive.org/web/20070101182434/http://metros.xanga.com/metros/",
+          "text": "Metros"
+        },
+        {
+          "href": "https://web.archive.org/web/20070101182434/http://groups.xanga.com/groups/",
+          "text": "Blogrings"
+        },
+        {
+          "href": "https://web.archive.org/web/20070101182434/http://www.xanga.com/FeaturedContent.aspx",
+          "text": "More Featured Content&hellip;"
+        },
+        {
+          "href": "https://web.archive.org/web/20070101182434/http://www.xanga.com/skins/skinsdirectory.aspx",
+          "text": "Xanga Skins"
+        },
+        {
+          "href": "https://web.archive.org/web/20070101182434/http://main.xanga.com/amazon/xangatop50.aspx",
+          "text": "Xanga Top 50"
+        }
+      ]
+    }
+  ],
+  "directories": [
+    {
+      "requested": "https://web.archive.org/web/20040124162742/http://www.xanga.com/blogrings/",
+      "finalUrl": "https://web.archive.org/web/20040201222458/http://www.xanga.com/blogrings/",
+      "status": 200,
+      "title": "\n\t\tXanga: Blogrings\n\t",
+      "links": [
+        {
+          "href": "https://web.archive.org/web/20040201222458/http://www.xanga.com/amazon/Xangatop50.aspx?type=1&range=1",
+          "text": "music"
+        },
+        {
+          "href": "https://web.archive.org/web/20040201222458/http://www.xanga.com/amazon/Xangatop50.aspx?type=2&range=1",
+          "text": "books"
+        },
+        {
+          "href": "https://web.archive.org/web/20040201222458/http://www.xanga.com/amazon/Xangatop50.aspx?type=3&range=1",
+          "text": "movies"
+        },
+        {
+          "href": "https://web.archive.org/web/20040201222458/http://www.xanga.com/amazon/xangatop50.aspx",
+          "text": "Xanga Top 50!"
+        },
+        {
+          "href": "/web/20040201222458/http://www.xanga.com/blogrings/default.asp",
+          "text": ""
+        },
+        {
+          "href": "join.asp",
+          "text": "Join an Existing BlogRing!"
+        },
+        {
+          "href": "create1.asp",
+          "text": "Create Your Own BlogRing!"
+        },
+        {
+          "href": "/web/20040201222458/http://www.xanga.com/Skins/SkinsDirectory.aspx",
+          "text": "skins"
+        }
+      ]
+    },
+    {
+      "requested": "https://web.archive.org/web/20040124162742/http://main.xanga.com/FeaturedContent.aspx",
+      "finalUrl": "https://web.archive.org/web/20040202153731/http://main.xanga.com/FeaturedContent.aspx",
+      "status": 200,
+      "title": "Xanga.com - The Weblog Community",
+      "links": [
+        {
+          "href": "https://web.archive.org/web/20040202153731/http://www.xanga.com/Skins/SkinsDirectory.aspx",
+          "text": "skins"
+        },
+        {
+          "href": "https://web.archive.org/web/20040202153731/http://www.xanga.com/blogrings/",
+          "text": "Blogrings"
+        },
+        {
+          "href": "https://web.archive.org/web/20040202153731/http://main.xanga.com/amazon/xangatop50.aspx",
+          "text": "Top 50!"
+        }
+      ]
+    },
+    {
+      "requested": "https://web.archive.org/web/20070101182434/http://metros.xanga.com/metros/",
+      "finalUrl": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/",
+      "status": 200,
+      "title": "Xanga Metros",
+      "links": [
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros",
+          "text": "Xanga Metros"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/",
+          "text": "Metros"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://groups.xanga.com/groups/",
+          "text": "Blogrings"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/default.aspx",
+          "text": "Browse"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://help.xanga.com/metros.htm",
+          "text": "Help"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=1",
+          "text": "Africa"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=15",
+          "text": "Egypt"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=25",
+          "text": "Kenya"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=48",
+          "text": "S Africa"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=58",
+          "text": "Asia"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=61",
+          "text": "China"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=64",
+          "text": "Japan"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=66",
+          "text": "S Korea"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=73",
+          "text": "Russia"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=78",
+          "text": "Australia &amp; Oceania"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=80",
+          "text": "Australia"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=92",
+          "text": "New Zealand"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=105",
+          "text": "Central America &amp; Caribbean"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=113",
+          "text": "Costa Rica"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=120",
+          "text": "Guatemala"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=129",
+          "text": "Puerto Rico"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=137",
+          "text": "Europe"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=151",
+          "text": "France"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=152",
+          "text": "Germany"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=158",
+          "text": "Italy"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=179",
+          "text": "UK"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=182",
+          "text": "Middle East"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=188",
+          "text": "Israel"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=194",
+          "text": "Saudi Arabia"
+        },
+        {
+          "href": "https://web.archive.org/web/20061231162823/http://metros.xanga.com/metros/directory.aspx?id=196",
+          "text": "Turkey"
+        }
+      ]
+    },
+    {
+      "requested": "https://web.archive.org/web/20070101182434/http://groups.xanga.com/groups/",
+      "finalUrl": "https://web.archive.org/web/20070102034738/http://groups.xanga.com/groups/",
+      "status": 200,
+      "title": "Xanga Blogrings",
+      "links": [
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/",
+          "text": "Xanga Blogrings"
+        },
+        {
+          "href": "https://web.archive.org/web/20070102034738/http://metros.xanga.com/metros/",
+          "text": "Metros"
+        },
+        {
+          "href": "https://web.archive.org/web/20070102034738/http://groups.xanga.com/groups/",
+          "text": "Blogrings"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/default.aspx",
+          "text": "Browse"
+        },
+        {
+          "href": "https://web.archive.org/web/20070102034738/http://help.xanga.com/blogrings.htm",
+          "text": "Help"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=7",
+          "text": "Arts &amp; Humanities"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=1",
+          "text": "Business &amp; Finance"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=17",
+          "text": "Computers &amp; Internet"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=26",
+          "text": "Entertainment"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=38",
+          "text": "Family &amp; Home"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=43",
+          "text": "Games"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=49",
+          "text": "Health &amp; Medicine"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=54",
+          "text": "Hobbies &amp; Crafts"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=59",
+          "text": "People"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=64",
+          "text": "Regional"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=68",
+          "text": "Religion &amp; Beliefs"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=75",
+          "text": "Schools &amp; Education"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=83",
+          "text": "Science &amp; Nature"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=102",
+          "text": "Society &amp; Culture"
+        },
+        {
+          "href": "/web/20070102034738/http://groups.xanga.com/groups/directory.aspx?id=107",
+          "text": "Sports &amp; Recreation"
+        },
+        {
+          "href": "https://web.archive.org/web/20070102034738/http://www.xanga.com/skins/skinsdirectory.aspx",
+          "text": "Xanga Skins"
+        },
+        {
+          "href": "https://web.archive.org/web/20070102034738/http://main.xanga.com/amazon/xangatop50.aspx",
+          "text": "Xanga Top 50"
+        }
+      ]
+    }
+  ],
+  "note": "HTTP delivery, title and actual landing-page links checked. Individual blogs, directory categories, logins and interactive features are not comprehensively tested. Wayback redirected some requested dates; links use their actual returned dates."
+}

@@ -1,0 +1,758 @@
+[
+  {
+    "bottom": 607.234375,
+    "nextBottom": 593.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "win95",
+    "width": 1280
+  },
+  {
+    "bottom": 658.03125,
+    "nextBottom": 644.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "win95",
+    "width": 1280
+  },
+  {
+    "bottom": 658.03125,
+    "nextBottom": 644.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "win95",
+    "width": 1280
+  },
+  {
+    "bottom": 674.828125,
+    "nextBottom": 660.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "win95",
+    "width": 1280
+  },
+  {
+    "bottom": 641.234375,
+    "nextBottom": 627.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "win95",
+    "width": 1280
+  },
+  {
+    "bottom": 640.828125,
+    "nextBottom": 626.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "win95",
+    "width": 1280
+  },
+  {
+    "bottom": 608.234375,
+    "nextBottom": 594.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "win98",
+    "width": 1280
+  },
+  {
+    "bottom": 659.03125,
+    "nextBottom": 645.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "win98",
+    "width": 1280
+  },
+  {
+    "bottom": 659.03125,
+    "nextBottom": 645.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "win98",
+    "width": 1280
+  },
+  {
+    "bottom": 675.828125,
+    "nextBottom": 661.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "win98",
+    "width": 1280
+  },
+  {
+    "bottom": 642.234375,
+    "nextBottom": 628.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "win98",
+    "width": 1280
+  },
+  {
+    "bottom": 641.828125,
+    "nextBottom": 627.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "win98",
+    "width": 1280
+  },
+  {
+    "bottom": 608.234375,
+    "nextBottom": 594.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "win2000",
+    "width": 1280
+  },
+  {
+    "bottom": 659.03125,
+    "nextBottom": 645.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "win2000",
+    "width": 1280
+  },
+  {
+    "bottom": 659.03125,
+    "nextBottom": 645.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "win2000",
+    "width": 1280
+  },
+  {
+    "bottom": 675.828125,
+    "nextBottom": 661.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "win2000",
+    "width": 1280
+  },
+  {
+    "bottom": 642.234375,
+    "nextBottom": 628.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "win2000",
+    "width": 1280
+  },
+  {
+    "bottom": 641.828125,
+    "nextBottom": 627.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "win2000",
+    "width": 1280
+  },
+  {
+    "bottom": 608.234375,
+    "nextBottom": 594.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "me",
+    "width": 1280
+  },
+  {
+    "bottom": 659.03125,
+    "nextBottom": 645.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "me",
+    "width": 1280
+  },
+  {
+    "bottom": 659.03125,
+    "nextBottom": 645.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "me",
+    "width": 1280
+  },
+  {
+    "bottom": 675.828125,
+    "nextBottom": 661.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "me",
+    "width": 1280
+  },
+  {
+    "bottom": 642.234375,
+    "nextBottom": 628.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "me",
+    "width": 1280
+  },
+  {
+    "bottom": 641.828125,
+    "nextBottom": 627.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "me",
+    "width": 1280
+  },
+  {
+    "bottom": 610.234375,
+    "nextBottom": 595.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "xp",
+    "width": 1280
+  },
+  {
+    "bottom": 661.03125,
+    "nextBottom": 646.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "xp",
+    "width": 1280
+  },
+  {
+    "bottom": 661.03125,
+    "nextBottom": 646.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "xp",
+    "width": 1280
+  },
+  {
+    "bottom": 677.828125,
+    "nextBottom": 662.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "xp",
+    "width": 1280
+  },
+  {
+    "bottom": 644.234375,
+    "nextBottom": 629.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "xp",
+    "width": 1280
+  },
+  {
+    "bottom": 643.828125,
+    "nextBottom": 628.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "xp",
+    "width": 1280
+  },
+  {
+    "bottom": 607.234375,
+    "nextBottom": 593.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "classic",
+    "width": 1280
+  },
+  {
+    "bottom": 658.03125,
+    "nextBottom": 644.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "classic",
+    "width": 1280
+  },
+  {
+    "bottom": 658.03125,
+    "nextBottom": 644.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "classic",
+    "width": 1280
+  },
+  {
+    "bottom": 674.828125,
+    "nextBottom": 660.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "classic",
+    "width": 1280
+  },
+  {
+    "bottom": 641.234375,
+    "nextBottom": 627.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "classic",
+    "width": 1280
+  },
+  {
+    "bottom": 640.828125,
+    "nextBottom": 626.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "classic",
+    "width": 1280
+  },
+  {
+    "bottom": 596.234375,
+    "nextBottom": 583.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "mac",
+    "width": 1280
+  },
+  {
+    "bottom": 647.03125,
+    "nextBottom": 634.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "mac",
+    "width": 1280
+  },
+  {
+    "bottom": 647.03125,
+    "nextBottom": 634.03125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "mac",
+    "width": 1280
+  },
+  {
+    "bottom": 663.828125,
+    "nextBottom": 650.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "mac",
+    "width": 1280
+  },
+  {
+    "bottom": 630.234375,
+    "nextBottom": 617.234375,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "mac",
+    "width": 1280
+  },
+  {
+    "bottom": 629.828125,
+    "nextBottom": 616.828125,
+    "screen": 720,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "mac",
+    "width": 1280
+  },
+  {
+    "bottom": 707.234375,
+    "nextBottom": 693.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "win95",
+    "width": 1440
+  },
+  {
+    "bottom": 758.03125,
+    "nextBottom": 744.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "win95",
+    "width": 1440
+  },
+  {
+    "bottom": 758.03125,
+    "nextBottom": 744.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "win95",
+    "width": 1440
+  },
+  {
+    "bottom": 774.828125,
+    "nextBottom": 760.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "win95",
+    "width": 1440
+  },
+  {
+    "bottom": 741.234375,
+    "nextBottom": 727.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "win95",
+    "width": 1440
+  },
+  {
+    "bottom": 740.828125,
+    "nextBottom": 726.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "win95",
+    "width": 1440
+  },
+  {
+    "bottom": 708.234375,
+    "nextBottom": 694.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "win98",
+    "width": 1440
+  },
+  {
+    "bottom": 759.03125,
+    "nextBottom": 745.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "win98",
+    "width": 1440
+  },
+  {
+    "bottom": 759.03125,
+    "nextBottom": 745.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "win98",
+    "width": 1440
+  },
+  {
+    "bottom": 775.828125,
+    "nextBottom": 761.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "win98",
+    "width": 1440
+  },
+  {
+    "bottom": 742.234375,
+    "nextBottom": 728.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "win98",
+    "width": 1440
+  },
+  {
+    "bottom": 741.828125,
+    "nextBottom": 727.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "win98",
+    "width": 1440
+  },
+  {
+    "bottom": 708.234375,
+    "nextBottom": 694.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "win2000",
+    "width": 1440
+  },
+  {
+    "bottom": 759.03125,
+    "nextBottom": 745.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "win2000",
+    "width": 1440
+  },
+  {
+    "bottom": 759.03125,
+    "nextBottom": 745.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "win2000",
+    "width": 1440
+  },
+  {
+    "bottom": 775.828125,
+    "nextBottom": 761.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "win2000",
+    "width": 1440
+  },
+  {
+    "bottom": 742.234375,
+    "nextBottom": 728.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "win2000",
+    "width": 1440
+  },
+  {
+    "bottom": 741.828125,
+    "nextBottom": 727.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "win2000",
+    "width": 1440
+  },
+  {
+    "bottom": 708.234375,
+    "nextBottom": 694.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "me",
+    "width": 1440
+  },
+  {
+    "bottom": 759.03125,
+    "nextBottom": 745.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "me",
+    "width": 1440
+  },
+  {
+    "bottom": 759.03125,
+    "nextBottom": 745.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "me",
+    "width": 1440
+  },
+  {
+    "bottom": 775.828125,
+    "nextBottom": 761.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "me",
+    "width": 1440
+  },
+  {
+    "bottom": 742.234375,
+    "nextBottom": 728.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "me",
+    "width": 1440
+  },
+  {
+    "bottom": 741.828125,
+    "nextBottom": 727.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "me",
+    "width": 1440
+  },
+  {
+    "bottom": 710.234375,
+    "nextBottom": 695.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "xp",
+    "width": 1440
+  },
+  {
+    "bottom": 761.03125,
+    "nextBottom": 746.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "xp",
+    "width": 1440
+  },
+  {
+    "bottom": 761.03125,
+    "nextBottom": 746.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "xp",
+    "width": 1440
+  },
+  {
+    "bottom": 777.828125,
+    "nextBottom": 762.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "xp",
+    "width": 1440
+  },
+  {
+    "bottom": 744.234375,
+    "nextBottom": 729.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "xp",
+    "width": 1440
+  },
+  {
+    "bottom": 743.828125,
+    "nextBottom": 728.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "xp",
+    "width": 1440
+  },
+  {
+    "bottom": 707.234375,
+    "nextBottom": 693.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "classic",
+    "width": 1440
+  },
+  {
+    "bottom": 758.03125,
+    "nextBottom": 744.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "classic",
+    "width": 1440
+  },
+  {
+    "bottom": 758.03125,
+    "nextBottom": 744.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "classic",
+    "width": 1440
+  },
+  {
+    "bottom": 774.828125,
+    "nextBottom": 760.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "classic",
+    "width": 1440
+  },
+  {
+    "bottom": 741.234375,
+    "nextBottom": 727.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "classic",
+    "width": 1440
+  },
+  {
+    "bottom": 740.828125,
+    "nextBottom": 726.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "classic",
+    "width": 1440
+  },
+  {
+    "bottom": 696.234375,
+    "nextBottom": 683.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 1 OF 6",
+    "theme": "mac",
+    "width": 1440
+  },
+  {
+    "bottom": 747.03125,
+    "nextBottom": 734.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 2 OF 6",
+    "theme": "mac",
+    "width": 1440
+  },
+  {
+    "bottom": 747.03125,
+    "nextBottom": 734.03125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 3 OF 6",
+    "theme": "mac",
+    "width": 1440
+  },
+  {
+    "bottom": 763.828125,
+    "nextBottom": 750.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 4 OF 6",
+    "theme": "mac",
+    "width": 1440
+  },
+  {
+    "bottom": 730.234375,
+    "nextBottom": 717.234375,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 5 OF 6",
+    "theme": "mac",
+    "width": 1440
+  },
+  {
+    "bottom": 729.828125,
+    "nextBottom": 716.828125,
+    "screen": 900,
+    "scroll": false,
+    "step": "STEP 6 OF 6",
+    "theme": "mac",
+    "width": 1440
+  }
+]

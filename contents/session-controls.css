@@ -1,0 +1,14 @@
+.aim-identity-form{display:flex;flex-direction:column;gap:5px;padding:0 0 10px;margin-bottom:9px;border-bottom:1px solid #888}
+.aim-identity-form>label{font-weight:bold}
+.aim-identity-form input{box-sizing:border-box;width:100%;font:12px Tahoma,sans-serif;padding:5px;border:1px inset #888;background:#fff;color:#182b42}
+.aim-name-actions{display:flex;flex-wrap:wrap;gap:4px}
+.aim-name-actions button{font:10px Tahoma,sans-serif!important;padding:4px!important}
+.aim-identity-form small{font:10px/1.4 Tahoma,sans-serif;color:inherit}
+#aim-self-name{border:0!important;background:transparent!important;padding:2px!important;color:inherit!important;font:inherit!important;cursor:pointer;text-align:left;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#aim-self-name:hover{text-decoration:underline}
+#aim-self-name:focus-visible{outline:2px solid #1657b8}
+.aim-titlebar #aim-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.desktop-session-actions{display:flex;gap:4px;flex:none;align-items:center}
+#browser-taskbar .desktop-session-actions button{position:static!important;margin:0!important;white-space:nowrap;font:10px var(--font)!important;padding:5px 7px!important;max-width:none}
+body:not(.desktop-mode) .desktop-session-actions{display:none}
+#desktop-fullscreen-shortcut[hidden]{display:none!important}

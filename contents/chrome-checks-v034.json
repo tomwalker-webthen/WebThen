@@ -1,0 +1,394 @@
+[
+  {
+    "theme": "win95",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "win98",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "win2000",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "me",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "xp",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "classic",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "mac",
+    "windows": [
+      {
+        "kind": "portal-shell",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "archive",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      },
+      {
+        "kind": "welcome-browser",
+        "menus": 3,
+        "status": true,
+        "toolbar": [
+          "Back",
+          "Forward",
+          "Stop",
+          "Refresh",
+          "Home",
+          "Favorites",
+          null,
+          null,
+          null,
+          "Go"
+        ]
+      }
+    ]
+  }
+]

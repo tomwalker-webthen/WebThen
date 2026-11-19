@@ -1,0 +1,131 @@
+{
+  "version": "0.31",
+  "checkedOn": "2026-11-18",
+  "scope": "Approved immersion and visible-bug fixes only; no AIM/chat logic work.",
+  "checks": [
+    {
+      "id": "qa-01",
+      "status": "passed",
+      "evidence": "Embedded eBaum’s World src used /web/20070703022547if_/. The external archive link retained /web/20070703022547/. A real archived page rendered successfully."
+    },
+    {
+      "id": "qa-02",
+      "status": "passed",
+      "evidence": "Live measurements returned html width = innerWidth at 1280 and 1440. Final Mac measurement also returned 1280 = 1280."
+    },
+    {
+      "id": "qa-03",
+      "status": "implemented with limitation",
+      "evidence": "Refused-network fixture displayed The page cannot be displayed with Try archive, Directory and Open archive. The iframe remained hidden and had no failed src assigned. Tests cover timeout, late onload, rejection and success. The absolute never-browser-error guarantee remains unavailable for every later cross-origin navigation; see the boundary below."
+    },
+    {
+      "id": "qa-04",
+      "status": "passed",
+      "evidence": "Search geocities showed zero Game Room cards; elf showed two. Portals and Viral animations categories showed zero, Games & interactive showed all three. Search, category and the existing game-type filter combine."
+    },
+    {
+      "id": "qa-05",
+      "status": "passed",
+      "evidence": "Directory hero and search panel measured the same outer edges, 142.5 to 1282.5 at 1440. Era tabs were inside the same border at 143.5 to 1281.5. No header overhang."
+    },
+    {
+      "id": "qa-06",
+      "status": "passed",
+      "evidence": "Both Aqua and Classic Mac moved the actual toolbar into aqua-menu-bar at top 0/0.5px. No bottom taskbar remained. Its buttons and clock remain accessible in the top menu bar; overflow can scroll. The Aqua Dock moved to 8px above the bottom."
+    },
+    {
+      "id": "qa-07",
+      "status": "passed with shared implementation",
+      "evidence": "Shared theme-styled minimize/maximize/close controls installed for Directory, browser, welcome, AIM shell, ThenAmp, game, Video Lounge, Appearance, Connection, skin picker and conversation shells. Browser tested Directory maximize/restore/minimize, welcome maximize/restore/minimize/task restore, ThenAmp minimize/task restore, game maximize/restore/minimize/task restore/close, and Video Lounge close. Other shells share the implementation; no chat feature or reply logic was changed."
+    },
+    {
+      "id": "qa-08",
+      "status": "passed",
+      "evidence": "Inline SVG data-URI favicon is present. A fresh browser launch recorded zero console warnings/errors, including no favicon 404. External archive resources are outside this initial-load check."
+    },
+    {
+      "id": "qa-09",
+      "status": "passed",
+      "evidence": "At 1280x720 and 1440x900, first-launch welcome, buddy list, open-paused ThenAmp and tour occupied separate rectangles. Aqua additionally places ThenAmp to the right of the Dock."
+    },
+    {
+      "id": "qa-10",
+      "status": "passed",
+      "evidence": "All 100 replacement starters are valid and unique and avoid the buddy/archived-contact stem list. Saved custom screen names are preserved. No contact names or conversation pools changed."
+    }
+  ],
+  "archiveBoundary": "Archive embeds are cross-origin. A successful no-cors preflight confirms a connection but cannot inspect the HTML/status of an opaque response, and WebThen cannot read later internal navigation URLs or browser-generated error documents reliably. Initial network rejection and timeout are masked with the period screen, but a later iframe redirect/navigation can fail after the connection check. Meeting an unconditional never guarantee would require a cooperative archive signal or a separately designed replay/proxy system. This release does not weaken browser security, proxy third-party scripts into WebThen’s origin, or disable working embedding to pretend the guarantee is complete.",
+  "fileVideo": {
+    "status": "automated branch passed; direct-file browser QA unavailable",
+    "evidence": "A VM test with file: protocol confirmed api() and YT.Player were never called and a period notice was shown. The test browser refused file: URLs under its URL policy; no alternate browser workaround was used."
+  },
+  "eraDefaults": {
+    "early": "win98",
+    "boom": "win2000",
+    "flash": "xp",
+    "social": "xp",
+    "modern": "mac",
+    "tested": "All five selections observed in browser. Classic manual override survived an era change and reload. Use era default clears the override."
+  },
+  "startup": {
+    "1280x720": {
+      "welcome": [
+        110,
+        40,
+        780,
+        360
+      ],
+      "aim": [
+        980,
+        40,
+        280,
+        360
+      ],
+      "thenamp": [
+        110,
+        404,
+        414.5,
+        268
+      ],
+      "tour": [
+        924,
+        415,
+        340,
+        250
+      ]
+    },
+    "1440x900": {
+      "welcome": [
+        110,
+        40,
+        820,
+        460
+      ],
+      "aim": [
+        1140,
+        40,
+        280,
+        360
+      ],
+      "thenamp": [
+        110,
+        505,
+        414.5,
+        268
+      ],
+      "tour": [
+        1084,
+        415,
+        340,
+        250
+      ]
+    },
+    "note": "Coordinates are observed x,y,width,height. The compact player is clamped by the existing resize system. All four rectangles were disjoint; ThenAmp displayed PAUSED."
+  },
+  "screenshots": [
+    "desktop-immersion-v031.jpg",
+    "startup-v031-1440.jpg",
+    "mac-menu-v031.jpg",
+    "archive-failure-v031.jpg"
+  ]
+}

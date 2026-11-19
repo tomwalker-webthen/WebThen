@@ -1,0 +1,7 @@
+/* Windows 95 deliberately shares the existing Windows 98 classic shell. */
+body[data-os-variant="win95"] {--font:"MS Sans Serif",Tahoma,Arial,sans-serif}
+body[data-os-variant="win95"] :is(.session-title,.welcome-titlebar,.aim-titlebar,.chat-titlebar,.game-titlebar,.connection-titlebar,.appearance-titlebar,.desktop-directory-chrome,.system-dialog>header){background:#000080!important}
+body[data-os-variant="win95"] :is(.quick-launch,#quick-launch,.channel-bar,#channel-bar,[data-shell-feature="quick-launch"],[data-shell-feature="channel-bar"]){display:none!important}
+body[data-os-variant="win95"] .start-brand {background:#808080;color:#eee}
+body[data-os-variant="me"] .start-brand {background:linear-gradient(#157e6b,#2151a1);color:white}
+#desktop-theme-choice option:disabled,#connection-os option:disabled{color:#777;background:#e5e5e5}

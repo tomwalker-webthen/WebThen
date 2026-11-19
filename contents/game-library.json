@@ -1,0 +1,102 @@
+{
+  "version": "0.35",
+  "games": [
+    {
+      "id": "elf-bowling-gba",
+      "name": "Elf Bowling 1 & 2",
+      "edition": "Game Boy Advance · 2005",
+      "kind": "browser",
+      "playback": "basic_verified",
+      "provider": "Arcade Spot",
+      "sourceUrl": "https://arcadespot.com/game/elf-bowling-1-2/",
+      "embedUrl": "https://arcadespot.com/game/elf-bowling-1-2/",
+      "description": "The handheld collection, running in a browser emulator. Includes the original bowling game and Elves in Paradise. This is the 2005 GBA edition, separate from the Windows original.",
+      "launchHint": "Click Play Game on the player page. Click inside the game, then press Enter to start. Use Z to confirm and bowl.",
+      "controls": "Enter: Start. Arrow keys: select and aim. Z: A / confirm / bowl. X: B / back. The hosted player's Control Settings button shows its complete mapping.",
+      "catalogIds": [],
+      "testedAt": "2026-11-17",
+      "testedActions": [
+        "Embedded public page loaded in WebThen",
+        "Clicked provider Play Game",
+        "Entered title screen with Enter",
+        "Selected Elf Bowling with Z",
+        "Bowled with Z; elves knocked down"
+      ],
+      "verificationLimit": "Basic play only; Elves in Paradise, full game completion, saves, mobile controls and other browsers not tested."
+    },
+    {
+      "id": "alien-hominid-flash",
+      "name": "Alien Hominid",
+      "edition": "Original Flash game · 2002",
+      "kind": "browser",
+      "playback": "candidate",
+      "provider": "Internet Archive · Ruffle",
+      "sourceUrl": "https://archive.org/details/1100_alien_hominid",
+      "embedUrl": "https://archive.org/embed/1100_alien_hominid",
+      "description": "The original web game preserved as a Flash file and played through the archive's Ruffle player. Not the later console release.",
+      "launchHint": "Click the player power button, then follow the game's own title screen.",
+      "controls": "Use the game's instructions. Original controls: arrows to move, A to shoot, S to jump. Click inside the game first so it receives keyboard input.",
+      "catalogIds": [
+        "36"
+      ],
+      "verificationNote": "Archive metadata identifies Ruffle SWF playback, but the power-button screen did not reliably launch in WebThen. Interactive playback remains unverified."
+    },
+    {
+      "id": "elf-bowling-windows",
+      "name": "Elf Bowling — Windows original",
+      "edition": "Windows game · preserved collection",
+      "kind": "download",
+      "playback": "download_required",
+      "provider": "Internet Archive collection",
+      "sourceUrl": "https://archive.org/details/elf-bowling-collection",
+      "description": "The preserved Windows collection requires downloading and running the game outside WebThen. It is not a browser player. The GBA edition above can be played inside WebThen.",
+      "controls": "Windows download required; compatibility and execution are untested.",
+      "catalogIds": []
+    },
+    {
+      "id": "hapland",
+      "name": "Hapland",
+      "edition": "Original Flash game · 2005",
+      "availableFromYear": 2005,
+      "kind": "browser",
+      "playback": "basic_verified",
+      "provider": "Foon · Robin Allen · Ruffle",
+      "sourceUrl": "https://foon.uk/farcade/hapland/",
+      "embedUrl": "https://foon.uk/farcade/hapland/",
+      "description": "Robin Allen’s point-and-click puzzle. Work out how the little people, switches and scenery fit together to open the portal.",
+      "launchHint": "Click inside the game. If Ruffle shows a Play button, click it to start.",
+      "controls": "Use the mouse to click people, switches and objects. Timing and the order of your actions matter. Use the game’s own reset control or WebThen Restart to start again.",
+      "catalogIds": [],
+      "verificationNote": "Basic mouse interaction checked in WebThen on November 19, 2026. Full puzzle completion, audio, mobile and other browsers remain unverified. The creator’s current page includes a modern promotion and is not a verified 2005 webpage capture.",
+      "sourceCheckedAt": "2026-11-19",
+      "testedAt": "2026-11-19",
+      "testedActions": [
+        "Loaded creator-hosted Ruffle game inside WebThen",
+        "Toggled built-in help open and closed",
+        "Clicked cannon and observed aiming position change"
+      ]
+    },
+    {
+      "id": "hapland-2",
+      "name": "Hapland 2",
+      "edition": "Original Flash game · 2005",
+      "availableFromYear": 2005,
+      "kind": "browser",
+      "playback": "basic_verified",
+      "provider": "Foon · Robin Allen · Ruffle",
+      "sourceUrl": "https://foon.uk/farcade/hapland2/",
+      "embedUrl": "https://foon.uk/farcade/hapland2/",
+      "description": "Robin Allen’s point-and-click puzzle. Work out how the little people, switches and scenery fit together to open the portal.",
+      "launchHint": "Click inside the game. If Ruffle shows a Play button, click it to start.",
+      "controls": "Use the mouse to click people, switches and objects. Timing and the order of your actions matter. Use the game’s own reset control or WebThen Restart to start again.",
+      "catalogIds": [],
+      "verificationNote": "Basic mouse interaction checked in WebThen on November 19, 2026. Full puzzle completion, audio, mobile and other browsers remain unverified. The creator’s current page includes a modern promotion and is not a verified 2005 webpage capture.",
+      "sourceCheckedAt": "2026-11-19",
+      "testedAt": "2026-11-19",
+      "testedActions": [
+        "Loaded creator-hosted Ruffle game inside WebThen",
+        "Clicked red direction switch and observed green arrow"
+      ]
+    }
+  ]
+}

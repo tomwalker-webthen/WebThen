@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-17",
+  "loadingThemes": [
+    {
+      "theme": "win98",
+      "art": [
+        "loading-theme loading-win98"
+      ]
+    },
+    {
+      "theme": "xp",
+      "art": [
+        "loading-theme loading-xp"
+      ]
+    },
+    {
+      "theme": "classic",
+      "art": [
+        "loading-theme loading-classic"
+      ]
+    },
+    {
+      "theme": "mac",
+      "art": [
+        "loading-theme loading-aqua"
+      ]
+    },
+    {
+      "theme": "modern",
+      "art": [
+        "loading-theme loading-modern"
+      ]
+    }
+  ],
+  "catalogSearches": [
+    {
+      "era": 0,
+      "name": "Yahooligans!",
+      "heading": "Yahooligans!"
+    },
+    {
+      "era": 0,
+      "name": "Bored.com",
+      "heading": "Bored.com"
+    },
+    {
+      "era": 1,
+      "name": "Penny Arcade",
+      "heading": "Penny Arcade"
+    },
+    {
+      "era": 1,
+      "name": "Megatokyo",
+      "heading": "Megatokyo"
+    },
+    {
+      "era": 2,
+      "name": "Neave",
+      "heading": "Neave"
+    },
+    {
+      "era": 2,
+      "name": "Orisinal",
+      "heading": "Orisinal"
+    },
+    {
+      "era": 3,
+      "name": "Club Penguin",
+      "heading": "Club Penguin"
+    },
+    {
+      "era": 3,
+      "name": "Stardoll",
+      "heading": "Stardoll"
+    },
+    {
+      "era": 4,
+      "name": "Formspring",
+      "heading": "Formspring"
+    },
+    {
+      "era": 4,
+      "name": "DailyBooth",
+      "heading": "DailyBooth"
+    }
+  ],
+  "ebaumArchive": "https://web.archive.org/web/20040701090530/http://www.ebaumsworld.com:80/",
+  "ebaumRendered": "Observed the 2004 eBaum’s World splash page inside WebThen; interactive features not tested."
+}

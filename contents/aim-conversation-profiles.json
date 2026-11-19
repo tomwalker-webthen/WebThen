@@ -1,0 +1,182 @@
+{
+  "version": "0.30",
+  "note": "Fictional regular contacts only; archive contacts retain separate source-only excerpts.",
+  "profiles": [
+    {
+      "name": "xXstarryskiesXx",
+      "personality": "dreamy",
+      "interest": "music",
+      "greeting": "heyy :)",
+      "activity": "taking a break from rewriting my away message",
+      "availableFrom": "early"
+    },
+    {
+      "name": "sk8rKid_99",
+      "personality": "energetic",
+      "interest": "games",
+      "greeting": "yo!!",
+      "activity": "trying to finish one more level",
+      "availableFrom": "boom"
+    },
+    {
+      "name": "pixelprincess",
+      "personality": "creative",
+      "interest": "websites",
+      "greeting": "hey :)",
+      "activity": "making my homepage prettier instead of doing homework",
+      "availableFrom": "early"
+    },
+    {
+      "name": "awaymsg_poet",
+      "personality": "poetic",
+      "interest": "music",
+      "greeting": "hey...",
+      "activity": "deciding whether my away message is too dramatic",
+      "availableFrom": "early"
+    },
+    {
+      "name": "dialupdreamer",
+      "personality": "patient",
+      "interest": "computers",
+      "greeting": "hey! you made it online",
+      "activity": "waiting for this download to finish",
+      "availableFrom": "early"
+    },
+    {
+      "name": "soccergurl23",
+      "personality": "sporty",
+      "interest": "school",
+      "greeting": "heyyy",
+      "activity": "back from practice and avoiding homework",
+      "availableFrom": "early"
+    },
+    {
+      "name": "burntCDmix",
+      "personality": "music nerd",
+      "interest": "music",
+      "greeting": "yo, good timing",
+      "activity": "rearranging a mix CD for absolutely no reason",
+      "availableFrom": "early"
+    },
+    {
+      "name": "neon_dolphin",
+      "personality": "playful",
+      "interest": "videos",
+      "greeting": "hiiii :D",
+      "activity": "looking for something weird to send people",
+      "availableFrom": "early"
+    },
+    {
+      "name": "xDragonFlamex",
+      "personality": "fantasy gamer",
+      "interest": "games",
+      "greeting": "hey, adventurer",
+      "activity": "taking a break from a very important game",
+      "availableFrom": "early"
+    },
+    {
+      "name": "sleepy_penguin",
+      "personality": "sleepy",
+      "interest": "school",
+      "greeting": "oh hey... still awake somehow",
+      "activity": "pretending this counts as a study break",
+      "availableFrom": "early"
+    },
+    {
+      "name": "glitterbug87",
+      "personality": "bubbly",
+      "interest": "websites",
+      "greeting": "heyyy!!",
+      "activity": "trying to find the perfect profile colors",
+      "availableFrom": "early"
+    },
+    {
+      "name": "bandgeek2001",
+      "personality": "band kid",
+      "interest": "music",
+      "greeting": "hey! whats up",
+      "activity": "supposed to be practicing, technically",
+      "availableFrom": "boom"
+    },
+    {
+      "name": "cousin_on_dialup",
+      "personality": "family comedian",
+      "interest": "computers",
+      "greeting": "hey cousin!",
+      "activity": "hoping nobody picks up the phone",
+      "availableFrom": "early"
+    },
+    {
+      "name": "mom_says_hi",
+      "personality": "practical parent",
+      "interest": "family",
+      "greeting": "Hello!",
+      "activity": "checking whether everyone has eaten",
+      "availableFrom": "early"
+    },
+    {
+      "name": "uncle_jpeg",
+      "personality": "helpful relative",
+      "interest": "computers",
+      "greeting": "Hello there.",
+      "activity": "trying to figure out which cable does what",
+      "availableFrom": "early"
+    },
+    {
+      "name": "pizzaAfterSchool",
+      "personality": "laid-back",
+      "interest": "games",
+      "greeting": "hey, whats up",
+      "activity": "considering another slice of pizza",
+      "availableFrom": "early"
+    },
+    {
+      "name": "moonlight_mp3",
+      "personality": "late-night DJ",
+      "interest": "music",
+      "greeting": "hey, night owl",
+      "activity": "putting together a late-night playlist",
+      "availableFrom": "boom"
+    },
+    {
+      "name": "pwned_by_a_duck",
+      "personality": "competitive gamer",
+      "interest": "games",
+      "greeting": "yo. rematch?",
+      "activity": "recovering from a completely unfair defeat",
+      "availableFrom": "boom"
+    },
+    {
+      "name": "T0mewalker",
+      "personality": "enthusiastic schemer",
+      "interest": "games",
+      "greeting": "YO!",
+      "activity": "working on another extremely profitable idea",
+      "availableFrom": "early"
+    },
+    {
+      "name": "HammzT10",
+      "personality": "Middle-earth fan",
+      "interest": "fantasy",
+      "greeting": "greetings from the Woodland Realm",
+      "activity": "considering a quest instead of homework",
+      "availableFrom": "early"
+    },
+    {
+      "name": "Thebebegirl22",
+      "personality": "dry humor",
+      "interest": "websites",
+      "greeting": "hey lol",
+      "activity": "watching everyone turn a profile update into a major event",
+      "availableFrom": "early"
+    },
+    {
+      "name": "ekillians",
+      "personality": "practical family",
+      "interest": "family",
+      "greeting": "hey!",
+      "activity": "checking dinner plans and looking for the printed directions",
+      "availableFrom": "early"
+    }
+  ]
+}

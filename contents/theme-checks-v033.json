@@ -1,0 +1,42 @@
+[
+  {
+    "test": "manual Win98 survives reload in social era",
+    "theme": "win98",
+    "variant": "win98"
+  },
+  {
+    "disabled": [
+      "Windows 98 — Not yet released",
+      "Windows 2000 — Not yet released",
+      "Windows ME — Not yet released",
+      "Windows XP — Not yet released",
+      "Mac OS X · Aqua — Not yet released",
+      "WebThen (modern) — Not yet released"
+    ],
+    "test": "social to early resets Win95",
+    "theme": "win95"
+  },
+  {
+    "date": "Wednesday, October 15, 2003",
+    "test": "early to flash defaults XP",
+    "theme": "xp"
+  },
+  {
+    "test": "manual Win98 survives reload in flash",
+    "theme": "win98"
+  },
+  {
+    "era": "modern",
+    "test": "flash manual Win98 to modern resets XP",
+    "theme": "xp"
+  },
+  {
+    "disabled": [
+      "xp",
+      "mac",
+      "modern"
+    ],
+    "test": "boom defaults Win98 and blocks XP and Aqua",
+    "theme": "win98"
+  }
+]

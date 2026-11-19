@@ -1,0 +1,12 @@
+# Working on WebThen
+
+- This folder is the active project. Historical release folders and ZIPs in its parent are snapshots, not the development source.
+- Keep `index.html` at the root and assets/source mirrors in `contents/`. There is no build step or dependency installation.
+- The runtime is inline in `index.html`. When changing a mirrored JavaScript file in `contents/`, update its inline copy too. Run `node dev/verify.cjs` before committing.
+- Use `node dev/server.cjs` or `dev/Start WebThen.cmd` for local HTTP testing. Keep local development tools in `dev/`.
+- Update root `README.md`, `CHANGELOG.md` and `VERIFICATION.md` for releases, plus their linked copies in `contents/`.
+- Record what was actually tested. Keep unverified playback, embedding and capture dates explicitly marked under More info. Do not invent historical timestamps.
+- Preserve the era rules, quiet startup, period controls, window accessibility and no-overlap startup layout. Do not change AIM/chat behavior incidentally.
+- Payments remain on hold unless the user resumes that work. Moving source to GitHub does not authorize hosting, a public release, payment setup or account provisioning.
+- Never commit secrets, local credentials, `.env` files, generated ZIPs or old release/check folders. No blanket license is granted for third-party assets.
+- Work on focused branches for future changes; preserve existing commits and user work. Do not force-push or publish a release without a request.

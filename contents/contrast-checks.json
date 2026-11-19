@@ -1,0 +1,241 @@
+{
+  "checkedAt": "2026-11-17",
+  "note": "Seven reading-text samples in each of five themes. This is a targeted contrast check, not a full accessibility audit.",
+  "themes": [
+    {
+      "theme": "win98",
+      "pairs": [
+        {
+          "background": "rgb(242, 242, 242)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".game-room-head p",
+          "contrast": 8.65
+        },
+        {
+          "background": "rgb(242, 242, 242)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".section-head p",
+          "contrast": 8.65
+        },
+        {
+          "background": "rgb(242, 242, 242)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".card p",
+          "contrast": 8.65
+        },
+        {
+          "background": "rgb(242, 242, 242)",
+          "color": "rgb(55, 79, 106)",
+          "selector": ".meta",
+          "contrast": 7.54
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".era:not(.active)",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".desk-drawers summary",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(242, 242, 242)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".feature-copy p",
+          "contrast": 8.65
+        }
+      ]
+    },
+    {
+      "theme": "xp",
+      "pairs": [
+        {
+          "background": "rgb(255, 254, 245)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".game-room-head p",
+          "contrast": 9.56
+        },
+        {
+          "background": "rgb(255, 254, 245)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".section-head p",
+          "contrast": 9.56
+        },
+        {
+          "background": "rgb(255, 254, 245)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".card p",
+          "contrast": 9.56
+        },
+        {
+          "background": "rgb(255, 254, 245)",
+          "color": "rgb(55, 79, 106)",
+          "selector": ".meta",
+          "contrast": 8.34
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".era:not(.active)",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".desk-drawers summary",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(255, 254, 245)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".feature-copy p",
+          "contrast": 9.56
+        }
+      ]
+    },
+    {
+      "theme": "classic",
+      "pairs": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".game-room-head p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".section-head p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".card p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(55, 79, 106)",
+          "selector": ".meta",
+          "contrast": 8.44
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".era:not(.active)",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".desk-drawers summary",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".feature-copy p",
+          "contrast": 9.68
+        }
+      ]
+    },
+    {
+      "theme": "mac",
+      "pairs": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".game-room-head p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".section-head p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".card p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(55, 79, 106)",
+          "selector": ".meta",
+          "contrast": 8.44
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".era:not(.active)",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".desk-drawers summary",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".feature-copy p",
+          "contrast": 9.68
+        }
+      ]
+    },
+    {
+      "theme": "modern",
+      "pairs": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".game-room-head p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".section-head p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".card p",
+          "contrast": 9.68
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(55, 79, 106)",
+          "selector": ".meta",
+          "contrast": 8.44
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".era:not(.active)",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(224, 230, 237)",
+          "color": "rgb(23, 37, 54)",
+          "selector": ".desk-drawers summary",
+          "contrast": 12.34
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(52, 70, 90)",
+          "selector": ".feature-copy p",
+          "contrast": 9.68
+        }
+      ]
+    }
+  ]
+}

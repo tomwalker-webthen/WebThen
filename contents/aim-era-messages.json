@@ -1,0 +1,32 @@
+{
+  "early": [
+    {"id":"early-yahoo","year":1996,"text":"found a whole directory of sites. this is gonna take all night lol","action":{"kind":"catalog","name":"Yahoo! Directory","label":"Browse Yahoo! Directory"}},
+    {"id":"early-titanic","year":1997,"text":"just saw Titanic. everyone at school is gonna be talking about this tomorrow"},
+    {"id":"early-pokemon","year":1998,"text":"are you getting Pokemon Red or Blue?? we need different ones so we can trade"},
+    {"id":"early-geocities","year":1997,"text":"making my homepage tonight. needs more animated gifs obviously","action":{"kind":"catalog","name":"GeoCities","label":"Explore GeoCities"}}
+  ],
+  "boom": [
+    {"id":"boom-neopets","year":2000,"text":"brb feeding my neopet. i keep getting distracted by the games","action":{"kind":"catalog","name":"Neopets","label":"Visit Neopets"}},
+    {"id":"boom-matrix","year":1999,"text":"saw The Matrix. now every screensaver needs falling green letters lol"},
+    {"id":"boom-y2k","year":1999,"text":"if the computer survives new years i'm staying online til 2000"},
+    {"id":"boom-ipod","year":2001,"text":"apple made a music player called an iPod. an entire pile of CDs in your pocket??"}
+  ],
+  "flash": [
+    {"id":"flash-xanga","year":2004,"text":"updated my xanga. leave eProps and pretend my poetry is good :P","action":{"kind":"catalog","name":"Xanga","label":"Open Xanga"}},
+    {"id":"flash-badger","year":2003,"text":"badger badger badger... this has been stuck in my head ALL DAY","action":{"kind":"catalog","name":"Badger Badger Badger","label":"Watch Badger Badger Badger"}},
+    {"id":"flash-lotr","year":2003,"text":"Return of the King this weekend?? i am absolutely getting the biggest popcorn"},
+    {"id":"flash-myspace","year":2004,"text":"spent longer picking my profile song than doing my homework","action":{"kind":"catalog","name":"MySpace","label":"Visit MySpace"}}
+  ],
+  "social": [
+    {"id":"social-elf","year":2005,"text":"lol look at Elf Bowling 1 & 2. see if you can beat my score! this one's the GBA version","action":{"kind":"game","id":"elf-bowling-gba","label":"Play Elf Bowling 1 & 2 · GBA (2005)"}},
+    {"id":"social-youtube","year":2006,"text":"someone keeps sending me youtube videos and now my homework is not happening","action":{"kind":"catalog","name":"YouTube","label":"Open early YouTube"}},
+    {"id":"social-harry","year":2007,"text":"getting the last Harry Potter book at midnight. NO SPOILERS in away messages!!"},
+    {"id":"social-line","year":2006,"text":"made a Line Rider track. he survives approximately three seconds lol","action":{"kind":"catalog","name":"Line Rider","label":"Visit Line Rider · playback untested"}}
+  ],
+  "modern": [
+    {"id":"modern-elf","year":2008,"text":"rediscovered Elf Bowling lol. try the 2005 GBA edition and beat my score","action":{"kind":"game","id":"elf-bowling-gba","label":"Play Elf Bowling 1 & 2 · GBA (2005)"}},
+    {"id":"modern-twilight","year":2008,"text":"everyone is arguing about Twilight again. i'm just here for the soundtrack"},
+    {"id":"modern-avatar","year":2009,"text":"just saw Avatar in 3D. kept the glasses like a dork"},
+    {"id":"modern-twitter","year":2009,"text":"trying to fit my whole day into a tweet. mostly it was snacks and procrastination","action":{"kind":"catalog","name":"Twitter","label":"Open early Twitter"}}
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "selectionSource": "https://skins.webamp.org/?sort=downloads",
+  "selectionNote": "Selected familiar, non-risque designs from the download-sorted list. Rank is the observed list position on November 18, 2026, not a download count or permanent ranking.",
+  "skins": [
+    {
+      "id": "classic",
+      "name": "Classic Winamp",
+      "file": "base-2.91.wsz",
+      "hash": "5e4f10275dcb1fb211d4a8b4f1bda236",
+      "rank": 2,
+      "sourcePage": "https://skins.webamp.org/skin/5e4f10275dcb1fb211d4a8b4f1bda236/base-2.91.wsz",
+      "downloadUrl": "https://r2.webampskins.org/skins/5e4f10275dcb1fb211d4a8b4f1bda236.wsz",
+      "previewUrl": "https://r2.webampskins.org/screenshots/5e4f10275dcb1fb211d4a8b4f1bda236.png?cors",
+      "bytes": 101121,
+      "sha256": "0166fb878cd41de07e1cc51067525ccd3f055b94dc3c227d61124fe528788f6f",
+      "checkedAt": "2026-11-18T16:52:08.841Z",
+      "assets": {
+        "cbuttons": {
+          "file": "classic/cbuttons.png",
+          "width": 136,
+          "height": 36
+        },
+        "main": {
+          "file": "classic/main.png",
+          "width": 275,
+          "height": 116
+        },
+        "text": {
+          "file": "classic/text.png",
+          "width": 155,
+          "height": 74
+        },
+        "titlebar": {
+          "file": "classic/titlebar.png",
+          "width": 344,
+          "height": 87
+        },
+        "volume": {
+          "file": "classic/volume.png",
+          "width": 68,
+          "height": 433
+        }
+      }
+    },
+    {
+      "id": "classified",
+      "name": "Winamp5 Classified",
+      "file": "Winamp5_Classified_v5.5.wsz",
+      "hash": "b0fb83cc20af3abe264291bb17fb2a13",
+      "rank": 1,
+      "sourcePage": "https://skins.webamp.org/skin/b0fb83cc20af3abe264291bb17fb2a13/Winamp5_Classified_v5.5.wsz",
+      "downloadUrl": "https://r2.webampskins.org/skins/b0fb83cc20af3abe264291bb17fb2a13.wsz",
+      "previewUrl": "https://r2.webampskins.org/screenshots/b0fb83cc20af3abe264291bb17fb2a13.png?cors",
+      "bytes": 178176,
+      "sha256": "ad749cb68339f443537ce1167e69f9b4b6a28ba3d9690d02b6426175f8772976",
+      "checkedAt": "2026-11-18T16:52:08.758Z",
+      "assets": {
+        "cbuttons": {
+          "file": "classified/cbuttons.png",
+          "width": 136,
+          "height": 36
+        },
+        "main": {
+          "file": "classified/main.png",
+          "width": 275,
+          "height": 116
+        },
+        "text": {
+          "file": "classified/text.png",
+          "width": 155,
+          "height": 18
+        },
+        "titlebar": {
+          "file": "classified/titlebar.png",
+          "width": 344,
+          "height": 87
+        },
+        "volume": {
+          "file": "classified/volume.png",
+          "width": 68,
+          "height": 433
+        }
+      }
+    },
+    {
+      "id": "sony",
+      "name": "Sony CDX-MP3",
+      "file": "Sony CDX-MP3.wsz",
+      "hash": "22e09c5de12f085bd192a7944cac15ea",
+      "rank": 3,
+      "sourcePage": "https://skins.webamp.org/skin/22e09c5de12f085bd192a7944cac15ea/Sony%20CDX-MP3.wsz",
+      "downloadUrl": "https://r2.webampskins.org/skins/22e09c5de12f085bd192a7944cac15ea.wsz",
+      "previewUrl": "https://r2.webampskins.org/screenshots/22e09c5de12f085bd192a7944cac15ea.png?cors",
+      "bytes": 106813,
+      "sha256": "6410c572fa5879b3e4424ecb5872de735739c2b471ca7f18df17c8774f2af755",
+      "checkedAt": "2026-11-18T16:52:08.844Z",
+      "assets": {
+        "cbuttons": {
+          "file": "sony/cbuttons.png",
+          "width": 136,
+          "height": 36
+        },
+        "main": {
+          "file": "sony/main.png",
+          "width": 275,
+          "height": 116
+        },
+        "text": {
+          "file": "sony/text.png",
+          "width": 155,
+          "height": 18
+        },
+        "titlebar": {
+          "file": "sony/titlebar.png",
+          "width": 344,
+          "height": 87
+        },
+        "volume": {
+          "file": "sony/volume.png",
+          "width": 68,
+          "height": 433
+        }
+      }
+    },
+    {
+      "id": "ampboy",
+      "name": "AMPBOY",
+      "file": "AMPBOY.wsz",
+      "hash": "0eaba96cdab9ebac4d72f852aef6c69b",
+      "rank": 7,
+      "sourcePage": "https://skins.webamp.org/skin/0eaba96cdab9ebac4d72f852aef6c69b/AMPBOY.wsz",
+      "downloadUrl": "https://r2.webampskins.org/skins/0eaba96cdab9ebac4d72f852aef6c69b.wsz",
+      "previewUrl": "https://r2.webampskins.org/screenshots/0eaba96cdab9ebac4d72f852aef6c69b.png?cors",
+      "bytes": 60624,
+      "sha256": "6d33d89a92bc63720fc19b2aa20c0e9ebef5ee39d75114a3f5e590a9ff3b0b95",
+      "checkedAt": "2026-11-18T16:52:08.715Z",
+      "assets": {
+        "main": {
+          "file": "ampboy/main.png",
+          "width": 275,
+          "height": 116
+        },
+        "titlebar": {
+          "file": "ampboy/titlebar.png",
+          "width": 344,
+          "height": 87
+        },
+        "cbuttons": {
+          "file": "ampboy/cbuttons.png",
+          "width": 136,
+          "height": 36
+        },
+        "volume": {
+          "file": "ampboy/volume.png",
+          "width": 68,
+          "height": 433
+        },
+        "text": {
+          "file": "ampboy/text.png",
+          "width": 155,
+          "height": 18
+        }
+      }
+    },
+    {
+      "id": "xp",
+      "name": "Windows XP",
+      "file": "WindowsXP.wsz",
+      "hash": "3461f60c2c3827a0bbbd05c4bf507730",
+      "rank": 16,
+      "sourcePage": "https://skins.webamp.org/skin/3461f60c2c3827a0bbbd05c4bf507730/WindowsXP.wsz",
+      "downloadUrl": "https://r2.webampskins.org/skins/3461f60c2c3827a0bbbd05c4bf507730.wsz",
+      "previewUrl": "https://r2.webampskins.org/screenshots/3461f60c2c3827a0bbbd05c4bf507730.png?cors",
+      "bytes": 190928,
+      "sha256": "8049808932f13baa6290cf823db1516a5e8e514fc6c759653e00e45cdbc01120",
+      "checkedAt": "2026-11-18T16:52:08.977Z",
+      "assets": {
+        "main": {
+          "file": "xp/main.png",
+          "width": 275,
+          "height": 116
+        },
+        "titlebar": {
+          "file": "xp/titlebar.png",
+          "width": 344,
+          "height": 87
+        },
+        "cbuttons": {
+          "file": "xp/cbuttons.png",
+          "width": 136,
+          "height": 36
+        },
+        "text": {
+          "file": "xp/text.png",
+          "width": 155,
+          "height": 18
+        },
+        "volume": {
+          "file": "xp/volume.png",
+          "width": 68,
+          "height": 433
+        }
+      }
+    },
+    {
+      "id": "mac",
+      "name": "OS8 Aquamarine",
+      "file": "OS8 AMP - Aquamarine.wsz",
+      "hash": "10ee1c158f8f36be937a3ce4aeb40000",
+      "rank": 34,
+      "sourcePage": "https://skins.webamp.org/skin/10ee1c158f8f36be937a3ce4aeb40000/OS8%20AMP%20-%20Aquamarine.wsz",
+      "downloadUrl": "https://r2.webampskins.org/skins/10ee1c158f8f36be937a3ce4aeb40000.wsz",
+      "previewUrl": "https://r2.webampskins.org/screenshots/10ee1c158f8f36be937a3ce4aeb40000.png?cors",
+      "bytes": 20720,
+      "sha256": "50c409c9b0dc92688ff76b081be5549d561ba8b1e6b2cbc95140e287d428d61c",
+      "checkedAt": "2026-11-18T16:52:08.868Z",
+      "assets": {
+        "titlebar": {
+          "file": "mac/titlebar.png",
+          "width": 344,
+          "height": 87
+        },
+        "volume": {
+          "file": "mac/volume.png",
+          "width": 68,
+          "height": 433
+        },
+        "cbuttons": {
+          "file": "mac/cbuttons.png",
+          "width": 136,
+          "height": 36
+        },
+        "main": {
+          "file": "mac/main.png",
+          "width": 275,
+          "height": 116
+        },
+        "text": {
+          "file": "mac/text.png",
+          "width": 155,
+          "height": 18
+        }
+      }
+    }
+  ]
+}

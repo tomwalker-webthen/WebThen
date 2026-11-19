@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-17T22:28:14.971Z",
+  "allThreeStationsPlayed": true,
+  "eraDefaults": {
+    "early": "hits90s",
+    "boom": "hits90s",
+    "flash": "hits00s",
+    "social": "hits00s",
+    "modern": "hits00s"
+  },
+  "manualOverridePersisted": true,
+  "volumePersisted": "17",
+  "followPreferencePersisted": true,
+  "radioOffPersisted": true,
+  "pauseDisconnects": true,
+  "reconnectPlayed": true,
+  "windowShadeKeepsPlaying": true,
+  "consoleErrors": [],
+  "noSongSeeking": true
+}

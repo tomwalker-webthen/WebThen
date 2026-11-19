@@ -1,0 +1,368 @@
+{
+  "source": {
+    "filename": "WebThen — QA Findings & Nostalgia Roadmap (v0.29).docx",
+    "path": "C:/Users/t0mew/Downloads/WebThen — QA Findings & Nostalgia Roadmap (v0.29).docx",
+    "sha256": "8c4277050fcb31908609a837d727aace8709e8832e444818a1b10bb361f71823",
+    "reviewedOn": "2026-11-18"
+  },
+  "scope": "Era/session travel and taskbar camouflage only. AIM/chat source files unchanged.",
+  "evidenceScope": "Read document contents, inspected current local sources, and called the shipped reply rules with supplied example prompts. No new UI, external playback, historical-source or legal verification.",
+  "corrections": [
+    "The report title is v0.29, but its opening summary and most broad testing describe v0.27/v0.28. Do not represent every issue as freshly browser-reproduced against v0.29.",
+    "Basic two-way AIM chats are already implemented and verified in v0.29. Formatting, Warn/Block and custom away messages remain future enhancements.",
+    "Offline queuing and archive exhaustion were not tested by the report author, but are covered in our v0.29 browser verification and automated tests. This review does not repeat those checks.",
+    "The report’s suggested v0.29 release is already superseded by the delivered v0.29. New work should use a later version.",
+    "The nine listed natural-message examples reproduce fallback behavior locally; the report’s full 23-message sample is not provided.",
+    "Renaming, original artwork recommendations and rights claims do not establish legal clearance. Public hosting and rights questions remain open."
+  ],
+  "priorityRecommendation": [
+    {
+      "order": 1,
+      "scope": "AIM refinement",
+      "items": [
+        "aim-01",
+        "aim-02",
+        "aim-03",
+        "aim-04",
+        "aim-05",
+        "aim-06",
+        "aim-07",
+        "aim-08",
+        "aim-09",
+        "aim-10"
+      ],
+      "note": "Fix conversational intent, identity, goodbye state, punctuation, timing and era suitability while retaining archive provenance."
+    },
+    {
+      "order": 2,
+      "scope": "Visible QA fixes",
+      "items": [
+        "qa-01",
+        "qa-02",
+        "qa-03",
+        "qa-04",
+        "qa-05",
+        "qa-06",
+        "qa-07",
+        "qa-08",
+        "qa-09",
+        "qa-10"
+      ],
+      "note": "Reproduce against the current build before implementation. Relocate controls before hiding them."
+    },
+    {
+      "order": 3,
+      "scope": "Video refinement",
+      "items": [
+        "video-01",
+        "video-02",
+        "video-03",
+        "video-04",
+        "video-05"
+      ],
+      "note": "Improve file-launch handling and early-era selection without hiding the visible player."
+    },
+    {
+      "order": 4,
+      "scope": "Experience redesign",
+      "note": "Session date/clock travel, era defaults with manual OS override, tray controls and five period Start pages remain separate proposals."
+    }
+  ],
+  "constraints": [
+    "Preserve independently selectable OS themes. Era-driven defaults with an override are a possible design, not an approved change.",
+    "Preserve clearly marked untested/unavailable destinations and accessible source details.",
+    "The user previously accepted ThenAmp open but paused; do not silently replace this with a closed tray-only startup.",
+    "Keep archive quotes tied to original screen names; fictional conversational improvements apply to regular buddies.",
+    "Keep audio/video paused until user activation as currently specified."
+  ],
+  "findings": [
+    {
+      "id": "qa-01",
+      "status": "passed",
+      "evidence": "Embedded eBaum’s World src used /web/20070703022547if_/. The external archive link retained /web/20070703022547/. A real archived page rendered successfully."
+    },
+    {
+      "id": "qa-02",
+      "status": "passed",
+      "evidence": "Live measurements returned html width = innerWidth at 1280 and 1440. Final Mac measurement also returned 1280 = 1280."
+    },
+    {
+      "id": "qa-03",
+      "status": "implemented with limitation",
+      "evidence": "Refused-network fixture displayed The page cannot be displayed with Try archive, Directory and Open archive. The iframe remained hidden and had no failed src assigned. Tests cover timeout, late onload, rejection and success. The absolute never-browser-error guarantee remains unavailable for every later cross-origin navigation; see the boundary below."
+    },
+    {
+      "id": "qa-04",
+      "status": "passed",
+      "evidence": "Search geocities showed zero Game Room cards; elf showed two. Portals and Viral animations categories showed zero, Games & interactive showed all three. Search, category and the existing game-type filter combine."
+    },
+    {
+      "id": "qa-05",
+      "status": "passed",
+      "evidence": "Directory hero and search panel measured the same outer edges, 142.5 to 1282.5 at 1440. Era tabs were inside the same border at 143.5 to 1281.5. No header overhang."
+    },
+    {
+      "id": "qa-06",
+      "status": "passed",
+      "evidence": "Both Aqua and Classic Mac moved the actual toolbar into aqua-menu-bar at top 0/0.5px. No bottom taskbar remained. Its buttons and clock remain accessible in the top menu bar; overflow can scroll. The Aqua Dock moved to 8px above the bottom."
+    },
+    {
+      "id": "qa-07",
+      "status": "passed with shared implementation",
+      "evidence": "Shared theme-styled minimize/maximize/close controls installed for Directory, browser, welcome, AIM shell, ThenAmp, game, Video Lounge, Appearance, Connection, skin picker and conversation shells. Browser tested Directory maximize/restore/minimize, welcome maximize/restore/minimize/task restore, ThenAmp minimize/task restore, game maximize/restore/minimize/task restore/close, and Video Lounge close. Other shells share the implementation; no chat feature or reply logic was changed."
+    },
+    {
+      "id": "qa-08",
+      "status": "passed",
+      "evidence": "Inline SVG data-URI favicon is present. A fresh browser launch recorded zero console warnings/errors, including no favicon 404. External archive resources are outside this initial-load check."
+    },
+    {
+      "id": "qa-09",
+      "status": "passed",
+      "evidence": "At 1280x720 and 1440x900, first-launch welcome, buddy list, open-paused ThenAmp and tour occupied separate rectangles. Aqua additionally places ThenAmp to the right of the Dock."
+    },
+    {
+      "id": "qa-10",
+      "status": "passed",
+      "evidence": "All 100 replacement starters are valid and unique and avoid the buddy/archived-contact stem list. Saved custom screen names are preserved. No contact names or conversation pools changed."
+    }
+  ],
+  "aimFindings": [
+    {
+      "id": "aim-01",
+      "title": "Everyday conversation falls through",
+      "evidence": "Confirmed with local reply-rule calls for the nine natural-message examples listed in the report. The report’s 10-of-23 rate cannot be independently checked without its full prompt set.",
+      "nextStep": "Add activity, away-message, brb/afk, asl, joke, reaction and artist intents. Keep answers fictional and avoid invented personal details.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-02",
+      "title": "Music requests can match games first",
+      "evidence": "Confirmed: can we play some music selects games.",
+      "nextStep": "Prefer specific music terms over generic play, or rank matching topics.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-03",
+      "title": "Identity questions miss common phrasing",
+      "evidence": "Confirmed: robot, real person and AI examples select fallback.",
+      "nextStep": "Expand identity matching and preserve honest local-script disclosure.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-04",
+      "title": "Dialogue refers to WebThen interfaces",
+      "evidence": "Confirmed in current reply pools: Game Room, Video Lounge and edition/era explanations appear in spoken dialogue.",
+      "nextStep": "Keep buddy text conversational; retain edition, playback and source details in action labels or More info.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-05",
+      "title": "Greeting punctuation doubles up",
+      "evidence": "Confirmed from greeting construction: profile greeting always receives another period.",
+      "nextStep": "Join greeting and activity without adding punctuation after an existing ending/emoticon.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-06",
+      "title": "Personality prefixes repeat",
+      "evidence": "Confirmed in code: eligible personality prefixes apply to every non-greeting/non-identity reply.",
+      "nextStep": "Use intermittent prefixes and broader personality-specific phrasing.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-07",
+      "title": "Goodbye does not end topic context",
+      "evidence": "Confirmed in rules: bye becomes lastTopic, then lol selects a follow-up with the generic default.",
+      "nextStep": "Track a brief goodbye/idle state with appropriate re-entry responses.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-08",
+      "title": "Typing delay does not reflect reply length",
+      "evidence": "Confirmed in code: wait depends on input length, random variation and personality, not generated response length.",
+      "nextStep": "Prepare replies before scheduling and use response-length delays with occasional longer pauses; test pause/resume behavior.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-09",
+      "title": "Early-era names and recommendations slip",
+      "evidence": "Confirmed in code: regular contacts have no era eligibility and early games actions recommend Newgrounds. The historical suitability of individual links still needs research.",
+      "nextStep": "Audit five-era contact eligibility and destination recommendations; preserve existing archive-contact era restrictions.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    },
+    {
+      "id": "aim-10",
+      "title": "Simulation explanation remains prominent",
+      "evidence": "Confirmed in current strings.",
+      "nextStep": "Move routine explanation into More info/About while keeping identity answers, archived quote attribution and actionable availability status clear.",
+      "status": "implemented and checked in v0.30",
+      "verification": "See VERIFICATION.md and test-aim-v030.cjs in the development workspace."
+    }
+  ],
+  "videoFindings": [
+    {
+      "id": "video-01",
+      "title": "Improve early video selection",
+      "nextStep": "Prefer period web clips/trailers and verify replacement embeds; retain original-year/upload-date distinction.",
+      "status": "deferred; report claim pending targeted checks"
+    },
+    {
+      "id": "video-02",
+      "title": "Period presentation around the video embed",
+      "nextStep": "Review pre-2005 window title, playlist layout and explanatory text without modifying or obscuring the embedded player.",
+      "status": "deferred; report claim pending targeted checks"
+    },
+    {
+      "id": "video-03",
+      "title": "Handle file launches before creating the player",
+      "nextStep": "Review protocol check and useful external/launcher fallback; actual error 153 behavior not re-tested in this review.",
+      "status": "deferred; report claim pending targeted checks"
+    },
+    {
+      "id": "video-04",
+      "title": "Late referrer policy and repeated error text",
+      "nextStep": "Review setting policy before iframe load and remove duplicated recovery wording.",
+      "status": "deferred; report claim pending targeted checks"
+    },
+    {
+      "id": "video-05",
+      "title": "Ruffle and source replacements",
+      "nextStep": "Keep SWF compatibility, redistribution permissions and source availability as research tasks; no automatic download or replacement approved.",
+      "status": "deferred; report claim pending targeted checks"
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "roadmap-01",
+      "title": "Reduce visible explanation and verification labels",
+      "note": "Keep provenance available under More info/About; do not hide important unavailable/playback status.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-02",
+      "title": "Session-wide date and time-travel flow",
+      "note": "Requires a separate design decision. Preserve independently selectable OS themes until the user authorizes a change. Era buckets, clock travel, tray controls and manual OS override are implemented. Exact calendar-year/month travel remains outside the approved scope.",
+      "status": "implemented in v0.32 within approved era-level scope"
+    },
+    {
+      "id": "roadmap-03",
+      "title": "Era-specific Start pages",
+      "note": "Five period portal/search layouts using existing content.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-04",
+      "title": "Period browser controls",
+      "note": "History menus, Stop/Refresh/Home/Favorites and loading/status details.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-05",
+      "title": "Dial-up status dialog and tray controls",
+      "note": "Move settings into period-style controls with discoverable fullscreen/exit actions. Era buckets, clock travel, tray controls and manual OS override are implemented. Exact calendar-year/month travel remains outside the approved scope.",
+      "status": "implemented in v0.32 within approved era-level scope"
+    },
+    {
+      "id": "roadmap-06",
+      "title": "Optional 56k presentation mode",
+      "note": "Opt-in timing/effects need a separate user decision.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-07",
+      "title": "Further AIM controls",
+      "note": "Basic two-way local chats are implemented in v0.29; formatting, Warn/Block and custom away messages remain deferred.",
+      "status": "partially implemented: basic scripted conversations only"
+    },
+    {
+      "id": "roadmap-08",
+      "title": "Desktop staples",
+      "note": "Original Notepad/Paint-style toys, Recycle Bin, power-off ending and screensavers.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-09",
+      "title": "Self-hosted Ruffle/Game Room",
+      "note": "Research compatibility and distribution rights before replacing existing embeds.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-10",
+      "title": "Catalog dates and period artwork",
+      "note": "Prioritize default destinations, distinguish launch years from capture years and keep uncertain status.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-11",
+      "title": "Video Lounge era presentation and sources",
+      "note": "Review period window titles, a side playlist, original web-native clips and alternatives to external-only music/unofficial trailer uploads. Preserve the standard visible YouTube embed.",
+      "status": "deferred proposal"
+    },
+    {
+      "id": "roadmap-12",
+      "title": "Branding and publication review",
+      "note": "Original icon/art options and hosting/distribution questions remain open; no legal clearance is inferred from renaming.",
+      "status": "deferred proposal"
+    }
+  ],
+  "openDecisions": [
+    "Personal/local use versus public hosting",
+    "Year/month travel versus five-era selection",
+    "Optional 56k mode behavior",
+    "Whether to add a Windows 95 theme",
+    "Original app artwork before public distribution"
+  ],
+  "release": "0.32",
+  "archiveBoundary": "Archive embeds are cross-origin. A successful no-cors preflight confirms a connection but cannot inspect the HTML/status of an opaque response, and WebThen cannot read later internal navigation URLs or browser-generated error documents reliably. Initial network rejection and timeout are masked with the period screen, but a later iframe redirect/navigation can fail after the connection check. Meeting an unconditional never guarantee would require a cooperative archive signal or a separately designed replay/proxy system. This release does not weaken browser security, proxy third-party scripts into WebThen’s origin, or disable working embedding to pretend the guarantee is complete.",
+  "fileVideo": {
+    "status": "automated branch passed; direct-file browser QA unavailable",
+    "evidence": "A VM test with file: protocol confirmed api() and YT.Player were never called and a period notice was shown. The test browser refused file: URLs under its URL policy; no alternate browser workaround was used."
+  },
+  "sessionAcceptance": [
+    {
+      "id": "era-controls",
+      "status": "passed",
+      "evidence": "Live DOM contained only connection-era and session-era selects with era options. welcome-era and eras were absent. Start-menu travel opened the clock dialog."
+    },
+    {
+      "id": "period-clock",
+      "status": "passed",
+      "evidence": "Browser observed Tuesday, October 15, 1996; Wednesday, October 15, 2003; Wednesday, October 15, 2008. Unit tests check all five dates against bucket bounds."
+    },
+    {
+      "id": "travel-flow",
+      "status": "passed",
+      "evidence": "With archive browser, Video Lounge and radio open, Apply removed browser windows/video frames and cleared/paused audio sources. Automatic reconnect entered the requested era; Skip also worked. Existing ambient sound controls stopped the buddy-list audio activity and restored its enabled preference after reload."
+    },
+    {
+      "id": "era-initialization",
+      "status": "passed",
+      "evidence": "Early travel produced Win98, 1990s Hits and Yahoo/GeoCities/AltaVista. Modern travel produced Aqua, 2000s Hits, YouTube/Twitter/Newgrounds and the 2008–2009 Video Lounge queue. Early buddy DOM had 18 eligible regular contacts and omitted later/archived contacts. A manual XP override survived travel to early."
+    },
+    {
+      "id": "icon-trays",
+      "status": "passed",
+      "evidence": "All twelve layout cases had zero visible text buttons in the system tray and Mac menu bar. Status/Disconnect, Start travel, Mac Log Out and right-click Sign Off/Exit were exercised. Exited ThenAmp reopened paused with no audio src."
+    },
+    {
+      "id": "clock-discovery",
+      "status": "passed",
+      "evidence": "First visit displayed the exact clock balloon. Tour Next displayed Travel with the clock. Start-menu travel opened Date/Time Properties."
+    },
+    {
+      "id": "startup-icon-clearance",
+      "status": "passed",
+      "evidence": "Twelve browser cases: win98, win2000, xp, classic, mac and modern at 1280x720 and 1440x900. Every visible startup surface had an empty icon-overlap list. Recorded rectangles are in layout-checks-v032.json."
+    }
+  ]
+}

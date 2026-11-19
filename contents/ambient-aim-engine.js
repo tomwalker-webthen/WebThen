@@ -1,0 +1,134 @@
+(function (root) {
+  'use strict';
+  const roster = [
+    ['xXstarryskiesXx','Buddies'], ['sk8rKid_99','Buddies'], ['pixelprincess','Buddies'],
+    ['awaymsg_poet','Buddies'], ['dialupdreamer','Buddies'], ['soccergurl23','Buddies'],
+    ['burntCDmix','Buddies'], ['neon_dolphin','Buddies'], ['xDragonFlamex','Buddies'],
+    ['sleepy_penguin','Buddies'], ['glitterbug87','Buddies'], ['bandgeek2001','Buddies'],
+    ['cousin_on_dialup','Family'], ['mom_says_hi','Family'], ['uncle_jpeg','Family'],
+    ['pizzaAfterSchool','Buddies'], ['moonlight_mp3','Buddies'], ['pwned_by_a_duck','Buddies'],
+    ['T0mewalker','Family'], ['HammzT10','Family'], ['Thebebegirl22','Family'], ['ekillians','Family']
+  ];
+  const away = ['brb, dinner','making a mix CD','afk · phone line needed','at soccer practice','~* leave a message *~','doing homework... probably'];
+  const messages = ['hey, you around?', 'brb, dinner :)', 'did you see that new flash game?', 'what song is this on your profile?', 'my connection is sooo slow tonight', 'lol this site takes me back', 'wanna play a game later?', 'just finished burning that mix CD', 'g2g, someone needs the phone line', 'hey! long time no see'];
+  const eraMessages={"early":[{"id":"early-yahoo","year":1996,"text":"found a whole directory of sites. this is gonna take all night lol","action":{"kind":"catalog","name":"Yahoo! Directory","label":"Browse Yahoo! Directory"}},{"id":"early-titanic","year":1997,"text":"just saw Titanic. everyone at school is gonna be talking about this tomorrow"},{"id":"early-pokemon","year":1998,"text":"are you getting Pokemon Red or Blue?? we need different ones so we can trade"},{"id":"early-geocities","year":1997,"text":"making my homepage tonight. needs more animated gifs obviously","action":{"kind":"catalog","name":"GeoCities","label":"Explore GeoCities"}}],"boom":[{"id":"boom-neopets","year":2000,"text":"brb feeding my neopet. i keep getting distracted by the games","action":{"kind":"catalog","name":"Neopets","label":"Visit Neopets"}},{"id":"boom-matrix","year":1999,"text":"saw The Matrix. now every screensaver needs falling green letters lol"},{"id":"boom-y2k","year":1999,"text":"if the computer survives new years i'm staying online til 2000"},{"id":"boom-ipod","year":2001,"text":"apple made a music player called an iPod. an entire pile of CDs in your pocket??"}],"flash":[{"id":"flash-xanga","year":2004,"text":"updated my xanga. leave eProps and pretend my poetry is good :P","action":{"kind":"catalog","name":"Xanga","label":"Open Xanga"}},{"id":"flash-badger","year":2003,"text":"badger badger badger... this has been stuck in my head ALL DAY","action":{"kind":"catalog","name":"Badger Badger Badger","label":"Watch Badger Badger Badger"}},{"id":"flash-lotr","year":2003,"text":"Return of the King this weekend?? i am absolutely getting the biggest popcorn"},{"id":"flash-myspace","year":2004,"text":"spent longer picking my profile song than doing my homework","action":{"kind":"catalog","name":"MySpace","label":"Visit MySpace"}}],"social":[{"id":"social-elf","year":2005,"text":"lol look at Elf Bowling 1 & 2. see if you can beat my score! this one's the GBA version","action":{"kind":"game","id":"elf-bowling-gba","label":"Play Elf Bowling 1 & 2 · GBA (2005)"}},{"id":"social-youtube","year":2006,"text":"someone keeps sending me youtube videos and now my homework is not happening","action":{"kind":"catalog","name":"YouTube","label":"Open early YouTube"}},{"id":"social-harry","year":2007,"text":"getting the last Harry Potter book at midnight. NO SPOILERS in away messages!!"},{"id":"social-line","year":2006,"text":"made a Line Rider track. he survives approximately three seconds lol","action":{"kind":"catalog","name":"Line Rider","label":"Visit Line Rider · playback untested"}}],"modern":[{"id":"modern-elf","year":2008,"text":"rediscovered Elf Bowling lol. try the 2005 GBA edition and beat my score","action":{"kind":"game","id":"elf-bowling-gba","label":"Play Elf Bowling 1 & 2 · GBA (2005)"}},{"id":"modern-twilight","year":2008,"text":"everyone is arguing about Twilight again. i'm just here for the soundtrack"},{"id":"modern-avatar","year":2009,"text":"just saw Avatar in 3D. kept the glasses like a dork"},{"id":"modern-twitter","year":2009,"text":"trying to fit my whole day into a tweet. mostly it was snacks and procrastination","action":{"kind":"catalog","name":"Twitter","label":"Open early Twitter"}}]};
+  const personalMessages={"T0mewalker":[{"id":"personal-T0mewalker-0","text":"I just ordered $200 worth of glowsticks on eBay! We're gonna sell them during the fireworks and be rich!!!!!","personal":true},{"id":"personal-T0mewalker-1","text":"Cadillac grills, Cadillac mills. Check out the oil my Cadillac spills!","personal":true},{"id":"personal-T0mewalker-2","text":"Is mom awake yet?","personal":true}],"HammzT10":[{"id":"personal-HammzT10-0","text":"I had another dream about Legolas last night. I must head to the Woodland Realm.","personal":true},{"id":"personal-HammzT10-1","text":"I am unable to beat \"The Breached Wall\" on my own. I fear I will need some 2 player support. Gandalf just ain't getting it done","personal":true},{"id":"personal-HammzT10-2","text":"Spunky just swiped half of a butterscotch krimpet from the countertop!","personal":true},{"id":"personal-HammzT10-3","text":"Mom is freaking out about the house not being spotless and everyone is supposed to start arriving in 20 minutes :(","personal":true}]};
+  personalMessages.ekillians=[{"id":"personal-ekillians-0","text":"are you coming over for dinner?","personal":true},{"id":"personal-ekillians-1","text":"call the house when you're done with the internet","personal":true},{"id":"personal-ekillians-2","text":"i printed the directions. they're on the kitchen counter.","personal":true}];
+  const archiveBuddies={"AzureDiamond":{"sourceUrl":"https://qdb.lol/quote/244321","sourceTitle":"Bash.org #244321 · IRC","sourceNote":"Original chat date unverified. Available from the 2002–2004 simulation era; this is not a verified publication date.","eras":["flash","social","modern"],"messages":[{"id":"archive-AzureDiamond-0","text":"wait, how do you know my pw?","archive":true}]},"Cthon98":{"sourceUrl":"https://qdb.lol/quote/244321","sourceTitle":"Bash.org #244321 · IRC","sourceNote":"Original chat date unverified. Available from the 2002–2004 simulation era; this is not a verified publication date.","eras":["flash","social","modern"],"messages":[{"id":"archive-Cthon98-0","text":"hey, if you type in your pw, it will show as stars","archive":true}]},"erno":{"sourceUrl":"https://qdb.lol/quote/5273","sourceTitle":"Bash.org #5273 · IRC","sourceNote":"Original chat date unverified. Available from the 2002–2004 simulation era. Short excerpt; omitted text is marked with an ellipsis.","eras":["flash","social","modern"],"messages":[{"id":"archive-erno-0","text":"it responds to ping … I just can't figure out where in my apartment it is.","archive":true}]},"Khassaki":{"sourceUrl":"https://qdb.lol/quote/835030","sourceTitle":"Bash.org #835030 · IRC","sourceNote":"Original chat date unverified. Available from the 2005–2007 simulation era; this is not a verified publication date.","eras":["social","modern"],"messages":[{"id":"archive-Khassaki-0","text":"HI EVERYBODY!!!!!!!!!!","archive":true},{"id":"archive-Khassaki-1","text":"O THANKS!!! ITS SO MUCH EASIER TO WRITE NOW!!!!!!!","archive":true}]},"darkshines0":{"sourceUrl":"https://www.bzpower.com/blogs/entry/3629-entry-for-today/","sourceTitle":"BZPower · AIM conversation posted August 18, 2006","sourceNote":"A user-posted transcript; independently authenticating the underlying conversation is not possible.","eras":["social","modern"],"messages":[{"id":"archive-darkshines0-0","text":"I am a banana master.","archive":true}]},"SmarterChild":{"sourceUrl":"https://www.bzpower.com/blogs/entry/3629-entry-for-today/","sourceTitle":"BZPower · AIM conversation posted August 18, 2006","sourceNote":"Recreation of the historical bot using a user-posted transcript; not a live SmarterChild service.","eras":["social","modern"],"messages":[{"id":"archive-SmarterChild-0","text":"I know about bananas. They're fruits!","archive":true}]}};
+  for(const name of Object.keys(archiveBuddies))roster.push([name,'Buddies']);
+  const reviewedMessages={"early":[{"id":"reviewed-early-1","text":"don't call the house. downloading something and i'm already at 12%","reviewed":true},{"id":"reviewed-early-2","text":"my homepage has a guestbook now. please sign it so it isn't just my mom","reviewed":true},{"id":"reviewed-early-3","text":"my tamagotchi needs more attention than i do","reviewed":true},{"id":"reviewed-early-4","text":"got a chain email saying something bad happens if i don't forward it. does printing it count","reviewed":true},{"id":"reviewed-early-5","text":"space jam website is better than my entire homepage and i'm taking that personally","reviewed":true},{"id":"reviewed-early-6","text":"finally got the animated fire working. now my page takes four minutes to load","reviewed":true},{"id":"reviewed-early-7","text":"if you have pokemon blue we need to talk. this is a business opportunity","reviewed":true},{"id":"reviewed-early-8","text":"changed my screen name. apparently adding three more x's was the missing ingredient","reviewed":true}],"boom":[{"id":"reviewed-boom-1","text":"download said blink-182. it was a guy explaining how to fix a printer","reviewed":true},{"id":"reviewed-boom-2","text":"made a mix CD. track order is a very serious responsibility","reviewed":true},{"id":"reviewed-boom-3","text":"the dreamcast can go online. my console is more social than i am","reviewed":true},{"id":"reviewed-boom-4","text":"watched the matrix and now every pair of sunglasses in this house is mine","reviewed":true},{"id":"reviewed-boom-5","text":"napster says 47 minutes remaining. it has said that for 47 minutes","reviewed":true},{"id":"reviewed-boom-6","text":"if they vote the wrong person off survivor i'm writing a strongly worded away message","reviewed":true},{"id":"reviewed-boom-7","text":"brb checking if the computer clock survived midnight","reviewed":true},{"id":"reviewed-boom-8","text":"saw fellowship. apparently that was only ONE movie's worth of walking","reviewed":true}],"flash":[{"id":"reviewed-flash-1","text":"my dad starts every IM with ‘Dear’ and signs his name. should i send him a stamp","reviewed":true,"adaptation":true,"sourceUrl":"https://www.campustimes.org/2004/01/22/aiming-for-more-than-term-papers/"},{"id":"reviewed-flash-2","text":"your away message says studying but you've changed the lyrics three times","reviewed":true,"adaptation":true,"sourceUrl":"https://www.campustimes.org/2004/01/22/aiming-for-more-than-term-papers/"},{"id":"reviewed-flash-3","text":"we live next door and we're making dinner plans through AIM. technology has peaked","reviewed":true,"adaptation":true,"sourceUrl":"https://www.campustimes.org/2004/01/22/aiming-for-more-than-term-papers/"},{"id":"reviewed-flash-4","text":"someone put napoleon dynamite quotes in their profile and now lunch is unbearable","reviewed":true},{"id":"reviewed-flash-5","text":"finished return of the king. need a minute before returning to algebra","reviewed":true},{"id":"reviewed-flash-6","text":"halo 2 tonight? tell your brother he can't unplug the router when he's losing","reviewed":true},{"id":"reviewed-flash-7","text":"my ipod has 800 songs and somehow i still listen to the same six","reviewed":true},{"id":"reviewed-flash-8","text":"strong bad answered another email. there goes my productivity","reviewed":true}],"social":[{"id":"reviewed-social-1","text":"just spent ten minutes arguing with SmarterChild about bananas. neither of us grew as a person","reviewed":true,"adaptation":true,"sourceUrl":"https://www.bzpower.com/blogs/entry/3629-entry-for-today/"},{"id":"reviewed-social-2","text":"FOUND CAPS LOCK. THIS IS MUCH LESS WORK THAN HOLDING SHIFT","reviewed":true,"adaptation":true,"sourceUrl":"https://qdb.lol/quote/835030"},{"id":"reviewed-social-3","text":"apparently hunter2 is not a password strategy. devastating news","reviewed":true,"adaptation":true,"sourceUrl":"https://qdb.lol/quote/244321"},{"id":"reviewed-social-4","text":"moved someone out of my top 8 and now i have actual diplomatic problems","reviewed":true},{"id":"reviewed-social-5","text":"the wii remote has a wrist strap for a reason. our lamp would like to make a statement","reviewed":true},{"id":"reviewed-social-6","text":"someone sent me a youtube video. now it's two hours later and i'm watching a guy review toasters","reviewed":true},{"id":"reviewed-social-7","text":"waiting for the last harry potter book. if your away message has spoilers we're fighting","reviewed":true},{"id":"reviewed-social-8","text":"that new iphone costs more than my computer and doesn't even have a keyboard??","reviewed":true}],"modern":[{"id":"reviewed-modern-1","text":"my computer is connected to the network. unfortunately i cannot locate it in this room","reviewed":true,"adaptation":true,"sourceUrl":"https://qdb.lol/quote/5273"},{"id":"reviewed-modern-2","text":"changed my facebook status and immediately regretted giving everyone that much access to my thoughts","reviewed":true},{"id":"reviewed-modern-3","text":"the dark knight was worth the midnight showing. tomorrow's alarm clock disagrees","reviewed":true},{"id":"reviewed-modern-4","text":"farmville has turned checking facebook into agricultural shift work","reviewed":true},{"id":"reviewed-modern-5","text":"this netbook is adorable until i try to type with human-sized hands","reviewed":true},{"id":"reviewed-modern-6","text":"lady gaga dressed like the future and i'm still wearing this same hoodie","reviewed":true},{"id":"reviewed-modern-7","text":"windows 7 installed. cautiously optimistic. keeping the recovery discs within reach","reviewed":true},{"id":"reviewed-modern-8","text":"someone rickrolled the group project chat. morale is low","reviewed":true}]};
+  function createAmbientAimEngine(options = {}) {
+    const random = options.random || Math.random;
+    const schedule = options.setTimeout || setTimeout;
+    const cancel = options.clearTimeout || clearTimeout;
+    const now = options.now || Date.now;
+    const changed = options.onChange || (() => {});
+    const getEra=options.getEra||(()=>'flash');
+    // Half of page sessions have no Easter eggs at all; eligible sessions still use ordinary chatter most of the time.
+    const eggsAllowed=random()<0.5,seenEggs=new Set(),seenReviewed=new Set();let eggsSent=0;
+    let running = false, paused = false, pace = 'normal', presenceTimer = null, messageTimer = null;
+    let serial = 0, unread = 0, lastMessage = null, lastEvent = null, history = [],messageSerial=0;
+    const conversations=Object.create(null),unreadByBuddy=Object.create(null);
+    const copyMessage=m=>({...m,action:m.action&&{...m.action}});
+    function recount(){unread=Object.values(unreadByBuddy).reduce((n,v)=>n+v,0)}
+    const incomingMessage=m=>!m.direction||m.direction==='incoming';
+    function latestUnread(){return Object.entries(conversations).filter(([name])=>unreadByBuddy[name]>0).map(([,messages])=>messages.filter(incomingMessage).at(-1)).filter(Boolean).sort((a,b)=>b.messageId-a.messageId)[0]||null}
+    function markRead(name){if(name!==undefined)unreadByBuddy[name]=0;else for(const buddy of Object.keys(unreadByBuddy))unreadByBuddy[buddy]=0;recount();notify({type:'read',buddy:name})}
+    const buddies = roster.map(([name,group],id) => ({id,name,group,online:[0,2,4,6,12,15].includes(id),away:id%4===0 ? away[id%away.length] : ''}));
+    function eligible(b){return archiveBuddies[b.name]?archiveBuddies[b.name].eras.includes(getEra()):replyApi.available(b.name,getEra())}
+    function pick(list) { return list[Math.min(list.length-1, Math.floor(random()*list.length))]; }
+    function delay(lo, hi) { return Math.round(lo + random()*(hi-lo)); }
+    function view(){const latest=latestUnread();return {running,paused,pace,unread,typingByBuddy:Object.fromEntries([...dialogue].map(([name,c])=>[name,c.typing&&running&&!paused&&!!buddies.find(b=>b.name===name&&b.online&&eligible(b))])),pendingByBuddy:Object.fromEntries([...dialogue].map(([name,c])=>[name,c.pending.length])),lastMessage:lastMessage&&copyMessage(lastMessage),latestUnreadMessage:latest&&copyMessage(latest),lastEvent:lastEvent&&{...lastEvent},history:history.map(e=>({...e})),buddies:buddies.map(b=>({...b,online:b.online&&eligible(b),available:eligible(b),archiveBuddy:!!archiveBuddies[b.name],sourceUrl:archiveBuddies[b.name]?.sourceUrl,sourceTitle:archiveBuddies[b.name]?.sourceTitle,sourceNote:archiveBuddies[b.name]?.sourceNote})),conversations:Object.fromEntries(Object.entries(conversations).map(([name,list])=>[name,list.map(copyMessage)])),unreadByBuddy:{...unreadByBuddy}}}
+    function notify(event) { changed(view(), event); }
+    function record(type,buddy,text) {
+      lastEvent = {id:++serial,type,buddy:buddy.name,text,time:now()};
+      history = [lastEvent,...history].slice(0,6);
+      notify(lastEvent);
+    }
+    function presence(type) {
+      if(!running || paused) return;
+      const online=buddies.filter(b=>b.online&&eligible(b)), offline=buddies.filter(b=>!b.online&&eligible(b));
+      if(!type) type=online.length<=3?'signin':online.length>=11?'signout':random()<0.55?'signin':'signout';
+      const pool=type==='signin'?offline:online;if(!pool.length)return;
+      const buddy=pick(pool);buddy.online=type==='signin';if(buddy.online)queueReply(buddy);else cancelReply(buddy.name);
+      record(type,buddy,buddy.name+(buddy.online?' has signed on.':' has signed off.'));
+    }
+    function messageContent(buddy){
+      const profile=archiveBuddies[buddy.name];
+      if(profile){const available=profile.messages.filter(m=>!seenEggs.has(m.id));if(!eggsAllowed||eggsSent>=2||!available.length||random()>=0.18)return null;const egg=pick(available);seenEggs.add(egg.id);eggsSent++;return {...egg,easterEgg:true,era:getEra()};}
+      const era=getEra(),available=[...(eraMessages[era]||[]),...(personalMessages[buddy.name]||[])].filter(m=>!seenEggs.has(m.id));
+      if(eggsAllowed&&eggsSent<2&&available.length&&random()<0.18){const egg=pick(available);seenEggs.add(egg.id);eggsSent++;return {...egg,action:egg.action&&{...egg.action},era,easterEgg:true}}
+      const eraPool=reviewedMessages[era]||[];
+      let availableReviewed=eraPool.filter(m=>!seenReviewed.has(m.id));
+      if(eraPool.length&&!availableReviewed.length){for(const m of eraPool)seenReviewed.delete(m.id);availableReviewed=eraPool;}
+      const result=pick([...messages.map(text=>({text})),...availableReviewed]);
+      if(result.reviewed)seenReviewed.add(result.id);
+      return {...result,era};
+    }
+    function message() {
+      if(!running || paused) return;
+      const online=buddies.filter(b=>b.online&&eligible(b)&&(!archiveBuddies[b.name]||(eggsAllowed&&eggsSent<2&&archiveBuddies[b.name].messages.some(m=>!seenEggs.has(m.id)))));if(!online.length)return;
+      const buddy=pick(online),content=messageContent(buddy);if(!content)return;lastMessage={from:buddy.name,...content,time:now(),messageId:++messageSerial};conversations[buddy.name]=[...(conversations[buddy.name]||[]),copyMessage(lastMessage)].slice(-200);unreadByBuddy[buddy.name]=Math.min(conversations[buddy.name].filter(incomingMessage).length,(unreadByBuddy[buddy.name]||0)+1);recount();
+      record('message',buddy,buddy.name+' sent you a message.');
+    }
+    const replyApi=options.replyApi||(typeof module==='object'&&module.exports?require('./aim-replies.js'):root.WebThenReplies);
+    const dialogue=new Map();let dialogueEra=getEra();
+    function contextFor(name){if(!dialogue.has(name))dialogue.set(name,{pending:[],typing:false,timer:null,turn:0,lastTopic:null,lastReply:'',era:getEra()});return dialogue.get(name)}
+    function cancelReply(name){const c=dialogue.get(name);if(!c)return;if(c.timer!==null)cancel(c.timer);c.timer=null;c.typing=false}
+    function clearReplies(){for(const name of dialogue.keys())cancelReply(name)}
+    function appendChat(buddy,content,incoming=false){
+      const message={...content,time:now(),messageId:++messageSerial};
+      conversations[buddy.name]=[...(conversations[buddy.name]||[]),copyMessage(message)].slice(-200);
+      if(incoming){lastMessage=message;unreadByBuddy[buddy.name]=Math.min(conversations[buddy.name].filter(incomingMessage).length,(unreadByBuddy[buddy.name]||0)+1);recount();record('message',buddy,buddy.name+' sent you a message.')}
+      else {unreadByBuddy[buddy.name]=Math.min(unreadByBuddy[buddy.name]||0,conversations[buddy.name].filter(incomingMessage).length);recount();notify({type:message.direction==='outgoing'?'sent':'notice',buddy:buddy.name});}
+      return message;
+    }
+    function queueReply(buddy){
+      const c=dialogue.get(buddy.name);if(!c||!c.pending.length||c.timer!==null||!running||paused||!buddy.online||!eligible(buddy))return;
+      const eraAtQueue=getEra();if(c.era!==eraAtQueue){c.era=eraAtQueue;c.lastTopic=null;c.lastReply=''}
+      const planned=archiveBuddies[buddy.name]?null:replyApi.makeReply({name:buddy.name,text:c.pending.join('\n'),era:eraAtQueue,lastTopic:c.lastTopic,lastReply:c.lastReply,turn:c.turn,awayMessage:buddy.away,random});
+      c.typing=true;const previewText=planned?.text||archiveBuddies[buddy.name]?.messages.find(m=>!seenEggs.has(m.id))?.text||'No further archived excerpts.';
+      const wait=replyApi.typingDelay(previewText,replyApi.profiles[buddy.name]?.[0],random);
+      c.timer=schedule(()=>{c.timer=null;c.typing=false;
+        if(!running||paused||!buddy.online||!eligible(buddy)){notify({type:'typing',buddy:buddy.name});return}
+        const era=getEra(),input=c.pending.splice(0,5).join('\n');if(c.era!==era){c.era=era;c.lastTopic=null;c.lastReply=''}
+        const archive=archiveBuddies[buddy.name];
+        if(archive){const available=archive.messages.filter(m=>!seenEggs.has(m.id));
+          if(!available.length){appendChat(buddy,{from:'WebThen',direction:'system',text:'This archive buddy has no more preserved excerpts to share. Open Archive buddy info to view the original source.'});return}
+          const excerpt=available[c.turn%available.length];c.turn++;seenEggs.add(excerpt.id);
+          appendChat(buddy,{...excerpt,from:buddy.name,direction:'incoming',easterEgg:true,interactive:true,era},true);
+        }else{
+          const reply=era===eraAtQueue?planned:replyApi.makeReply({name:buddy.name,text:input,era,lastTopic:c.lastTopic,lastReply:c.lastReply,turn:c.turn,awayMessage:buddy.away,random});c.turn++;
+          if(reply){c.lastTopic=reply.topic;c.lastReply=reply.text;appendChat(buddy,{...reply,from:buddy.name,direction:'incoming',interactive:true},true)}
+        }
+        if(c.pending.length)queueReply(buddy);
+      },wait);notify({type:'typing',buddy:buddy.name});
+    }
+    function queueAllReplies(){for(const buddy of buddies)queueReply(buddy)}
+    function followEra(){const era=getEra();if(era===dialogueEra)return;dialogueEra=era;clearReplies();queueAllReplies();notify({type:'era'})}
+    function send(name,value,screenName='You'){
+      if(!running)return {ok:false,reason:'Turn AIM on before sending a message.'};
+      if(paused)return {ok:false,reason:'AIM is paused. Return to this tab to send.'};
+      const buddy=buddies.find(b=>b.name===name);if(!buddy||!eligible(buddy))return {ok:false,reason:'This contact is not available in the selected era.'};
+      if(typeof value!=='string'||!value.trim())return {ok:false,reason:'Type a message first.'};
+      const text=value.replace(/\r\n/g,'\n').trim();if(text.length>500)return {ok:false,reason:'Messages can be up to 500 characters.'};
+      const c=contextFor(name);if(c.pending.length>=5)return {ok:false,reason:'Let this buddy catch up before sending more. Your draft is still here.'};
+      c.pending.push(text);cancelReply(name);appendChat(buddy,{from:String(screenName).slice(0,32),direction:'outgoing',text,era:getEra()});queueReply(buddy);
+      return {ok:true,queued:!buddy.online,pending:c.pending.length};
+    }
+
+    function clearTimers(){clearReplies();if(presenceTimer!==null)cancel(presenceTimer);if(messageTimer!==null)cancel(messageTimer);presenceTimer=messageTimer=null;}
+    function queuePresence(first=false){const ranges={quiet:[35000,75000],normal:[20000,45000],lively:[10000,24000]};const [lo,hi]=first?[6000,12000]:ranges[pace];presenceTimer=schedule(()=>{presenceTimer=null;if(!running||paused)return;presence();queuePresence();},delay(lo,hi));}
+    function queueMessage(){messageTimer=schedule(()=>{messageTimer=null;if(!running||paused)return;message();queueMessage();},delay(150000,330000));}
+    function start(){if(running)return false;running=true;paused=false;notify({type:'start'});presence('signin');queuePresence(true);queueMessage();queueAllReplies();return true;}
+    function stop(){running=false;paused=false;clearTimers();notify({type:'stop'});}
+    function setPaused(value){value=!!value;if(paused===value)return;paused=value;clearTimers();if(running&&!paused){queuePresence();queueMessage();queueAllReplies();}notify({type:value?'pause':'resume'});}
+    function setPace(value){if(!['quiet','normal','lively'].includes(value))return;pace=value;if(running&&!paused){if(presenceTimer!==null)cancel(presenceTimer);queuePresence();}notify({type:'pace'});}
+    return {start,stop,setPaused,setPace,view,markRead,send,followEra,preview(type){if(type==='message')message();else if(['signin','signout'].includes(type))presence(type);}};
+  }
+  createAmbientAimEngine.eraMessages=eraMessages;
+  createAmbientAimEngine.personalMessages=personalMessages;
+  createAmbientAimEngine.archiveBuddies=archiveBuddies;
+  createAmbientAimEngine.reviewedMessages=reviewedMessages;
+  if(typeof module==='object'&&module.exports)module.exports=createAmbientAimEngine;else root.createAmbientAimEngine=createAmbientAimEngine;
+})(globalThis);

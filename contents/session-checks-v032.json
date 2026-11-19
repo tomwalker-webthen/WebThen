@@ -1,0 +1,53 @@
+{
+  "version": "0.32",
+  "checkedOn": "2026-11-18",
+  "scope": "Era/session travel and taskbar camouflage only. AIM/chat source files unchanged.",
+  "results": [
+    {
+      "id": "era-controls",
+      "status": "passed",
+      "evidence": "Live DOM contained only connection-era and session-era selects with era options. welcome-era and eras were absent. Start-menu travel opened the clock dialog."
+    },
+    {
+      "id": "period-clock",
+      "status": "passed",
+      "evidence": "Browser observed Tuesday, October 15, 1996; Wednesday, October 15, 2003; Wednesday, October 15, 2008. Unit tests check all five dates against bucket bounds."
+    },
+    {
+      "id": "travel-flow",
+      "status": "passed",
+      "evidence": "With archive browser, Video Lounge and radio open, Apply removed browser windows/video frames and cleared/paused audio sources. Automatic reconnect entered the requested era; Skip also worked. Existing ambient sound controls stopped the buddy-list audio activity and restored its enabled preference after reload."
+    },
+    {
+      "id": "era-initialization",
+      "status": "passed",
+      "evidence": "Early travel produced Win98, 1990s Hits and Yahoo/GeoCities/AltaVista. Modern travel produced Aqua, 2000s Hits, YouTube/Twitter/Newgrounds and the 2008–2009 Video Lounge queue. Early buddy DOM had 18 eligible regular contacts and omitted later/archived contacts. A manual XP override survived travel to early."
+    },
+    {
+      "id": "icon-trays",
+      "status": "passed",
+      "evidence": "All twelve layout cases had zero visible text buttons in the system tray and Mac menu bar. Status/Disconnect, Start travel, Mac Log Out and right-click Sign Off/Exit were exercised. Exited ThenAmp reopened paused with no audio src."
+    },
+    {
+      "id": "clock-discovery",
+      "status": "passed",
+      "evidence": "First visit displayed the exact clock balloon. Tour Next displayed Travel with the clock. Start-menu travel opened Date/Time Properties."
+    },
+    {
+      "id": "startup-icon-clearance",
+      "status": "passed",
+      "evidence": "Twelve browser cases: win98, win2000, xp, classic, mac and modern at 1280x720 and 1440x900. Every visible startup surface had an empty icon-overlap list. Recorded rectangles are in layout-checks-v032.json."
+    }
+  ],
+  "screenshots": [
+    "session-desktop-v032.jpg",
+    "date-time-v032.jpg",
+    "mac-tray-v032.jpg"
+  ],
+  "limits": [
+    "Native browser fullscreen was not newly exercised; original request handler retained and reachable via tray and Start item.",
+    "Video teardown was checked with the embed/player path opened; this was not a fresh per-video playback audit.",
+    "Travel intentionally reloads the page and resets in-memory page/session state.",
+    "Existing cross-origin archive detection and file-video testing limits remain as documented for v0.31."
+  ]
+}

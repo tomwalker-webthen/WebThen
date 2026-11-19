@@ -1,0 +1,59 @@
+{
+  "addedOn": "2026-11-19",
+  "games": [
+    {
+      "id": "hapland",
+      "name": "Hapland",
+      "edition": "Original Flash game · 2005",
+      "availableFromYear": 2005,
+      "kind": "browser",
+      "playback": "basic_verified",
+      "provider": "Foon · Robin Allen · Ruffle",
+      "sourceUrl": "https://foon.uk/farcade/hapland/",
+      "embedUrl": "https://foon.uk/farcade/hapland/",
+      "description": "Robin Allen’s point-and-click puzzle. Work out how the little people, switches and scenery fit together to open the portal.",
+      "launchHint": "Click inside the game. If Ruffle shows a Play button, click it to start.",
+      "controls": "Use the mouse to click people, switches and objects. Timing and the order of your actions matter. Use the game’s own reset control or WebThen Restart to start again.",
+      "catalogIds": [],
+      "verificationNote": "Basic mouse interaction checked in WebThen on November 19, 2026. Full puzzle completion, audio, mobile and other browsers remain unverified. The creator’s current page includes a modern promotion and is not a verified 2005 webpage capture.",
+      "sourceCheckedAt": "2026-11-19",
+      "testedAt": "2026-11-19",
+      "testedActions": [
+        "Loaded creator-hosted Ruffle game inside WebThen",
+        "Toggled built-in help open and closed",
+        "Clicked cannon and observed aiming position change"
+      ]
+    },
+    {
+      "id": "hapland-2",
+      "name": "Hapland 2",
+      "edition": "Original Flash game · 2005",
+      "availableFromYear": 2005,
+      "kind": "browser",
+      "playback": "basic_verified",
+      "provider": "Foon · Robin Allen · Ruffle",
+      "sourceUrl": "https://foon.uk/farcade/hapland2/",
+      "embedUrl": "https://foon.uk/farcade/hapland2/",
+      "description": "Robin Allen’s point-and-click puzzle. Work out how the little people, switches and scenery fit together to open the portal.",
+      "launchHint": "Click inside the game. If Ruffle shows a Play button, click it to start.",
+      "controls": "Use the mouse to click people, switches and objects. Timing and the order of your actions matter. Use the game’s own reset control or WebThen Restart to start again.",
+      "catalogIds": [],
+      "verificationNote": "Basic mouse interaction checked in WebThen on November 19, 2026. Full puzzle completion, audio, mobile and other browsers remain unverified. The creator’s current page includes a modern promotion and is not a verified 2005 webpage capture.",
+      "sourceCheckedAt": "2026-11-19",
+      "testedAt": "2026-11-19",
+      "testedActions": [
+        "Loaded creator-hosted Ruffle game inside WebThen",
+        "Clicked red direction switch and observed green arrow"
+      ]
+    }
+  ],
+  "interview": {
+    "name": "Longmont Potion Castle — 2003 interview",
+    "year": 2003,
+    "url": "https://markprindle.com/longmont-i.htm",
+    "embedding": "load_failed",
+    "historicalSnapshot": "unverified",
+    "sourceReadVerified": true,
+    "verificationNote": "Original page opened and read in a separate browser tab. Embedded loading did not complete in WebThen; in-app reading remains unverified. No historical snapshot or original page appearance verified."
+  }
+}

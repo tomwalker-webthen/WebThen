@@ -1,0 +1,21 @@
+#webthen-music.has-radio-skin{width:277px!important;min-width:277px!important;min-height:0!important;height:auto!important;max-height:calc(100dvh - 60px);border:1px solid var(--radio-skin-edge)!important;border-radius:0!important;padding:0!important;box-shadow:2px 3px 8px #0006!important}
+#webthen-music.has-radio-skin:not([data-minimized="true"])>#music-drag{display:none!important}
+#webthen-music.has-radio-skin>.window-resizer{display:none!important}
+#webthen-music.has-radio-skin .music-main{padding:0!important;flex:0 1 auto;overflow:auto}
+#webthen-music.has-radio-skin .radio-skin-face-wrap{margin:0!important;width:275px;height:116px;max-width:none}
+#webthen-music.has-radio-skin .music-station-row{padding:4px!important;margin:0!important;gap:4px;display:flex;flex-wrap:nowrap;align-items:center;font:10px Tahoma,sans-serif}
+#webthen-music.has-radio-skin .music-station-row label{font:10px Tahoma,sans-serif}
+#webthen-music.has-radio-skin #music-station{flex:1;min-width:0;width:0;height:22px;padding:1px 2px!important;font:10px Tahoma,sans-serif!important;border:1px inset var(--radio-skin-edge)!important;border-radius:0!important}
+.thenamp-options{margin:0;padding:0;border-top:1px solid var(--radio-skin-edge,#666);font:10px Tahoma,sans-serif}
+.thenamp-options>summary{padding:5px 7px;cursor:pointer;user-select:none;list-style-position:inside}
+.thenamp-options>summary:focus-visible,.skin-drag-handle:focus-visible{outline:2px solid #e6b638;outline-offset:-2px}
+.thenamp-options-content{padding:4px 7px 7px}
+.thenamp-options-content .music-follow{display:flex;align-items:center;gap:4px;font-size:10px}
+.thenamp-options-content #music-status{margin:6px 0;font-size:10px;line-height:1.4;overflow-wrap:anywhere}
+.thenamp-options-content .music-links{display:flex;flex-wrap:wrap;gap:5px;align-items:center;justify-content:space-between;margin:6px 0}
+.thenamp-options-content .music-links button{font:10px Tahoma,sans-serif!important;padding:4px!important;min-width:0!important}
+.thenamp-options-content .music-provider{display:block;font:9px/1.5 Tahoma,sans-serif}
+.has-radio-skin .thenamp-options{background:var(--radio-skin-panel);color:var(--radio-skin-text)}
+.skin-drag-handle{position:absolute;left:0;top:0;width:240px;height:14px;cursor:move;touch-action:none}
+#webthen-music.has-radio-skin[data-minimized="true"] #music-drag{padding:2px 4px!important;min-height:18px}
+#webthen-music.has-radio-skin[data-minimized="true"] #music-drag strong{font:10px Tahoma,sans-serif!important}

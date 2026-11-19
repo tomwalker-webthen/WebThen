@@ -1,0 +1,74 @@
+{
+  "testedOn": "2026-11-19",
+  "tests": [
+    {
+      "id": "hapland",
+      "status": "basic_verified",
+      "actions": [
+        "Creator page and Ruffle game loaded inside Game Room",
+        "Built-in help toggled open and closed",
+        "Clicking cannon changed its aiming position"
+      ],
+      "limits": "Full solution, completion, audio and other browsers not verified."
+    },
+    {
+      "id": "hapland-2",
+      "status": "basic_verified",
+      "actions": [
+        "Creator page and Ruffle game loaded inside Game Room",
+        "Clicked red direction switch; it changed to a green arrow"
+      ],
+      "limits": "Full solution, completion, audio and other browsers not verified."
+    },
+    {
+      "id": "lpc-interview-2003",
+      "status": "embedding_unverified",
+      "actions": [
+        "Found 2003 interview in Directory",
+        "Attempted embedded loads using archive probe and direct iframe navigation; neither completed",
+        "Opened original page separately and read the 2003 heading and interview text"
+      ],
+      "limits": "No confirmed historical snapshot or original layout; embedded reading unverified; failure cause not established."
+    },
+    {
+      "id": "new-game-filters",
+      "downloadCount": 0,
+      "browserCount": 2,
+      "musicCount": 0,
+      "gamesCount": 2
+    }
+  ],
+  "eraChecks": [
+    {
+      "era": "early",
+      "games": [],
+      "interviewVisible": 0
+    },
+    {
+      "era": "boom",
+      "games": [],
+      "interviewVisible": 0
+    },
+    {
+      "era": "flash",
+      "games": [],
+      "interviewVisible": 1
+    },
+    {
+      "era": "social",
+      "games": [
+        "hapland",
+        "hapland-2"
+      ],
+      "interviewVisible": 1
+    },
+    {
+      "era": "modern",
+      "games": [
+        "hapland",
+        "hapland-2"
+      ],
+      "interviewVisible": 1
+    }
+  ]
+}

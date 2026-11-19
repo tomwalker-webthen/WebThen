@@ -1,0 +1,15 @@
+{
+  "sourceCandidates": 341,
+  "leads": 329,
+  "httpTitleChecked": 268,
+  "indexedOnly": 35,
+  "noConfirmedCapture": 38,
+  "states": {
+    "http_checked": 268,
+    "lookup_failed": 13,
+    "indexed": 35,
+    "no_historical_capture": 11,
+    "untested": 2
+  },
+  "checkedAt": "2026-11-17T16:25:25.234Z"
+}

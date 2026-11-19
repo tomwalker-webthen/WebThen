@@ -1,0 +1,79 @@
+{
+  "sources": [
+    "https://www.181.fm/links",
+    "https://www.181.fm/support",
+    "https://www.181.fm/codes",
+    "https://www.1.fm/station/hits2000"
+  ],
+  "note": "Direct streams published by broadcasters. Audio is played directly from their servers, without recording, proxying, rebroadcasting, or stripping ads. 181.FM support describes stream links for your own music player setup. 1.FM stream URLs were read from its public station page data. No assertion of independent music licensing is made.",
+  "stations": [
+    {
+      "id": "hits90s",
+      "label": "1990s Hits",
+      "name": "181.FM · Star 90’s",
+      "decade": "1990–1999",
+      "url": "https://listen.181fm.com/181-star90s_128k.mp3",
+      "sourceUrl": "https://player.181fm.com/?station=181-star90s",
+      "listingUrl": "https://www.181.fm/links",
+      "provider": "181.FM",
+      "description": "Broad 1990s hits; live programming may include announcements and ads."
+    },
+    {
+      "id": "hits00s",
+      "label": "2000s Hits",
+      "name": "1.FM · y2k",
+      "decade": "2000–2009",
+      "url": "https://strm112.1.fm/hits2000_mobile_mp3?aw_0_req.gdpr=true",
+      "sourceUrl": "https://www.1.fm/station/hits2000",
+      "listingUrl": "https://www.1.fm/station/hits2000",
+      "provider": "1.FM",
+      "description": "The music that defined the new millennium. The biggest hits from 2000-2009."
+    },
+    {
+      "id": "hits90s-alt",
+      "label": "1990s Hits · alternate",
+      "name": "1.FM · 90s Best",
+      "decade": "1990–1999",
+      "url": "https://strm112.1.fm/90s_mobile_mp3?aw_0_req.gdpr=true",
+      "sourceUrl": "https://www.1.fm/station/90s",
+      "listingUrl": "https://www.1.fm/station/hits2000",
+      "provider": "1.FM",
+      "description": "The decade that had it all. Relive the 90s here."
+    }
+  ],
+  "evidence": [
+    {
+      "station": "hits90s",
+      "url": "https://listen.181fm.com/181-star90s_128k.mp3",
+      "finalUrl": "https://listen.181fm.com/181-star90s_128k.mp3",
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "stationName": "181.FM Star 90s",
+      "bitrate": "128",
+      "checkedAt": "2026-11-17T22:23:44.465Z",
+      "receivedBytes": 16384
+    },
+    {
+      "station": "hits00s",
+      "url": "https://strm112.1.fm/hits2000_mobile_mp3?aw_0_req.gdpr=true",
+      "finalUrl": "https://strm112.1.fm/hits2000_mobile_mp3?aw_0_req.gdpr=true",
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "stationName": "1.FM y2k",
+      "bitrate": "256",
+      "checkedAt": "2026-11-17T22:23:43.952Z",
+      "receivedBytes": 16384
+    },
+    {
+      "station": "hits90s-alt",
+      "url": "https://strm112.1.fm/90s_mobile_mp3?aw_0_req.gdpr=true",
+      "finalUrl": "https://strm112.1.fm/90s_mobile_mp3?aw_0_req.gdpr=true",
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "stationName": "1.FM 90s Best",
+      "bitrate": "256",
+      "checkedAt": "2026-11-17T22:23:43.966Z",
+      "receivedBytes": 16384
+    }
+  ]
+}
