@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — ThenChat message sounds — 2026-11-19
+
+- Play the message sound when you send a ThenChat message, as well as when a buddy's message arrives.
+- Unlock buddy sounds on the first tap, click or key press so phones and strict browsers allow later sign-in, sign-out and message sounds. The unlock is silent and respects the existing sound toggle and volume.
+- Verified in headless Chrome: send and receive both play; no console errors. Physical audio output and mobile Safari were not tested.
+
 # Unreleased — Restore buddy sounds — 2026-11-19
 
 - Restore the earlier ThenChat buddy sound set (sign-in, sign-out, message) at Tom's request, replacing the composed cues from the original-artwork branch. Sounds play through the existing ThenChat sound toggle and volume.

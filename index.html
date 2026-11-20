@@ -705,7 +705,9 @@ const ambientAimSounds={"signin":"data:audio/wav;base64,UklGRuRKAABXQVZFZm10IBAA
   const muteInput=document.querySelector('#aim-mute'),volumeInput=document.querySelector('#aim-volume'),paceInput=document.querySelector('#aim-pace');
   let volume=35,muted=false,pace='normal',minimized=false,soundProblem='',offlineExpanded=false,buddiesExpanded=true,familyExpanded=true;
   try{const saved=JSON.parse(localStorage.getItem('webthen-aim-settings-v1')||'null');if(saved){if(Number.isFinite(saved.volume))volume=Math.max(0,Math.min(100,saved.volume));muted=saved.muted===true;if(['quiet','normal','lively'].includes(saved.pace))pace=saved.pace;}}catch(e){}
-  const sounds=Object.fromEntries(Object.entries(ambientAimSounds).map(([kind,uri])=>{const sound=new Audio(uri);sound.preload='auto';sound.volume=volume/100;return [kind,sound]}));
+  const sounds=Object.fromEntries(Object.entries({...ambientAimSounds,sent:ambientAimSounds.message}).map(([kind,uri])=>{const sound=new Audio(uri);sound.preload='auto';sound.volume=volume/100;return [kind,sound]}));
+  function unlockSounds(){['pointerdown','keydown','touchend'].forEach(t=>removeEventListener(t,unlockSounds,true));Object.values(sounds).forEach(s=>{if(!s.paused)return;s.muted=true;const done=()=>{s.pause();try{s.currentTime=0}catch(e){}s.muted=false};s.play().then(done,()=>{s.muted=false})});}
+  ['pointerdown','keydown','touchend'].forEach(t=>addEventListener(t,unlockSounds,true));
   function persist(){try{localStorage.setItem('webthen-aim-settings-v1',JSON.stringify({volume,muted,pace}));}catch(e){}}
   function stopSound(){Object.values(sounds).forEach(s=>{s.pause();try{s.currentTime=0}catch(e){}});}
   function play(kind){if(muted||volume===0||!engine.view().running||engine.view().paused)return;stopSound();const sound=sounds[kind];if(!sound)return;sound.volume=volume/100;soundProblem='';sound.play().then(()=>{if(engine.view().running){panel.dataset.lastSound=kind;panel.dataset.soundState='played';render(engine.view());}}).catch(()=>{if(engine.view().running&&!muted){soundProblem='Sound paused · try a preview';panel.dataset.soundState='blocked';render(engine.view());}});}
@@ -732,7 +734,7 @@ const ambientAimSounds={"signin":"data:audio/wav;base64,UklGRuRKAABXQVZFZm10IBAA
     muteInput.checked=muted;volumeInput.value=String(volume);document.querySelector('#aim-volume-value').textContent=volume+'%';paceInput.value=state.pace;
     const audioLabel=document.querySelector('#aim-audio-status');audioLabel.textContent=soundProblem||(muted||volume===0?'Sound off':'Sound on · '+volume+'%');audioLabel.classList.toggle('aim-audio-problem',!!soundProblem);
   }
-  const engine=createAmbientAimEngine({getEra:()=>selected,onChange(state,event){render(state);WebThenChats.observe(state,event);if(['signin','signout','message'].includes(event?.type))play(event.type);}});
+  const engine=createAmbientAimEngine({getEra:()=>selected,onChange(state,event){render(state);WebThenChats.observe(state,event);if(['signin','signout','message','sent'].includes(event?.type))play(event.type);}});
   WebThenChats.bind(engine);engine.setPace(pace);
   function place(){if(panel.parentElement!==document.body)document.body.append(panel);}
   function turnOff(){try{localStorage.setItem('webthen-aim-enabled','off')}catch(e){}engine.stop();stopSound();soundProblem='';panel.dataset.soundState='stopped';}
