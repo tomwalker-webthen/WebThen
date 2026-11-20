@@ -9,6 +9,6 @@ for(const asset of JSON.parse(read('contents/original-art/manifest.json')).files
 for(const skin of skins){assert(!/winamp|sony|windows|os8|webamp/i.test(skin.name));for(const image of [skin.preview,...Object.values(skin.images)])assert(image.startsWith('data:image/svg+xml;base64,'),'Only original SVG artwork in skin set');const title=Buffer.from(skin.images.titlebar.split(',')[1],'base64').toString();assert(title.includes('THENAMP'));assert(!title.includes('WINAMP'));}
 const wallpaper=read('contents/desktop-themes.css').match(/--xp-wallpaper:url\("([^"]+)"\)/)[1];assert(wallpaper.startsWith('data:image/svg+xml;base64,'));assert.equal(Buffer.from(wallpaper.split(',')[1],'base64').toString(),read('contents/original-art/evening-lake.svg'));
 assert(html.includes('<strong>ThenChat</strong>'));assert(!html.includes('<strong>AIM</strong>'));
-for(const [kind,value]of Object.entries(data('ambientAimSounds')))assert.equal(value,'data:audio/wav;base64,'+fs.readFileSync(path.join(root,'contents/original-art',kind+'.wav')).toString('base64'));
+for(const [kind,value]of Object.entries(data('ambientAimSounds')))assert.equal(value,'data:audio/wav;base64,'+fs.readFileSync(path.join(root,'contents/buddy-sounds',kind+'.wav')).toString('base64'));
 assert(html.includes(read('contents/onboarding.css')),'Tour stylesheet mirror');
-console.log('PASS: no active cached site logos; six original SVG ThenAmp skins; original wallpaper, ThenChat branding and generated sound cues. This is an asset check, not public-launch rights clearance.');
+console.log('PASS: no active cached site logos; six original SVG ThenAmp skins; original wallpaper, ThenChat branding and restored buddy sound set. This is an asset check, not public-launch rights clearance.');

@@ -13,7 +13,7 @@ Reviewed November 19, 2026 on `art/original-desktop-assets`. This branch is not 
 | Dock file manager | Original labeled folder replaces the face icon. | `contents/original-art/aqua.svg` |
 | XP wallpaper | Original **Evening Lake** vector landscape replaces the cached Bliss photograph. | `contents/original-art/evening-lake.svg` |
 | Destination thumbnails | Active cached-logo maps are empty. Existing original category illustrations identify linked destinations. Real site names and URLs remain descriptive text. | `dev/check-original-art.cjs`; no brand-image cache remains in the publish HTML. |
-| Buddy sound effects | Newly composed short door-like sweeps and message chime replace the old sample set. The original modem recording is not synthesized or replaced. | Original PCM WAVs and their generator in `contents/original-art/` |
+| Buddy sound effects | Earlier sample set restored at Tom's request on 2026-11-19 (`contents/buddy-sounds/`); provenance unconfirmed. The composed sweeps and chime remain in `contents/original-art/`, inactive. The original modem recording is not synthesized or replaced. | Original PCM WAVs and their generator in `contents/original-art/` |
 
 The retained blue geometric, wave and cloud wallpapers are project-authored SVG drawings. Other existing generic game, monitor, folder, network and loading art remains. Familiar theme colors, window layouts and descriptive OS names remain: replacing particular assets does not establish clearance of the overall interface or product names.
 

@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Restore buddy sounds — 2026-11-19
+
+- Restore the earlier ThenChat buddy sound set (sign-in, sign-out, message) at Tom's request, replacing the composed cues from the original-artwork branch. Sounds play through the existing ThenChat sound toggle and volume.
+- Keep the restored WAVs in `contents/buddy-sounds/`; the composed cues remain in `contents/original-art/` but are inactive.
+- Provenance of the restored set is not documented; confirm usage rights before any public launch. No other ThenChat, modem audio, deployment, DNS or Access changes.
+
 # Unreleased — 2002–2004 connection choice — 2026-11-19
 
 - Add a period Connection selector in Connect To for 2002–2004: Broadband (default) or Dial-up.
