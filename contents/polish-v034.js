@@ -1,6 +1,6 @@
 (function(){'use strict';
  const dates=globalThis.WebThenPeriodDate={label(era){const e=eras.find(x=>x.id===era),date=WebThenSessionModel.periodDate(era);return e.range+' · visiting '+date.toLocaleDateString('en-US',{month:'long',year:'numeric',timeZone:'UTC'})}};
- function labels(){for(const id of ['connection-era','session-era'])for(const o of document.getElementById(id).options)o.textContent=dates.label(o.value);for(const id of ['os-theme','connection-os','desktop-theme-choice'])document.querySelector('#'+id+' option[value="modern"]')?.remove();document.querySelector('#connection-visiting').textContent=dates.label(selected)}
+ function labels(){for(const id of ['connection-era','session-era'])for(const o of document.getElementById(id).options)o.textContent=dates.label(o.value);for(const id of ['os-theme','connection-os','desktop-theme-choice'])document.querySelector('#'+id+' option[value="modern"]')?.remove()}
  document.querySelector('#connection-screen .connection-titlebar>span[aria-hidden]')?.remove();
  labels();const follow=WebThenTheme.followEra.bind(WebThenTheme);WebThenTheme.followEra=()=>{follow();labels()};
  for(const id of ['session-date-time','session-network-status']){const el=document.getElementById(id);for(const b of el.querySelectorAll('header button'))if(!b.getAttribute('aria-label')?.startsWith('Close'))b.remove()}

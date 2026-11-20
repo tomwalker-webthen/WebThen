@@ -18,6 +18,11 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Connection screen cleanup — 2026-11-20
+
+- Remove the separate era/visit-date line from Connect To; the Travel to selector already shows the same text. Era selection, labels and connection behavior are unchanged.
+- Verified in headless Chrome: all five eras selectable, Connect reaches the desktop, no script errors.
+
 # Unreleased — ThenChat message sounds — 2026-11-19
 
 - Play the message sound when you send a ThenChat message, as well as when a buddy's message arrives.
