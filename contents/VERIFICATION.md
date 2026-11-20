@@ -1,3 +1,15 @@
+# Clean startup and window behavior — 2026-11-20
+
+Local headless Chrome (Playwright) against `node dev/server.cjs`. External sites are unreachable from the test machine, so archive pages, game content and media playback were not loaded.
+
+- Startup (XP, 2005–2007, fresh profile): no Start page, ThenAmp, buddy list or Directory after Connect; ThenChat running in the tray. Tour opened with Skip/× hidden and ignored Escape; all seven steps highlighted their targets; the last step closed it. A buddy reply while minimized set the blinking tray state; opening the list cleared it. The ThenChat icon reopened a minimized list and stayed signed on.
+- Window audit in Windows XP, 98, 95, Classic Mac and Mac (Aqua) at 1366×850 for Directory, Start page, ThenChat, ThenAmp, Game, Video Lounge, conversation and Appearance: open on screen and in front, minimize, restore from taskbar/menu bar to the same position and size, maximize/un-maximize, corner resize with screen-edge and minimum-size limits, close, reopen, and no stale or duplicate taskbar entries. A browser window was checked separately in XP and Classic Mac (minimize/restore via its own task, maximize, resize, close).
+- Expected exceptions: ThenAmp and Appearance have no resize grip (fixed size, as originals); Appearance is a modal dialog; resizing a maximized window has no effect.
+- Title-bar drags toward every corner kept windows reachable in XP at 1366×850 and 1280×600, Aqua at 1280×600 and Classic Mac at 1366×850 (below the 32 px menu bar).
+- 390×844 and 820×1180: tour fits with Next reachable; Start page, ThenChat, ThenAmp and Directory fit with reachable controls; clock visible in the phone taskbar.
+- Resolves live QA findings 1 (Classic Mac menu bar) and 3 (tour's Show Appearance action, removed). The other two live findings remain open.
+- Repo checks: verify.cjs, check-original-art.cjs, test-line-rider-links.cjs, test-connection-choice.cjs, build-dist.mjs, check-dist.mjs and git diff --check passed. No console errors. Not tested: Firefox, Safari, real touch input, screen readers, physical audio.
+
 # Live QA across eras and themes — 2026-11-19
 
 - Checked the protected WebThen.org build at `57abc94` using all 28 era-compatible theme combinations at 1280×720 and 1440×900 (56 startup layout cases), plus 84 tour-step fit checks.

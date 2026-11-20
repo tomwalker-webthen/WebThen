@@ -17,7 +17,7 @@
   function item(b,state){const li=document.createElement('li');li.className=(b.away?'away ':'')+(state.lastEvent?.type==='signin'&&state.lastEvent.buddy===b.name?'aim-new':'');li.title=b.online?(b.away||'Available'):'Offline';const dot=document.createElement('span');dot.className='aim-person-dot';dot.setAttribute('aria-hidden','true');const button=document.createElement('button');button.type='button';button.className='buddy-chat-button';button.textContent=b.name;const count=state.unreadByBuddy?.[b.name]||0;button.setAttribute('aria-label','Open chat with '+b.name+(count?', '+count+' unread messages':''));button.onclick=()=>WebThenChats.open(b.name);li.append(dot,button);if(count){const badge=document.createElement('span');badge.className='buddy-unread';badge.textContent='('+count+')';li.append(badge)}if(b.away){const label=document.createElement('span');label.className='aim-away-label';label.textContent='away';li.append(label)}return li;}
   function render(state){
     const online=state.buddies.filter(b=>b.online&&b.available),offline=state.buddies.filter(b=>!b.online&&b.available);
-    panel.hidden=!state.running;panel.dataset.minimized=String(minimized);panel.classList.toggle('aim-message-pending',state.unread>0);panel.dataset.paused=String(state.paused);
+    panel.hidden=!state.running;panel.dataset.minimized=String(minimized);panel.classList.toggle('aim-message-pending',state.unread>0);browserToggle.classList.toggle('tray-unread',state.running&&state.unread>0&&(minimized||panel.hidden));panel.dataset.paused=String(state.paused);
     mainToggle.setAttribute('aria-pressed',String(state.running));browserToggle.setAttribute('aria-pressed',String(state.running));
     const gameToggle=document.querySelector('#game-aim-toggle');if(gameToggle){gameToggle.setAttribute('aria-pressed',String(state.running));gameToggle.textContent=state.running?'ThenChat On':'ThenChat Off';}
     mainToggle.textContent='Ambient ThenChat · '+(state.running?'On':'Off');browserToggle.textContent=state.running?'ThenChat On':'ThenChat Off';
@@ -66,7 +66,7 @@
   const endDrag=()=>{drag=null};titlebar.addEventListener('pointerup',endDrag);titlebar.addEventListener('pointercancel',endDrag);
   window.addEventListener('resize',()=>{if(!engine.view().running)return;const r=panel.getBoundingClientRect();if(r.left<0||r.right>window.innerWidth||r.top<0||r.top>window.innerHeight-35){panel.style.left='';panel.style.top='';panel.style.right='';panel.style.bottom='';}});
   // Optional browser placement hook; the simulation does not use network services.
-  globalThis.WebThenAmbientAIM={place,followEra(){engine.followEra()},startDefault(){let enabled=true;try{enabled=localStorage.getItem('webthen-aim-enabled')!=='off'}catch(e){}if(enabled&&!engine.view().running){place();engine.start();WebThenLayers.raise(panel);if(document.hidden)engine.setPaused(true)}}};
+  globalThis.WebThenAmbientAIM={place,followEra(){engine.followEra()},startDefault(options={}){let enabled=true;try{enabled=localStorage.getItem('webthen-aim-enabled')!=='off'}catch(e){}if(enabled&&!engine.view().running){if(options.tray)minimized=true;place();engine.start();if(!options.tray)WebThenLayers.raise(panel);if(document.hidden)engine.setPaused(true)}}};
   WebThenScreenName.subscribe(()=>render(engine.view()));
   render(engine.view());
 })();

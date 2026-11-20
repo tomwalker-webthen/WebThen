@@ -11,7 +11,7 @@ body .desktop-shortcuts button,body[data-os="mac"] .desktop-shortcuts button{wid
 #session-clock:focus-visible{outline:2px solid #d4a42d;outline-offset:0}
 body:is([data-os="mac"],[data-os="classic"]) #aqua-menu-bar #shell-start{display:inline-flex!important}
 body:is([data-os="mac"],[data-os="classic"]) #aqua-menu-bar>#browser-taskbar{max-width:none!important;min-width:0;overflow-x:auto}
-body:is([data-os="mac"],[data-os="classic"]) #aqua-menu-bar{gap:2px!important}
+body:is([data-os="mac"],[data-os="classic"]) #aqua-menu-bar{gap:2px!important}@media(max-width:520px){body:not([data-os="mac"]):not([data-os="classic"]) #browser-taskbar :is(#browser-directory,#welcome-task){display:none!important}}
 body:is([data-os="mac"],[data-os="classic"]) #session-tray{padding:0 3px;margin-left:auto;gap:3px}
 body:is([data-os="mac"],[data-os="classic"]) #session-clock{font:11px Tahoma,sans-serif;padding:3px;min-width:62px}
 .system-dialog{padding:0;width:430px;max-width:calc(100vw - 24px);background:var(--panel);color:var(--ink);border:3px outset var(--edge);font:12px var(--font);box-shadow:5px 8px 20px #0006}

@@ -40,12 +40,17 @@
  ];
  const registered=new WeakSet();
  function install(el,title,min,close,label){if(registered.has(el)||!title)return;registered.add(el);title.classList.add('standard-chrome');
-  const controls=document.createElement('span');controls.className='chrome-controls';const restore=document.createElement('button');restore.type='button';restore.textContent=label;restore.hidden=true;bar.append(restore);let previousStyle='';
-  restore.onclick=()=>{if(el.dataset.minimized==='true'&&min)min.click();if(el.tagName==='DIALOG'){if(!el.open)el.showModal()}else if(el.id==='portal-shell')WebThenDesktop.showDirectory();else el.hidden=false;restore.hidden=true;WebThenLayers.raise(el)};
+  const controls=document.createElement('span');controls.className='chrome-controls';const restore=document.createElement('button');restore.type='button';restore.className='window-restore';restore.textContent=label;restore.hidden=true;bar.append(restore);let previousStyle='';
+  // Windows with their own taskbar buttons do not get a second one; fixed-size windows cannot maximize.
+  const ownTask=['Browser','Video Lounge','Conversation'].includes(label),fixed=['ThenAmp','Appearance','Skin picker','Quick tour'].includes(label);
+  const layered=!min&&el.tagName!=='DIALOG'&&!!el.matches('.game-window'),unfold=()=>{el.classList.remove('chrome-minimized')};
+  const shown=()=>el.isConnected&&!el.hidden&&el.getClientRects().length>0&&getComputedStyle(el).visibility!=='hidden'&&el.dataset.minimized!=='true'&&!(el.tagName==='DIALOG'&&!el.open);
+  const sync=()=>{if(!el.isConnected){restore.remove();return}if(layered&&el.classList.contains('chrome-minimized')&&el.classList.contains('front-window'))unfold();if(!restore.hidden&&shown())restore.hidden=true};const watch=new MutationObserver(()=>queueMicrotask(sync));watch.observe(el,{attributes:true,attributeFilter:['hidden','data-minimized','open','style','class']});watch.observe(body,{attributes:true,attributeFilter:['class']});
+  restore.onclick=()=>{if(el.dataset.minimized==='true'&&min)min.click();unfold();if(el.tagName==='DIALOG'){if(!el.open)el.showModal()}else if(el.id==='portal-shell')WebThenDesktop.showDirectory();else el.hidden=false;restore.hidden=true;WebThenLayers.raise(el)};
   const make=(text,name,fn)=>{const b=document.createElement('button');b.type='button';b.textContent=text;b.setAttribute('aria-label',name+' '+label);b.onclick=fn;controls.append(b);return b};
-  if(label!=='Connection')make('_','Minimize',()=>{if(min)min.click();else if(el.tagName==='DIALOG')el.close();else if(el.id==='portal-shell')WebThenDesktop.showDesktop();else el.hidden=true;restore.hidden=false});
-  if(label!=='Connection')make('□','Maximize or restore',()=>{if(!el.classList.contains('chrome-maximized')){previousStyle=el.getAttribute('style')||'';el.classList.add('chrome-maximized')}else{el.classList.remove('chrome-maximized');el.setAttribute('style',previousStyle)}WebThenLayers.raise(el)});
-  make('×','Close',()=>{restore.hidden=true;if(close)close.click();else if(el.id==='portal-shell')WebThenDesktop.showDesktop();else if(el.tagName==='DIALOG')el.close();else el.hidden=true});
+  if(label!=='Connection')make('_','Minimize',()=>{if(min)min.click();else if(el.tagName==='DIALOG')el.close();else if(el.id==='portal-shell')WebThenDesktop.showDesktop();else if(layered){el.classList.add('chrome-minimized');el.classList.remove('front-window')}else el.hidden=true;restore.hidden=ownTask});
+  if(label!=='Connection'&&!fixed)make('□','Maximize or restore',()=>{if(!el.classList.contains('chrome-maximized')){previousStyle=el.getAttribute('style')||'';el.classList.add('chrome-maximized')}else{el.classList.remove('chrome-maximized');el.setAttribute('style',previousStyle)}WebThenLayers.raise(el)});
+  make('×','Close',()=>{restore.hidden=true;unfold();if(close)close.click();else if(el.id==='portal-shell')WebThenDesktop.showDesktop();else if(el.tagName==='DIALOG')el.close();else el.hidden=true});
   for(const b of [...title.querySelectorAll('button')]){b.hidden=true;b.style.setProperty('display','none','important')}title.append(controls);
  }
  function scan(){for(const [sel,title,min,close,label]of specifications)for(const el of document.querySelectorAll(sel))install(el,el.querySelector(title),min&&el.querySelector(min),close&&el.querySelector(close),label)}

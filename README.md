@@ -54,11 +54,11 @@ Verification remains under More info. See destination-additions-v035.json, desti
 
 ## Start page fit
 
-The complete Start page, including Game Room, Browse all destinations and More info, fits its original startup window at 1280×720 and 1440×900. Compact destination cards keep all names and descriptions visible. Startup windows remain separate; Aqua places ThenAmp in the same lower-left startup slot as other themes to keep it clear of the tour. A deliberately shortened/resized window or expanded More info can still scroll.
+Connecting opens an empty desktop: no windows launch on their own, so Internet, ThenAmp, Video Lounge and Game Room are found from their icons. ThenChat signs on quietly in the tray (Windows taskbar or Mac menu bar); its icon blinks while a message is unread. The complete Start page, including Game Room, Browse all destinations and More info, fits its window at 1280×720 and 1440×900. Compact destination cards keep all names and descriptions visible. A deliberately shortened/resized window or expanded More info can still scroll.
 
 ## Connect and travel
 
-First launch opens a period Connect To dialog. It has a local display user name, a prefilled masked password and a fictional phone number. These fields are presentation only; nothing is submitted to an ISP. Connect and Date/Time Properties both show the era and visiting month/year. The five representative dates remain October 1996, 2000, 2003, 2006 and 2008.
+First launch opens a period Connect To dialog. It has a local display user name, a prefilled masked password and a fictional phone number. These fields are presentation only; nothing is submitted to an ISP. Connect's Travel to list and Date/Time Properties both show the era and visiting month/year. The five representative dates remain October 1996, 2000, 2003, 2006 and 2008.
 
 1995–1998 uses Dialing → Verifying user name and password → Logging on to network → Connected at 28,800 bps. 1999–2001 uses the same sequence at 53,333 bps. With the previously supplied modem recording enabled, the sequence lasts about 18.5 seconds; without it, about five seconds. From 2002 onward there is no dialing or modem playback: Connecting → Connected takes about 1.1 seconds. Skip, Escape or the dialog Close control ends the connection immediately. Returning visitors may skip the introductory dialog entirely.
 
@@ -80,7 +80,7 @@ Off by default. Enable it in Connection Status. Only in 1995–2001, a successfu
 
 Seven period choices: Win95, Win98, Win2000, ME, XP, Classic Mac and Aqua. Later OSes are greyed out as Not yet released. The contemporary WebThen choice is removed from both OS lists. Win95 is the classic Win98-shell variant with a Windows 95 Start banner and no Quick Launch/Channel Bar; ME is another classic-shell variant. Defaults remain Win95 through June 1999, Win98 from July 1999 through 2002, XP from 2003 onward. Appearance choices persist within their era and reset when traveling.
 
-The quick tour opens with all text and navigation visible, without scrolling, in every theme at 1280×720 and 1440×900. Replay it from Appearance, Start Help or Mac Help. Startup windows remain clear of desktop icons. Mac tray controls live in the menu bar; Windows keeps its taskbar. ThenAmp remains open and silent until Play.
+The quick tour starts on the first visit and points at the desktop icons, the ThenChat tray icon, the clock and the taskbar. The first run must be stepped through; replays from Appearance, Start Help or Mac Help can be skipped. Mac tray controls live in the menu bar; Windows keeps its taskbar. ThenAmp stays closed until opened, and silent until Play.
 
 ## Scope and verification
 

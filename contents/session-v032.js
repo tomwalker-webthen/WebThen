@@ -28,7 +28,7 @@
    if(b===aim){icon(b,'aim','ThenChat · '+(b.getAttribute('aria-pressed')==='true'?'Show buddy list':'Sign On'));continue}
    if(b===music){icon(b,'music','ThenAmp · Show player');continue}
    if(b.id==='browser-close-all'){icon(b,'window','Close all browser windows');continue}
-   if(mac){const kind=b.id==='shell-start'?'home':/Directory/i.test(label)?'folder':/Start page|Desktop/i.test(label)?'home':'window';icon(b,kind,label)}
+   if(mac){const kind=b.id==='shell-start'?'home':b.classList.contains('window-restore')?'window':/Directory/i.test(label)?'folder':/Start page|Desktop/i.test(label)?'home':'window';icon(b,kind,label)}
    else if(b.classList.contains('tray-icon')){b.classList.remove('tray-icon');if(rawLabels.has(b)&&b.textContent!==label)b.textContent=label}
   }
   for(const b of [...macbar.children].filter(e=>e.tagName==='BUTTON')){const label=b.dataset.sessionLabel||b.textContent.trim();b.dataset.sessionLabel=label;icon(b,label==='Help'?'help':label==='View'?'settings':label==='File'?'folder':label==='Fullscreen'?'full':'window',label);if(label==='Fullscreen')b.onclick=()=>full.click()}

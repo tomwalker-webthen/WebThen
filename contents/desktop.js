@@ -8,6 +8,6 @@
  function showDesktop(){hideBrowserWindows();body.classList.remove('desktop-directory-open');document.querySelector('#desktop-internet-shortcut').focus()}
  document.querySelector('#desktop-toggle').onclick=enter;document.querySelector('#desktop-exit').onclick=exit;document.querySelector('#desktop-return').onclick=exit;document.querySelector('#desktop-directory-minimize').onclick=showDesktop;document.querySelector('#desktop-directory-shortcut').onclick=()=>{hideBrowserWindows();showDirectory()};home.onclick=showDesktop;
  document.querySelector('#desktop-games-shortcut').onclick=()=>{hideBrowserWindows();showDirectory();document.querySelector('#classic-games').scrollIntoView({block:'start'});document.querySelector('#game-room-filter').focus()};
- const aim=document.querySelector('#desktop-aim-shortcut'),toggle=document.querySelector('#ambient-aim-toggle');aim.onclick=()=>toggle.click();const syncAim=()=>aim.setAttribute('aria-pressed',toggle.getAttribute('aria-pressed'));new MutationObserver(syncAim).observe(toggle,{attributes:true,attributeFilter:['aria-pressed']});syncAim();
+ const aim=document.querySelector('#desktop-aim-shortcut'),toggle=document.querySelector('#ambient-aim-toggle');aim.onclick=()=>document.querySelector('#ambient-aim-browser-toggle').click();const syncAim=()=>aim.setAttribute('aria-pressed',toggle.getAttribute('aria-pressed'));new MutationObserver(syncAim).observe(toggle,{attributes:true,attributeFilter:['aria-pressed']});syncAim();
  globalThis.WebThenDesktop={showDirectory,enter,showDesktop};
 })();

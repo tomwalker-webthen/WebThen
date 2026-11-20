@@ -18,6 +18,16 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Clean startup and window behavior — 2026-11-20
+
+- Connect now opens an empty desktop. The Start page, ThenAmp and the buddy list no longer open on their own; the Start page taskbar button no longer launches ThenChat or ThenAmp.
+- ThenChat signs on minimized to the tray. The tray icon blinks while a message is unread (steady highlight with reduced motion), and the ThenChat desktop icon now shows the buddy list instead of signing off.
+- Quick tour rewritten around the desktop: Internet, ThenChat in the tray, ThenAmp/Video Lounge/Game Room, the clock, Appearance and the taskbar. It starts once the desktop appears; the first run cannot be skipped, replays can.
+- Window fixes: restore buttons clear when a window returns by any route (previously a minimized window reopened from its icon left a stale taskbar button); Video Lounge, conversations and browser windows no longer get a second taskbar button; minimizing a game now hides it and the game reappears correctly after close/reopen; ThenAmp, Appearance, the skin picker and the tour no longer offer Maximize (ThenAmp stretched only vertically).
+- Hidden ThenAmp, buddy list and conversation windows now stay hidden; their stylesheet previously overrode the hidden state.
+- Classic Mac: the menu bar is visible and clickable again (fixed position, Platinum styling), and windows stop below it. Mac minimized-window buttons use a window icon instead of a house.
+- Phones under 520 px: the taskbar hides the Directory and Start page shortcuts (both remain in the Start menu) so the clock fits.
+
 # Unreleased — Connection screen cleanup — 2026-11-20
 
 - Remove the separate era/visit-date line from Connect To; the Travel to selector already shows the same text. Era selection, labels and connection behavior are unchanged.
