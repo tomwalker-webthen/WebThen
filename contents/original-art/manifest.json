@@ -6,8 +6,9 @@
   "files": [
     {
       "file": "aim.svg",
-      "bytes": 478,
-      "sha256": "31cbf7bf1d3a7f1515dca0b14427b3c31a0f3bc3a689b6bb9bc5e8724586c62d"
+      "bytes": 6363,
+      "sha256": "86ff9d483a5e9c527852fab99c794c680ca83dd21cc4794a9cd09866269c4958",
+      "note": "ThenChat logo supplied by Tom on 2026-11-22 (waving figure), traced to SVG with colors swapped to a black figure and yellow outline."
     },
     {
       "file": "aqua.svg",

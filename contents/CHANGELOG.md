@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — New ThenChat logo — 2026-11-22
+
+- The ThenChat icon is now Tom's waving figure, traced to SVG and recolored to a black figure with a yellow outline, on the desktop, in the tray or Mac menu bar, and in the buddy list header. Classic Mac shows the desktop icon in grayscale like its other icons.
+- Public-launch note added to dev/artwork/REVIEW.md: the yellow-and-black waving figure still resembles AIM's Running Man.
+- Checked in Chrome on Windows XP and Classic Mac (no console errors); repo checks pass.
+
 # Unreleased — Short confused replies for every personality — 2026-11-22
 
 - All confused replies are now short, IM-style lines: lol wut? / huh?? (energetic), hmm? / huh? :) (dreamy), hm? / ...what? (poetic), context please lol (dry humor), What, honey? / Huh? (mom_says_hi), huh? / what? (family) and "huh? even Legolas is confused" (HammzT10). Dialogue test updated and passing.

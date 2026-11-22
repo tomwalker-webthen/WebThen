@@ -46,3 +46,9 @@ The local clean website build is three files totaling **2,408,978 bytes**, down 
 Public release remains pending permissions and broader review. No paid features were enabled. Custom screen names remain free for private testing.
 
 
+
+
+## ThenChat logo — 2026-11-22
+
+- Tom supplied a waving-figure logo (source kept at `dev/artwork/source/thenchat-logo-supplied-2026-11-22.png`). It was traced to SVG and recolored to a black figure with a yellow outline; `contents/original-art/aim.svg` and the desktop, tray and buddy-list icons use it.
+- Before any public launch: a yellow-and-black waving figure is still close to AIM's Running Man trade dress (AIM marks are held by Yahoo). Acceptable for private testing; get a rights review or choose a less AIM-like palette before publishing.
