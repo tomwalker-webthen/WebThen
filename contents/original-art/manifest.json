@@ -204,6 +204,18 @@
       "file": "sky-volume.svg",
       "bytes": 4054,
       "sha256": "18b51c4b35308c46a24312a480eb0364cf8b562a14ba9bed8de97de0db67c514"
+    },
+    {
+      "file": "webthen-mark.svg",
+      "bytes": 5578,
+      "sha256": "ff472efa9b1d1ebdc589c1f7af18f0bcc0343491268622b6d4cf41e40d6bcfc7",
+      "note": "WebThen globe mark supplied by Tom on 2026-11-22, traced to SVG."
+    },
+    {
+      "file": "webthen-banner.svg",
+      "bytes": 12932,
+      "sha256": "1ffdf256a229fba16bd7313ffdbf11f32232266372c818693b33ba0dbd1ce97f",
+      "note": "WebThen globe and wordmark banner supplied by Tom on 2026-11-22, traced to SVG."
     }
   ]
 }

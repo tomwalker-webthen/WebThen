@@ -18,6 +18,11 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — New WebThen logo, banner and favicon — 2026-11-22
+
+- Tom's Timewarp Globe artwork, traced to SVG in its navy, teal and blue: the favicon (SVG plus a 32 px PNG fallback), a WebThen banner at the top of Connect To (the old symbol and tagline stay hidden), and the globe mark for the browser activity logo (replacing the "W"), the Internet desktop and Start-menu icon, the Start menu header and the Mac menu bar (replacing the dot).
+- Checked in Chrome: Connect To at 1100×760 and 390×844 fits without scrolling; Windows XP desktop, Start menu and browser, Aqua and Classic Mac menu bars; no console errors. Repo checks pass.
+
 # Unreleased — New ThenChat logo — 2026-11-22
 
 - The ThenChat icon is now Tom's waving figure, traced to SVG and recolored to a black figure with a yellow outline, on the desktop, in the tray or Mac menu bar, and in the buddy list header. Classic Mac shows the desktop icon in grayscale like its other icons.
