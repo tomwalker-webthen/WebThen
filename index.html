@@ -603,7 +603,7 @@ document.querySelector('#verification-filter').onchange=render;document.querySel
     const incomingMessage=m=>!m.direction||m.direction==='incoming';
     function latestUnread(){return Object.entries(conversations).filter(([name])=>unreadByBuddy[name]>0).map(([,messages])=>messages.filter(incomingMessage).at(-1)).filter(Boolean).sort((a,b)=>b.messageId-a.messageId)[0]||null}
     function markRead(name){if(name!==undefined)unreadByBuddy[name]=0;else for(const buddy of Object.keys(unreadByBuddy))unreadByBuddy[buddy]=0;recount();notify({type:'read',buddy:name})}
-    const buddies = roster.map(([name,group],id) => ({id,name,group,online:[0,2,4,6,12,15].includes(id),away:id%4===0 ? away[id%away.length] : ''}));
+    const buddies = roster.map(([name,group],id) => ({id,name,group,online:[0,2,4,6,12,15].includes(id)||name==='SunKistBuTtKisS',away:id%4===0 ? away[id%away.length] : ''}));
     function eligible(b){return archiveBuddies[b.name]?archiveBuddies[b.name].eras.includes(getEra()):replyApi.available(b.name,getEra())}
     function pick(list) { return list[Math.min(list.length-1, Math.floor(random()*list.length))]; }
     function delay(lo, hi) { return Math.round(lo + random()*(hi-lo)); }
