@@ -8,7 +8,9 @@ export const STATIONS = {
   'xmas-traditional': 'https://listen.181fm.com/181-xtraditional_128k.mp3',
   'xmas-oldies': 'https://listen.181fm.com/181-xoldies_128k.mp3',
   'xmas-always': 'https://strm112.1.fm/christmas_mobile_mp3',
-  'xmas-power': 'https://listen.181fm.com/181-xpower_128k.mp3'
+  'xmas-power': 'https://listen.181fm.com/181-xpower_128k.mp3',
+  'xmas-swing': 'https://listen.181fm.com/181-xswing_128k.mp3',
+  'xmas-country': 'https://listen.181fm.com/181-xcountry_128k.mp3'
 };
 const MAX_BYTES = 256 * 1024;
 

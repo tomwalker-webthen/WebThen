@@ -15,7 +15,7 @@ Audio remains on the broadcasters' servers, with their programming and ads intac
 
 ## Seasonal Christmas stations (Nov 15 – Jan 6)
 
-Shown only during the holiday season (visitor's real date), one per era, chosen so the music does not postdate the era's visit year where possible. Streams are played live from the providers; WebThen hosts no audio.
+Shown during the holiday season (visitor's real date) in every era, the era's closest match listed first; Follow era plays that match during the season. Having Christmas music matters more than strict dating (Tom, 2026-11-22). Streams are played live from the providers; WebThen hosts no audio.
 
 | Era | Station | Stream |
 | --- | --- | --- |
@@ -23,5 +23,7 @@ Shown only during the holiday season (visitor's real date), one per era, chosen 
 | 1999–2001 | 181.FM · Christmas Oldies | https://listen.181fm.com/181-xoldies_128k.mp3 |
 | 2002–2004 | 1.FM · Always Christmas (standards and hymns) | https://strm112.1.fm/christmas_mobile_mp3 |
 | 2005–2007, 2008–2009 | 181.FM · Christmas Power (contemporary pop) | https://listen.181fm.com/181-xpower_128k.mp3 |
+| All eras | 181.FM · Christmas Swing | https://listen.181fm.com/181-xswing_128k.mp3 |
+| All eras | 181.FM · Christmas Country | https://listen.181fm.com/181-xcountry_128k.mp3 |
 
-No provider offers a decade-specific Christmas stream. Christmas Power may play songs newer than 2006 or 2008. 181.FM Christmas Swing was not used because its playlist includes later recordings. Stream playback from these URLs was not tested from the development machine.
+No provider offers a decade-specific Christmas stream. Christmas Power may play songs newer than 2006 or 2008. Stream playback from these URLs was not tested from the development machine.

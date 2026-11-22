@@ -32,6 +32,6 @@ assert.equal(await readStreamTitle('x', fakeFetch(16, null)), null, 'empty metad
 const call = async query => { const r = await onRequestGet({ request: new Request('https://webthen.org/api/now-playing' + query), waitUntil() {} }); return { status: r.status, body: await r.json(), cache: r.headers.get('cache-control') }; };
 assert.equal((await call('?station=https://evil.example/')).status, 400, 'only known stations');
 assert.equal((await call('')).status, 400);
-assert.deepEqual(Object.keys(STATIONS).sort(), ['hits00s', 'hits90s', 'hits90s-alt', 'xmas-always', 'xmas-oldies', 'xmas-power', 'xmas-traditional']);
+assert.deepEqual(Object.keys(STATIONS).sort(), ['hits00s', 'hits90s', 'hits90s-alt', 'xmas-always', 'xmas-country', 'xmas-oldies', 'xmas-power', 'xmas-swing', 'xmas-traditional']);
 
 console.log('PASS: now-playing parses Artist - Title from Icecast/Shoutcast metadata, handles chunked streams, missing or empty metadata, and only serves ThenAmp stations.');

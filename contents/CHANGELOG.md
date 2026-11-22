@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Christmas in every era and a ThenAmp station list — 2026-11-22
+
+- In the holiday season (Nov 15 – Jan 6) every era lists all six Christmas stations (Traditional, Oldies, Standards, Pop Hits, plus new Swing and Country), the era's closest match first, and Follow era plays that match. Outside the season ThenAmp is unchanged.
+- ThenAmp's lower pane is now a Winamp-style station list showing station names only: click to switch, double-click to switch and play, arrow keys and Enter, current station highlighted, skin colors, scrolls when long. The 1.5× button stays in the "Stations" header; the dropdown remains underneath for ThenAmp's own logic.
+- Tested in Chrome: all five eras in season and in July (lists, Follow era defaults, no console errors); list click, double-click, keyboard and Next button with the highlight following; ThenAmp still fits a 1280×720 screen. now-playing test covers the new stations.
+
 # Unreleased — Seasonal Christmas station for each era — 2026-11-22
 
 - From November 15 to January 6 (by the visitor's real date) ThenAmp's Station list adds one Christmas station for the current era: 181.FM Christmas Traditional (1995–1998), 181.FM Christmas Oldies (1999–2001), 1.FM Always Christmas (2002–2004) and 181.FM Christmas Power (2005–2009). Outside the season they are hidden; a saved seasonal station falls back to the era's decade station. Song titles work for these stations too.

@@ -19,3 +19,10 @@
 .skin-drag-handle{position:absolute;left:0;top:0;width:240px;height:14px;cursor:move;touch-action:none}
 #webthen-music.has-radio-skin[data-minimized="true"] #music-drag{padding:2px 4px!important;min-height:18px}
 #webthen-music.has-radio-skin[data-minimized="true"] #music-drag strong{font:10px Tahoma,sans-serif!important}
+.thenamp-playlist{list-style:none;margin:0 4px 4px;padding:2px 0;max-height:118px;overflow-y:auto;background:var(--radio-skin-lcd,#000);color:var(--radio-skin-ink,#00e000);border:2px inset var(--radio-skin-edge,#555);font:10px Tahoma,Arial,sans-serif;outline:none}
+.thenamp-playlist li{padding:1px 6px;line-height:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;user-select:none}
+.thenamp-playlist li.current{color:#fff;font-weight:bold}
+.thenamp-playlist li:hover{background:color-mix(in srgb,var(--radio-skin-ink,#00e000) 18%,transparent)}
+.thenamp-playlist:focus-visible li.focus{background:var(--radio-skin-edge,#0000c6);color:#fff}
+#webthen-music:not([data-skin-scale="1"]) .thenamp-playlist{font-size:12px;max-height:140px}
+#webthen-music:not([data-skin-scale="1"]) .thenamp-playlist li{line-height:18px}
