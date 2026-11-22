@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Every buddy in every era — 2026-11-22
+
+- All ThenChat buddies now appear in all five eras, including sk8rKid_99, bandgeek2001, moonlight_mp3 and pwned_by_a_duck (previously 1999–2001 onward), SunKistBuTtKisS (previously 2005–2007 onward) and the six Bash.org quote buddies.
+- What buddies say stays period-correct. Quote buddies appear everywhere but only post their quote in the eras listed for it (era check added; not observed firing in tests). SunKistBuTtKisS has no Avril, Twilight or Britney lines in 1995–1998 and uses ordinary chatter there; 1999–2001 is Britney only (Oops!... I Did It Again, 2000 VMAs); 2002–2004 adds Avril's Let Go era and Britney's 2003 VMAs and Me Against the Music; Twilight starts in 2005–2007.
+- Verified with a Node engine run per era: all 29 buddies available, SunKistBuTtKisS online at start, no anachronistic lines, regular buddies reply in every era.
+
 # Unreleased — New ThenChat buddy: SunKistBuTtKisS — 2026-11-22
 
 - Adds SunKistBuTtKisS (Buddies group), available from 2005–2007 onward because the first Twilight book is from late 2005. Starts signed on in those eras so the new buddy is visible right after Connect.
