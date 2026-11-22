@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Snarky away messages — 2026-11-22
+
+- Replaces the six fixed away messages with 16 snarky lines for every era plus four period lines per era (phone line and TGIF in 1995–1998, TRL in 1999–2001, The O.C. and LiveJournal in 2002–2004, MySpace Top 8 and Laguna Beach in 2005–2007, Gossip Girl and Facebook in 2008–2009). Original text; no song lyrics.
+- Each session shuffles which buddies start away and what they say, without repeats. During a session, online buddies occasionally go away with a fresh message or come back; the buddy list status line shows it. Away text appears in buddy tooltips, the conversation status and replies about away messages.
+- Verified with 40 Node engine sessions per era (unique setups, no repeats, no other-era lines, away/back events) and the buddy list in Chrome.
+
 # Unreleased — Every buddy in every era — 2026-11-22
 
 - All ThenChat buddies now appear in all five eras, including sk8rKid_99, bandgeek2001, moonlight_mp3 and pwned_by_a_duck (previously 1999–2001 onward), SunKistBuTtKisS (previously 2005–2007 onward) and the six Bash.org quote buddies.
