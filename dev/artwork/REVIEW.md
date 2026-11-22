@@ -57,3 +57,9 @@ Public release remains pending permissions and broader review. No paid features 
 ## WebThen logo — 2026-11-22
 
 - Tom supplied the "Timewarp Globe" sheet (kept at `dev/artwork/source/webthen-logo-sheet-supplied-2026-11-22.png`). The globe mark and the globe-plus-wordmark banner were traced to SVG (`contents/original-art/webthen-mark.svg`, `webthen-banner.svg`). Used for the favicon (SVG with a 32 px PNG fallback), the Connect To banner, the browser activity logo, the Internet desktop/Start icon, the Start menu header and the Mac menu bar.
+
+
+## ThenAmp skins — 2026-11-22
+
+- Tom reinstated the classic Winamp skins (Classic Winamp, Winamp5 Classified, Sony CDX-MP3, AMPBOY, Windows XP, OS8 Aquamarine) for private testing. These include third-party and Nullsoft artwork, the WINAMP wordmark among them, and are not cleared for public release.
+- Public-release step: `node dev/use-thenamp-skins.mjs original`, then `node dev/verify.cjs` and `node dev/check-original-art.cjs` (which reports the active set). Both sets are saved in `dev/artwork/thenamp-skins/`.

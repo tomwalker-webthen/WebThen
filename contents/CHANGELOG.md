@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Classic Winamp skins back in ThenAmp — 2026-11-22
+
+- ThenAmp uses the six classic Winamp-era skins again for private testing: Classic Winamp, Winamp5 Classified, Sony CDX-MP3, AMPBOY, Windows XP and OS8 Aquamarine. Testers who picked an original skin in the last few days get its Winamp counterpart (Graphite → Classic Winamp, Skyline → Windows XP, and so on).
+- The six original ThenAmp skins are saved for a public release in dev/artwork/thenamp-skins/; `node dev/use-thenamp-skins.mjs original` switches back in one step (round trip tested to restore an identical page). check-original-art.cjs accepts either set and reports which is active. AGENTS.md, SKIN-CREDITS.md and dev/artwork/REVIEW.md record the decision and the release step.
+- Checked in Chrome: picker lists all six skins, Classic Winamp applies, the now-playing title shows in the skin, no console errors.
+
 # Unreleased — ThenAmp shows the current song — 2026-11-22
 
 - While a station plays, ThenAmp's display shows the current artist and title ("No Doubt – Hey Baby"), refreshed every 20 seconds; every skin picks it up. Paused, stopped, or when a station sends no title, it shows the station name as before.

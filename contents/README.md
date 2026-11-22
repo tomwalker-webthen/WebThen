@@ -87,3 +87,5 @@ The quick tour starts on the first visit and points at the desktop icons, the Th
 No AIM/chat source changes. Payments remain on hold. New browser controls, logo, indicators and connection artwork use original code/CSS/SVG or simple glyphs; no new third-party artwork, sound files or scripts were added. The existing user-supplied modem recording remains unchanged. Existing theme assets and ThenAmp skins are inherited from earlier releases.
 
 See VERIFICATION.md and the v034 JSON/screenshot evidence for checks and archive limitations. Prior release notes and verification sections are historical records.
+
+ThenAmp skins (2026-11-22): the classic Winamp skin set is active again for private testing at Tom's request. The six original ThenAmp skins are saved in `dev/artwork/thenamp-skins/original.js`; `node dev/use-thenamp-skins.mjs original` restores them before a public release.

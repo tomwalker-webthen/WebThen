@@ -1,5 +1,7 @@
 # Current ThenAmp artwork
 
+Private testing (2026-11-22): ThenAmp is back on the six preserved Winamp-era skins listed below, at Tom's request. They are not cleared for public distribution; switch to the original set with `node dev/use-thenamp-skins.mjs original` before release.
+
 ThenAmp now uses six project-authored SVG skins: Graphite, Midnight, Copper, Pocket, Skyline and Glacier. Artwork, title strips, controls, volume sprites and previews are generated from dev/generate-original-art.mjs and saved in contents/original-art/. No preserved WSZ artwork is used by the active player. Previously saved skin choices map to the new finishes; the player remains paused at launch.
 
 The preservation credits below are historical evidence for retired assets retained in this private source checkout, excluded from the website build. They do not grant public distribution permission.
