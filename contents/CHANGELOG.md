@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Seasonal Christmas station for each era — 2026-11-22
+
+- From November 15 to January 6 (by the visitor's real date) ThenAmp's Station list adds one Christmas station for the current era: 181.FM Christmas Traditional (1995–1998), 181.FM Christmas Oldies (1999–2001), 1.FM Always Christmas (2002–2004) and 181.FM Christmas Power (2005–2009). Outside the season they are hidden; a saved seasonal station falls back to the era's decade station. Song titles work for these stations too.
+- ThenAmp now updates its station list when the era is chosen on Connect To, and "Follow era" switches to that era's decade station (previously it kept the station from the last visit until a reload).
+- Tested in Chrome for all five eras in season and with the clock set to July: correct station listed and tuned, correct now-playing request, no console errors. now-playing test updated for the new stations. Live stream playback not tested from the development machine. Details in contents/MUSIC-CREDITS.md.
+
 # Unreleased — Classic Winamp skins back in ThenAmp — 2026-11-22
 
 - ThenAmp uses the six classic Winamp-era skins again for private testing: Classic Winamp, Winamp5 Classified, Sony CDX-MP3, AMPBOY, Windows XP and OS8 Aquamarine. Testers who picked an original skin in the last few days get its Winamp counterpart (Graphite → Classic Winamp, Skyline → Windows XP, and so on).

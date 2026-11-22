@@ -21,6 +21,7 @@ assert.deepEqual(parseStreamTitle("StreamTitle='Destiny's Child - Say My Name';"
 assert.deepEqual(parseStreamTitle("StreamTitle='Station ID jingle';"), { artist: '', title: 'Station ID jingle', text: 'Station ID jingle' });
 assert.equal(parseStreamTitle("StreamTitle='';"), null);
 assert.equal(parseStreamTitle("StreamTitle='1.FM - y2k';"), null);
+assert.equal(parseStreamTitle("StreamTitle='Listen.FM - Listen.FM';"), null);
 assert.equal(parseStreamTitle('nothing here'), null);
 
 assert.equal((await readStreamTitle('x', fakeFetch(16, 'No Doubt - Hey Baby'))).title, 'Hey Baby');
@@ -31,6 +32,6 @@ assert.equal(await readStreamTitle('x', fakeFetch(16, null)), null, 'empty metad
 const call = async query => { const r = await onRequestGet({ request: new Request('https://webthen.org/api/now-playing' + query), waitUntil() {} }); return { status: r.status, body: await r.json(), cache: r.headers.get('cache-control') }; };
 assert.equal((await call('?station=https://evil.example/')).status, 400, 'only known stations');
 assert.equal((await call('')).status, 400);
-assert.deepEqual(Object.keys(STATIONS).sort(), ['hits00s', 'hits90s', 'hits90s-alt']);
+assert.deepEqual(Object.keys(STATIONS).sort(), ['hits00s', 'hits90s', 'hits90s-alt', 'xmas-always', 'xmas-oldies', 'xmas-power', 'xmas-traditional']);
 
 console.log('PASS: now-playing parses Artist - Title from Icecast/Shoutcast metadata, handles chunked streams, missing or empty metadata, and only serves ThenAmp stations.');

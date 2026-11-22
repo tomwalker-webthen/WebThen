@@ -4,14 +4,18 @@
 export const STATIONS = {
   hits90s: 'https://listen.181fm.com/181-star90s_128k.mp3',
   hits00s: 'https://strm112.1.fm/hits2000_mobile_mp3?aw_0_req.gdpr=true',
-  'hits90s-alt': 'https://strm112.1.fm/90s_mobile_mp3?aw_0_req.gdpr=true'
+  'hits90s-alt': 'https://strm112.1.fm/90s_mobile_mp3?aw_0_req.gdpr=true',
+  'xmas-traditional': 'https://listen.181fm.com/181-xtraditional_128k.mp3',
+  'xmas-oldies': 'https://listen.181fm.com/181-xoldies_128k.mp3',
+  'xmas-always': 'https://strm112.1.fm/christmas_mobile_mp3',
+  'xmas-power': 'https://listen.181fm.com/181-xpower_128k.mp3'
 };
 const MAX_BYTES = 256 * 1024;
 
 export function parseStreamTitle(metadata) {
   const match = /StreamTitle='((?:[^']|'(?!;))*)';/.exec(metadata);
   const text = match ? match[1].replace(/\s+/g, ' ').trim() : '';
-  if (!text || /^(?:-|unknown|advert|commercial|1\.fm|181\.fm)/i.test(text)) return null;
+  if (!text || /^(?:-|unknown|advert|commercial|1\.fm|181\.fm|listen\.fm)/i.test(text)) return null;
   const split = text.indexOf(' - ');
   return split > 0 ? { artist: text.slice(0, split).trim(), title: text.slice(split + 3).trim(), text } : { artist: '', title: text, text };
 }
