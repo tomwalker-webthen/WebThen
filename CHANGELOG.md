@@ -18,6 +18,10 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Short confused replies for every personality — 2026-11-22
+
+- All confused replies are now short, IM-style lines: lol wut? / huh?? (energetic), hmm? / huh? :) (dreamy), hm? / ...what? (poetic), context please lol (dry humor), What, honey? / Huh? (mom_says_hi), huh? / what? (family) and "huh? even Legolas is confused" (HammzT10). Dialogue test updated and passing.
+
 # Unreleased — Shorter confused reply — 2026-11-22
 
 - The default confused reply "haha, you lost me. say that another way?" is now just "huh?" (alongside "wait, what?"). Dialogue test updated and passing.
