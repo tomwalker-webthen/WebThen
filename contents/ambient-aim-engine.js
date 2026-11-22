@@ -107,7 +107,8 @@
           appendChat(buddy,{...excerpt,from:buddy.name,direction:'incoming',easterEgg:true,interactive:true,era},true);
         }else{
           const reply=era===eraAtQueue?planned:replyApi.makeReply({name:buddy.name,text:input,era,lastTopic:c.lastTopic,lastReply:c.lastReply,turn:c.turn,awayMessage:buddy.away,random});c.turn++;
-          if(reply){c.lastTopic=reply.topic;c.lastReply=reply.text;appendChat(buddy,{...reply,from:buddy.name,direction:'incoming',interactive:true},true)}
+          if(reply){c.lastTopic=reply.topic;c.lastReply=reply.text;appendChat(buddy,{...reply,from:buddy.name,direction:'incoming',interactive:true},true);
+            if(reply.exit){c.turn=0;c.lastTopic=null;c.lastReply='';schedule(()=>{if(!running||!buddy.online)return;buddy.online=false;cancelReply(buddy.name);record('signout',buddy,buddy.name+' has signed off.')},delay(3000,6000));return}}
         }
         if(c.pending.length)queueReply(buddy);
       },wait);notify({type:'typing',buddy:buddy.name});

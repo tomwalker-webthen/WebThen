@@ -18,6 +18,13 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Buddy dialogue: small talk and graceful exits — 2026-11-22
+
+- About 40 small-talk intents with three to five replies each: how are you / I'm good / I'm sad, <3 and other hearts, lmao and laughing emoji, :) and winks, thanks, sorry, ok, hmm, same, omg, good night / morning, compliments, teasing, who is this, favorites, plans, weather, crushes, pets, birthdays, "guess what", help and "you there?". Replies use text emoticons only, draw on each buddy's own activity and favorite, and mom_says_hi has her own lines. "test" and "quiz" now count as school talk.
+- Messages about self-harm get one plain reply that steps out of character and points to someone trusted or the 988 line; buddies never joke or leave on those.
+- Graceful exits: after two confused messages in a row (sometimes after one later in a chat), or when a chat runs long, a buddy sends an era line and signs off a few seconds later, e.g. Blockbuster and TGIF in 1995–1998, Napster and BOOK IT! in 1999–2001, The O.C. and Hot Topic in 2002–2004, Netflix DVDs and MySpace in 2005–2007, Sidekick and Rock Band in 2008–2009. Messages sent while they are offline wait until they sign back on.
+- New dev/test-buddy-dialogue.cjs: 189 sample messages × 23 buddies × 5 eras with no fallback replies, reply variety, era-correct exits, no exits on serious messages, and engine sign-off after an exit. Chrome chat check: "<3" answered "<3 <3", no console errors.
+
 # Unreleased — Snarky away messages — 2026-11-22
 
 - Replaces the six fixed away messages with 16 snarky lines for every era plus four period lines per era (phone line and TGIF in 1995–1998, TRL in 1999–2001, The O.C. and LiveJournal in 2002–2004, MySpace Top 8 and Laguna Beach in 2005–2007, Gossip Girl and Facebook in 2008–2009). Original text; no song lyrics.
