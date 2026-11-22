@@ -14,14 +14,20 @@ function radioDefaultForEra(era){return ['early','boom'].includes(era)?'hits90s'
  function indicator(text){document.querySelector('#music-indicator').textContent=text;box.dataset.playing=String(text==='PLAY')}
  function labels(){const s=current();document.querySelector('#music-track').textContent=s.label;document.querySelector('#music-year').textContent=s.name+' · '+s.decade;document.querySelector('#music-source').href=s.sourceUrl;station.value=currentId;toggle.textContent=enabled?'♫ ThenAmp On':'♫ ThenAmp Off';toggle.setAttribute('aria-pressed',String(enabled));shortcut.setAttribute('aria-pressed',String(enabled))}
  function disconnect(){request++;clearTimeout(loadTimer);audio.pause();audio.removeAttribute('src');audio.load()}
- function pause(){wantPlay=false;disconnect();indicator('PAUSED');status.textContent='Paused. Play reconnects to the live broadcast.'}
+ // Now playing: the site's /api/now-playing reads the station's embedded song title; falls back to the station name.
+  let nowTimer=null;
+  function showSong(text){const s=current(),el=document.querySelector('#music-track');el.textContent=text||s.label;el.title=text?text+' · '+s.name:s.label}
+  async function pollNow(){clearTimeout(nowTimer);const id=currentId;if(!enabled||!wantPlay||location.protocol==='file:'){showSong('');return}
+    try{const r=await fetch('/api/now-playing?station='+encodeURIComponent(id),{cache:'no-store'});if(r.ok){const d=await r.json();if(id===currentId&&enabled&&wantPlay)showSong(d.available?(d.artist?d.artist+' – '+d.title:d.title):'')}}catch(e){}
+    if(enabled&&wantPlay&&id===currentId)nowTimer=setTimeout(pollNow,20000)}
+  function pause(){wantPlay=false;clearTimeout(nowTimer);disconnect();showSong('');indicator('PAUSED');status.textContent='Paused. Play reconnects to the live broadcast.'}
  function load(){disconnect();if(!enabled||!wantPlay)return;const attempt=++request;audio.src=current().url;audio.load();indicator('CONNECT');status.textContent='Connecting to '+current().name+'…';loadTimer=setTimeout(()=>{if(enabled&&attempt===request&&audio.readyState<3)status.textContent='Still connecting. Try Reconnect or Open station.'},15000);audio.play()?.catch(error=>{if(attempt!==request||!enabled)return;clearTimeout(loadTimer);if(error.name==='NotAllowedError'){indicator('READY');status.textContent='Press Play to start live radio.'}else if(error.name!=='AbortError'){indicator('UNAVAILABLE');status.textContent='The station could not connect. Try Reconnect, another hits station, or Open station.'}})}
  function enable(){enabled=true;save('webthen-music-enabled','on');box.hidden=false;box.dataset.minimized='false';WebThenLayers.raise(box);labels();if(wantPlay){if(!audio.getAttribute('src')||audio.paused)load()}else{indicator('PAUSED');status.textContent='Paused. Press Play to start live radio.'}}
  function disable(){enabled=false;wantPlay=false;disconnect();box.hidden=true;save('webthen-music-enabled','off');indicator('STOP');labels()}
  function changeStation(id){if(!stations.some(s=>s.id===id)||currentId===id)return;currentId=id;save('webthen-radio-station',id);labels();if(enabled&&wantPlay)load()}
  function manualStation(id){follow.checked=false;save('webthen-music-follow','off');changeStation(id)}
  function cycle(step){const at=stations.findIndex(s=>s.id===currentId);manualStation(stations[(at+step+stations.length)%stations.length].id)}
- audio.addEventListener('playing',()=>{if(!enabled||!wantPlay){disconnect();return}clearTimeout(loadTimer);indicator('PLAY');status.textContent='Live · '+current().name});
+ audio.addEventListener('playing',()=>{if(!enabled||!wantPlay){disconnect();return}clearTimeout(loadTimer);indicator('PLAY');status.textContent='Live · '+current().name;pollNow()});
  audio.addEventListener('waiting',()=>{if(enabled&&wantPlay&&audio.getAttribute('src')){indicator('BUFFER');status.textContent='Buffering live radio…'}});
  audio.addEventListener('stalled',()=>{if(enabled&&wantPlay&&audio.getAttribute('src'))status.textContent='The live connection stalled. Try Reconnect if it does not resume.'});
  audio.addEventListener('ended',()=>{if(enabled&&wantPlay){indicator('DISCONNECTED');status.textContent='The broadcast connection ended. Press Reconnect to rejoin live.'}});

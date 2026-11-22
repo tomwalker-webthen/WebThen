@@ -53,3 +53,9 @@ DNS and certificate setup initially took time to propagate; an early anonymous T
 ## Latest deployment
 
 The combined app is now live on the hosting preview branch. See [release verification](RELEASE-2026-11-19.md). Deployment documentation is recorded separately on `docs/private-preview-release` to avoid a second app deployment. The original domain-setup checks above remain historical evidence.
+
+
+## Pages Function: now playing — 2026-11-22
+
+- `functions/api/now-playing.js` is deployed by Cloudflare Pages with the site (no separate Worker, binding or secret). `GET /api/now-playing?station=hits90s|hits00s|hits90s-alt` opens that station's stream with `Icy-MetaData: 1`, reads the first embedded `StreamTitle`, and returns `{artist,title,text,available}` as JSON, cached 15 seconds. Unknown station IDs return 400, so it cannot proxy arbitrary URLs. It sits behind the same Access policy as the site.
+- Local `node dev/server.cjs` does not run Functions; ThenAmp then shows the station name. Unit test: `node dev/test-now-playing.mjs`.

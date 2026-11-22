@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — ThenAmp shows the current song — 2026-11-22
+
+- While a station plays, ThenAmp's display shows the current artist and title ("No Doubt – Hey Baby"), refreshed every 20 seconds; every skin picks it up. Paused, stopped, or when a station sends no title, it shows the station name as before.
+- New Cloudflare Pages Function `functions/api/now-playing.js` reads the song title embedded in the station's Shoutcast/Icecast stream; it only serves ThenAmp's three stations. See dev/hosting/WEBTHEN-ORG.md.
+- Tested: dev/test-now-playing.mjs (title parsing, chunked streams, missing metadata, station allow-list) and a Chrome check with a simulated stream and endpoint (song shown while playing, station name restored on pause, no console errors). The real 181.FM and 1.FM streams could not be reached from the test machine; whether each station sends titles is unverified until checked on webthen.org.
+
 # Unreleased — New WebThen logo, banner and favicon — 2026-11-22
 
 - Tom's Timewarp Globe artwork, traced to SVG in its navy, teal and blue: the favicon (SVG plus a 32 px PNG fallback), a WebThen banner at the top of Connect To (the old symbol and tagline stay hidden), and the globe mark for the browser activity logo (replacing the "W"), the Internet desktop and Start-menu icon, the Start menu header and the Mac menu bar (replacing the dot).
