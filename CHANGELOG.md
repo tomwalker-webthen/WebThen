@@ -18,6 +18,12 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — New ThenChat buddy: SunKistBuTtKisS — 2026-11-22
+
+- Adds SunKistBuTtKisS (Buddies group), available from 2005–2007 onward because the first Twilight book is from late 2005.
+- Superfan buddy: every message is about Avril Lavigne, Twilight or Britney Spears, using lines true on each era's visit date (October 2006: New Moon, Avril's July 2006 wedding, Over the Hedge; October 2008: the upcoming Twilight film, Breaking Dawn, Womanizer, Britney's 2008 VMA wins, Circus in December). Replies stay on those subjects when you mention them or ask what they are up to; identity, goodbye and brb replies are unchanged.
+- Other buddies' messages and replies are unchanged. Verified with a Node engine run per era (on-topic messages in 2005–2009, hidden with no messages in earlier eras), reply checks, and the buddy list in Chrome.
+
 # Unreleased — Clean startup and window behavior — 2026-11-20
 
 - Connect now opens an empty desktop. The Start page, ThenAmp and the buddy list no longer open on their own; the Start page taskbar button no longer launches ThenChat or ThenAmp.

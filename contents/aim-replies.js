@@ -22,8 +22,12 @@
   T0mewalker:['enthusiastic schemer','games','YO!','working on another extremely profitable idea'],
   HammzT10:['Middle-earth fan','fantasy','greetings from the Woodland Realm','considering a quest instead of homework'],
   Thebebegirl22:['dry humor','websites','hey lol','watching everyone turn a profile update into a major event'],
-  ekillians:['practical family','family','hey!','checking dinner plans and looking for the printed directions']
+  ekillians:['practical family','family','hey!','checking dinner plans and looking for the printed directions'],
+  SunKistBuTtKisS:['pop superfan','music','OMG hiii!!','refreshing fan sites and playing the same three CDs on repeat']
  };
+ // Superfan replies by era and subject; general chat about music or what they are doing stays on these subjects too.
+ const fanReplies={"SunKistBuTtKisS":{"social":{"twilight":["Edward Cullen. that's it. that's the reply.","have you read New Moon yet?? we need to talk about Jacob"],"avril":["Avril is everything. Under My Skin is still in my CD player","did you see the pics from Avril and Deryck's wedding??"],"britney":["Britney forever. Toxic is still my favorite","my little sister and i made up a dance to Oops... I Did It Again. it's a masterpiece"]},"modern":{"twilight":["the Twilight movie is next month!! are you going to the midnight showing with me??","Team Edward or Team Jacob? choose wisely lol"],"avril":["Girlfriend still gets stuck in my head every single day","i want Avril's whole wardrobe from the Best Damn Thing era"],"britney":["Womanizer is SO good. she's totally back","Circus comes out in December and i'm already counting down"]}}};
+ const fanSubjects={twilight:/twilight|edward|jacob|bella|cullen|new moon|breaking dawn|vampire|robert pattinson/,avril:/avril|lavigne|sk8er|deryck/,britney:/britney|spears|womanizer|piece of me|toxic/};
  const eraLines={
   early:{games:['i keep finding games through people’s homepages. half the fun is finding the link.','try Newgrounds. some old interactive stuff may need its original software.'],music:['everyone wants the radio on while the computer is using the phone line. this household needs a plan.','picking one CD for the whole evening is a serious commitment.'],school:['the printer is louder than my entire homework assignment.','i opened the computer to do homework. somehow i am making a homepage.'],computers:['please tell me nobody needs the phone. this download has become a member of the family.','the connection dropped at 98%. i am choosing to take this personally.'],pop:['my tamagotchi has a more demanding schedule than i do.','pokemon red or blue? this friendship may require a trading arrangement.'],website:'GeoCities',videos:'there are some period clips in the Video Lounge. pick one and report back.'},
   boom:{games:['we can look around Newgrounds. i cannot promise our homework survives.','everyone has a game they claim they can beat. i would like evidence.'],music:['making a mix CD takes longer than listening to it, apparently.','the downloaded file name and the actual song are sometimes unrelated. fun surprise.'],school:['my research project has accidentally become a search for new away messages.','i made a homework playlist. that counts as starting, right?'],computers:['the download estimate says one minute. it said that before dinner.','i think the computer survived Y2K better than my sleep schedule did.'],pop:['saw The Matrix and now every pair of sunglasses feels important.','Fellowship has an impressive amount of walking. i respect the commitment.'],website:'Neopets',videos:'the Video Lounge has some clips from this era. i vote we watch something instead of working.'},
@@ -33,7 +37,7 @@
  };
  const followups={games:['what kind of game are you in the mood for?','how did you do? i am accepting wildly exaggerated scores.'],music:['what song would you put first on a mix?','are we going for loud, dramatic, or something we can actually study to?'],school:['what assignment are you avoiding?','we could try ten minutes of actual work. radical idea.'],computers:['is it slow, frozen, or making an interesting new noise?','have you saved your work recently? asking with concern.'],websites:['what kind of site are you looking for?','i like the ones where you immediately know someone spent all weekend making it.'],videos:['did you watch it yet?','which clip did you pick?'],fantasy:['which character are you playing?','every quest benefits from snacks and a second player.'],family:['so, what is the plan?','let me know before anyone starts printing another set of directions.'],pop:['what did you think of it?','everyone at school is going to be talking about this, aren’t they?']};
  const eraOrder=['early','boom','flash','social','modern'];
- const contactFrom={sk8rKid_99:'boom',bandgeek2001:'boom',moonlight_mp3:'boom',pwned_by_a_duck:'boom'};
+ const contactFrom={SunKistBuTtKisS:'social',sk8rKid_99:'boom',bandgeek2001:'boom',moonlight_mp3:'boom',pwned_by_a_duck:'boom'};
  function available(name,era){return !!profiles[name]&&eraOrder.indexOf(era)>=eraOrder.indexOf(contactFrom[name]||'early')}
  Object.assign(eraLines.early,{games:['want to compare Minesweeper times?','i keep finding little games on people’s homepages. got any favorites?'],videos:'found a tiny movie clip. it will probably take longer to download than to watch.'});
  Object.assign(eraLines.boom,{videos:'found another clip worth waiting for. want to see it?'});
@@ -73,7 +77,10 @@
  function makeReply({name,text,era,lastTopic,turn=0,lastReply='',awayMessage='',random=Math.random}){
   const profile=profiles[name];if(!profile||!available(name,era))return null;
   const lines=eraLines[era]||eraLines.flash,topic=topicFor(text,lastTopic);let choices,action;
-  if(topic==='identity')choices=['i am a local scripted buddy in WebThen. no messages go to a real account or an AI service.'];
+  const fan=fanReplies[name]?.[era],said=String(text).toLowerCase(),subject=fan&&Object.keys(fanSubjects).find(k=>fanSubjects[k].test(said));
+  const fanChoice=!fan||['identity','bye','brb','idle','away','asl'].includes(topic)?null:subject?fan[subject]:['activity','music'].includes(topic)?Object.values(fan).flat():null;
+  if(fanChoice)choices=fanChoice;
+  else if(topic==='identity')choices=['i am a local scripted buddy in WebThen. no messages go to a real account or an AI service.'];
   else if(topic==='bye')choices=['later! catch you next time :)','ttyl!'];
   else if(topic==='brb')choices=['k, see you in a bit :)','no rush. i will be around.'];
   else if(topic==='idle')choices=lastTopic==='brb'?['back already? hey :)']:['oh hey, still here?','thought you were heading out. hey again :)'];
