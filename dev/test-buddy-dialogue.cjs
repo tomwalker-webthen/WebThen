@@ -47,7 +47,7 @@ const samples = {
 
 const eras = ['early', 'boom', 'flash', 'social', 'modern'];
 const names = Object.keys(R.profiles);
-const fallbackLines = /wait, what\?|lol wut\?|say that again|you lost me|need a little more context|got distracted|lost my train of thought|tell me a little more|explain what you mean|what do you mean\?|even an elf needs/;
+const fallbackLines = /^huh\?$|wait, what\?|lol wut\?|say that again|you lost me|need a little more context|got distracted|lost my train of thought|tell me a little more|explain what you mean|what do you mean\?|even an elf needs/;
 let failures = 0, total = 0;
 const fail = message => { failures++; if (failures <= 25) console.log('FAIL ' + message); };
 

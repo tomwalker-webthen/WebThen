@@ -18,6 +18,10 @@
 - Checked anonymous HTTP → HTTPS → Access redirects, existing authorized browser entry and excluded-source Not found pages.
 - No app code, policy membership, release/deployment or main changes. Recorded setup in dev/hosting/WEBTHEN-ORG.md.
 
+# Unreleased — Shorter confused reply — 2026-11-22
+
+- The default confused reply "haha, you lost me. say that another way?" is now just "huh?" (alongside "wait, what?"). Dialogue test updated and passing.
+
 # Unreleased — Buddy dialogue: small talk and graceful exits — 2026-11-22
 
 - About 40 small-talk intents with three to five replies each: how are you / I'm good / I'm sad, <3 and other hearts, lmao and laughing emoji, :) and winks, thanks, sorry, ok, hmm, same, omg, good night / morning, compliments, teasing, who is this, favorites, plans, weather, crushes, pets, birthdays, "guess what", help and "you there?". Replies use text emoticons only, draw on each buddy's own activity and favorite, and mom_says_hi has her own lines. "test" and "quiz" now count as school talk.
