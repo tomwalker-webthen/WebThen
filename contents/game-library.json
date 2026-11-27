@@ -73,6 +73,21 @@
       "verificationNote": "Internet Archive metadata lists this item as DOSBox browser emulation. Interactive playback inside WebThen has not been confirmed yet. The later Math Munchers Deluxe (1997) is only archived as a CD image and cannot be played in the browser."
     },
     {
+      "id": "oregon-trail-apple2",
+      "name": "The Oregon Trail",
+      "edition": "Apple II · MECC · 1985",
+      "kind": "browser",
+      "playback": "candidate",
+      "provider": "Internet Archive · Apple II emulator",
+      "sourceUrl": "https://archive.org/details/MECC_A157_v11_4amCrack",
+      "embedUrl": "https://archive.org/embed/MECC_A157_v11_4amCrack",
+      "description": "The computer-lab original. Outfit a wagon party in Independence, Missouri, hunt, ford rivers and try to reach Oregon before illness, weather or bad luck end the trip. This is MECC's 1985 Apple II version 1.1, running in the archive's Apple II emulator.",
+      "launchHint": "Click the player's power button and wait for the Apple II to boot the disk. Click inside the game so it gets your keyboard.",
+      "controls": "Type the number of a menu choice and press Return. Space bar: continue. When hunting, use the keys the game shows to aim and fire. Click inside the game first.",
+      "catalogIds": [],
+      "verificationNote": "Internet Archive metadata lists this item as Apple II browser emulation. Interactive playback inside WebThen has not been confirmed yet."
+    },
+    {
       "id": "elf-bowling-windows",
       "name": "Elf Bowling — Windows original",
       "edition": "Windows game · preserved collection",
@@ -83,6 +98,19 @@
       "description": "The preserved Windows collection requires downloading and running the game outside WebThen. It is not a browser player. The GBA edition above can be played inside WebThen.",
       "controls": "Windows download required; compatibility and execution are untested.",
       "catalogIds": []
+    },
+    {
+      "id": "hollywood-high-cd",
+      "name": "Hollywood High",
+      "edition": "Windows 3.1/95 & Mac CD-ROM · Theatrix · 1996",
+      "kind": "download",
+      "playback": "download_required",
+      "provider": "Internet Archive collection",
+      "sourceUrl": "https://archive.org/details/hollywood-high",
+      "description": "Theatrix Interactive's creative-writing toy: type lines for a cast of teenage cartoon characters, stage the scene, and they act it out and read your script aloud. The archive keeps it as a CD-ROM image; there is no browser player, so it has to run outside WebThen.",
+      "controls": "CD-ROM image download required; installing and running it under modern Windows or an emulator is untested.",
+      "catalogIds": [],
+      "availableFromYear": 1996
     },
     {
       "id": "hapland",

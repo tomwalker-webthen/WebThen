@@ -1,3 +1,9 @@
+# The Oregon Trail and Hollywood High in the Game Room — 2026-11-27
+
+- Added MECC's The Oregon Trail (1985 Apple II, v1.1) from the Internet Archive, played through its Apple II emulator, in every era.
+- Added Hollywood High (Theatrix, 1996) as a download-required card. The archive holds only CD-ROM images with no browser player; nothing is downloaded or run automatically.
+- Tested locally: both cards appear in the right eras, and Play on The Oregon Trail opens `archive.org/embed/MECC_A157_v11_4amCrack` in the game window. Gameplay inside WebThen is not yet confirmed because the sandbox cannot reach archive.org.
+
 # Number Munchers in the Game Room — 2026-11-27
 
 - Added MECC's Number Munchers (1990 MS-DOS) from the Internet Archive, played through its DOSBox emulator, in every era. Math Munchers Deluxe (1997) was not added: the archive only holds it as a CD image with no browser player.
