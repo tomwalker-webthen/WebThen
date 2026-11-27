@@ -1,3 +1,8 @@
+# Number Munchers in the Game Room — 2026-11-27
+
+- Added MECC's Number Munchers (1990 MS-DOS) from the Internet Archive, played through its DOSBox emulator, in every era. Math Munchers Deluxe (1997) was not added: the archive only holds it as a CD image with no browser player.
+- Tested locally: the card appears in the early and modern eras, and Play opens `archive.org/embed/msdos_Number_Munchers_1990` in the game window. Gameplay inside WebThen is not yet confirmed because the sandbox cannot reach archive.org.
+
 # Snood in the Game Room — 2026-11-26
 
 - Added the real Snood (1999 MS-DOS shareware release) from the Internet Archive, played through its DOSBox emulator. Shown in every era (the game first appeared on the Mac in 1996).

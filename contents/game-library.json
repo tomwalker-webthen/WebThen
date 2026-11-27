@@ -58,6 +58,21 @@
       "verificationNote": "Internet Archive metadata lists this item as DOSBox browser emulation. Interactive playback inside WebThen has not been confirmed yet."
     },
     {
+      "id": "number-munchers-dos",
+      "name": "Number Munchers",
+      "edition": "MS-DOS · MECC · 1990",
+      "kind": "browser",
+      "playback": "candidate",
+      "provider": "Internet Archive · DOSBox",
+      "sourceUrl": "https://archive.org/details/msdos_Number_Munchers_1990",
+      "embedUrl": "https://archive.org/embed/msdos_Number_Munchers_1990",
+      "description": "The computer-lab classic. Steer your Muncher around the grid eating the right answers (multiples, factors, primes, equalities) while dodging Troggles. This is the 1990 MS-DOS release, running in the archive's DOSBox emulator.",
+      "launchHint": "Click the player's power button and wait for DOSBox to start. Click inside the game so it gets your keyboard.",
+      "controls": "Arrow keys: move. Space bar: munch. Click inside the game first. Ctrl+F12 may speed the emulator up if it runs slowly.",
+      "catalogIds": [],
+      "verificationNote": "Internet Archive metadata lists this item as DOSBox browser emulation. Interactive playback inside WebThen has not been confirmed yet. The later Math Munchers Deluxe (1997) is only archived as a CD image and cannot be played in the browser."
+    },
+    {
       "id": "elf-bowling-windows",
       "name": "Elf Bowling — Windows original",
       "edition": "Windows game · preserved collection",
