@@ -1,3 +1,8 @@
+# Snood in the Game Room — 2026-11-26
+
+- Added the real Snood (1999 MS-DOS shareware release) from the Internet Archive, played through its DOSBox emulator. Shown in every era (the game first appeared on the Mac in 1996).
+- Tested locally: the card appears in the early and modern eras, and Play opens `archive.org/embed/msdos_Snood_1999` in the game window. Gameplay inside WebThen is not yet confirmed because the sandbox cannot reach archive.org.
+
 # Live QA across eras and themes — 2026-11-19
 
 - Checked the protected WebThen.org build at `57abc94` using all 28 era-compatible theme combinations at 1280×720 and 1440×900 (56 startup layout cases), plus 84 tour-step fit checks.

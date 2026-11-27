@@ -42,6 +42,22 @@
       "verificationNote": "Archive metadata identifies Ruffle SWF playback, but the power-button screen did not reliably launch in WebThen. Interactive playback remains unverified."
     },
     {
+      "id": "snood-dos",
+      "name": "Snood",
+      "edition": "MS-DOS shareware · 1999",
+      "kind": "browser",
+      "playback": "candidate",
+      "provider": "Internet Archive · DOSBox",
+      "sourceUrl": "https://archive.org/details/msdos_Snood_1999",
+      "embedUrl": "https://archive.org/embed/msdos_Snood_1999",
+      "description": "Dave Dobson's shareware puzzle hit, first released for the Mac in 1996. Aim and fire snoods; match three of a color to clear them before the board drops. This is the 1999 MS-DOS release, running in the archive's DOSBox emulator.",
+      "launchHint": "Click the player's power button and wait for DOSBox to start. Click inside the game so it gets your mouse and keyboard.",
+      "controls": "Mouse: aim the launcher and click to fire. Click inside the game first. Ctrl+F12 may speed the emulator up if it runs slowly.",
+      "catalogIds": [],
+      "availableFromYear": 1996,
+      "verificationNote": "Internet Archive metadata lists this item as DOSBox browser emulation. Interactive playback inside WebThen has not been confirmed yet."
+    },
+    {
       "id": "elf-bowling-windows",
       "name": "Elf Bowling — Windows original",
       "edition": "Windows game · preserved collection",
