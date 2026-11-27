@@ -110,7 +110,46 @@
       "description": "Theatrix Interactive's creative-writing toy: type lines for a cast of teenage cartoon characters, stage the scene, and they act it out and read your script aloud. The archive keeps it as a CD-ROM image; there is no browser player, so it has to run outside WebThen.",
       "controls": "CD-ROM image download required; installing and running it under modern Windows or an emulator is untested.",
       "catalogIds": [],
-      "availableFromYear": 1996
+      "availableFromYear": 1996,
+      "setupGuide": {
+        "title": "Running Hollywood High on Windows 11",
+        "intro": "Hollywood High is a 1996 CD-ROM for Windows 3.1/95. Windows 11 is 64-bit and cannot run 16-bit Windows programs on its own, so the installer refuses to start. Two workarounds:",
+        "methods": [
+          {
+            "heading": "Quick try: otvdm (winevdm)",
+            "note": "About five minutes. Free and open source.",
+            "steps": [
+              "Download the CD image (.iso) from the Hollywood High page at the Internet Archive.",
+              "Double-click the .iso file. Windows 11 opens it as a virtual CD drive.",
+              "Download the stable release of otvdm (also called winevdm) from GitHub and unzip it.",
+              "Recommended: in the otvdm folder, right-click \"install (no console).inf\" (or install.inf) and choose Install. Windows then opens every 16-bit program with otvdm automatically.",
+              "Run SETUP.EXE from the virtual CD (or drag it onto otvdmw.exe if you skipped the previous step). Install to a plain folder such as C:\\Games\\HollywoodHigh rather than Program Files.",
+              "Start the game with HH16.exe in the install folder, double-clicking it or dragging it onto otvdmw.exe."
+            ]
+          },
+          {
+            "heading": "If that fails: a Windows 98 virtual machine",
+            "note": "About an hour to set up, but the most dependable.",
+            "steps": [
+              "Install VirtualBox or 86Box and set up Windows 98 in a virtual machine.",
+              "Attach the Hollywood High .iso as the virtual machine's CD drive.",
+              "Run SETUP.EXE inside Windows 98 and play there."
+            ]
+          }
+        ],
+        "tip": "Seeing \"Unsupported 16-Bit Application\"? Windows tried to run a 16-bit file (such as unlock.exe or HH16.exe) without otvdm. Do the install.inf step above, or drag that file onto otvdmw.exe. If the video scenes or sound misbehave, switch to the virtual machine.",
+        "links": [
+          {
+            "label": "Hollywood High at the Internet Archive ↗",
+            "url": "https://archive.org/details/hollywood-high"
+          },
+          {
+            "label": "otvdm / winevdm releases on GitHub ↗",
+            "url": "https://github.com/otya128/winevdm/releases"
+          }
+        ],
+        "disclaimer": "WebThen does not download or run anything. These steps come from community reports and have not been tested by WebThen."
+      }
     },
     {
       "id": "hapland",

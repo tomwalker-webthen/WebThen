@@ -1,3 +1,8 @@
+# Hollywood High setup guide — 2026-11-27
+
+- The Hollywood High card now has a "How to run it" button that opens a pop-out with Windows 11 setup steps: otvdm/winevdm first (including the install.inf step that stops "Unsupported 16-Bit Application" errors, and HH16.exe as the game), then a Windows 98 virtual machine as the fallback. Links go only to the Internet Archive item and the otvdm GitHub releases; nothing is downloaded or run by WebThen.
+- Tested locally: the pop-out opens, fits and closes (× button and Escape) in Windows XP and Windows 98 at 1280×720, Mac OS X Aqua at 1440×900, and a 390×760 phone-sized window. Focus moves to the close button. The otvdm steps are from community reports plus Tom's own Windows 11 attempt; a full install-to-play run is not verified.
+
 # The Oregon Trail and Hollywood High in the Game Room — 2026-11-27
 
 - Added MECC's The Oregon Trail (1985 Apple II, v1.1) from the Internet Archive, played through its Apple II emulator, in every era.
